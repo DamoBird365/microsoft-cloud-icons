@@ -1,10 +1,10 @@
 {
-  "generated": "2026-03-13T10:44:38.018Z",
+  "generated": "2026-03-13T10:45:47.214Z",
   "sources": [
     "https://res.cdn.office.net (Fluent 2 Brand Icons)",
     "https://github.com/loryanstrant/MicrosoftCloudLogos"
   ],
-  "totalIcons": 73,
+  "totalIcons": 72,
   "categories": {
     "microsoft-365": [
       "word",
@@ -93,7 +93,6 @@
       "bing",
       "designer",
       "office",
-      "dragon-copilot",
       "foundry",
       "family-safety"
     ]
@@ -588,13 +587,6 @@
       "category": "other",
       "path": "icons/other/office.svg",
       "source": "cdn"
-    },
-    {
-      "id": "dragon-copilot",
-      "displayName": "Dragon Copilot",
-      "category": "other",
-      "path": "icons/other/dragon-copilot.svg",
-      "source": "repo"
     },
     {
       "id": "foundry",

@@ -5,7 +5,7 @@ One icon per product. Clean, consistent, ready to use.
 
 > Sources: [Microsoft Office CDN](https://res.cdn.office.net) (Fluent 2 brand icons) + [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)
 
-**73 product icons** across **9 categories**
+**72 product icons** across **9 categories**
 
 ## Quick Reference
 
@@ -19,7 +19,7 @@ One icon per product. Clean, consistent, ready to use.
 | Security | 2 | Defender, Purview |
 | Copilot | 2 | Microsoft Copilot, Microsoft 365 Copilot |
 | Fabric | 1 | Microsoft Fabric |
-| Other | 7 | Microsoft Edge, Bing, Designer, Office, Dragon Copilot, Microsoft Foundry, Family Safety |
+| Other | 6 | Microsoft Edge, Bing, Designer, Office, Microsoft Foundry, Family Safety |
 
 ## All Icons
 
@@ -135,7 +135,6 @@ One icon per product. Clean, consistent, ready to use.
 |------|---------|------|
 | <img src="icons/other/bing.svg" width="32" /> | **Bing** | `icons/other/bing.svg` |
 | <img src="icons/other/designer.svg" width="32" /> | **Designer** | `icons/other/designer.svg` |
-| <img src="icons/other/dragon-copilot.svg" width="32" /> | **Dragon Copilot** | `icons/other/dragon-copilot.svg` |
 | <img src="icons/other/family-safety.svg" width="32" /> | **Family Safety** | `icons/other/family-safety.svg` |
 | <img src="icons/other/edge.svg" width="32" /> | **Microsoft Edge** | `icons/other/edge.svg` |
 | <img src="icons/other/foundry.svg" width="32" /> | **Microsoft Foundry** | `icons/other/foundry.svg` |

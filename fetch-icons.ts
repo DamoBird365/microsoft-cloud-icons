@@ -134,7 +134,7 @@ const PRODUCTS: ProductDef[] = [
   { id: "bing", displayName: "Bing", category: "other", cdnId: "bing", repoPath: null },
   { id: "designer", displayName: "Designer", category: "other", cdnId: "designer", repoPath: null },
   { id: "office", displayName: "Office", category: "other", cdnId: "office", repoPath: null },
-  { id: "dragon-copilot", displayName: "Dragon Copilot", category: "other", cdnId: null, repoPath: "other/Dragon-Copilot.svg" },
+
   { id: "foundry", displayName: "Microsoft Foundry", category: "other", cdnId: null, repoPath: "other/Microsoft Foundry.svg" },
   { id: "family-safety", displayName: "Family Safety", category: "other", cdnId: "familysafety", repoPath: null },
 ];
