@@ -5,21 +5,21 @@ One icon per product — clean, consistent, ready to use.
 
 **👉 [Browse the icon collection live](https://damobird365.github.io/microsoft-cloud-icons/)**
 
-**73 product icons** across **9 categories**
+**79 product icons** across **9 categories**
 
 ## Quick Reference
 
 | Category | Icons | Products |
 |----------|-------|----------|
-| Microsoft 365 | 25 | Access, Bookings, Clipchamp, Delve, Excel, Forms, Lists, Loop, Microsoft 365, OneDrive, OneNote, Outlook, Places, Planner, PowerPoint, Project, Publisher, SharePoint, Stream, Sway, Teams, To Do, Visio, Whiteboard, Word |
+| Microsoft 365 | 26 | Access, Bookings, Calendar, Clipchamp, Delve, Excel, Forms, Lists, Loop, Microsoft 365, OneDrive, OneNote, Outlook, Places, Planner, PowerPoint, Project, Publisher, SharePoint, Stream, Sway, Teams, To Do, Visio, Whiteboard, Word |
 | Power Platform | 12 | Agent 365, Agent Builder, AI Builder, Connectors, Copilot Studio, Dataverse, Power Apps, Power Automate, Power BI, Power Fx, Power Pages, Power Platform |
-| Dynamics 365 | 13 | Business Central, Commerce, Customer Service, Customer Voice, Dynamics 365, Field Service, Finance, Fraud Protection, Guides, Project Operations, Remote Assist, Sales, Supply Chain Management |
-| Entra | 4 | Entra ID, Entra ID Governance, Entra Verified ID, Microsoft Entra |
-| Viva | 8 | Viva Amplify, Viva Connections, Viva Engage, Viva Glint, Viva Insights, Viva Learning, Viva Pulse, Viva Suite |
-| Security | 2 | Defender, Purview |
+| Dynamics 365 | 16 | Business Central, Commerce, Contact Center, Customer Insights, Customer Service, Customer Voice, Dynamics 365, Field Service, Finance, Finance & Operations, Human Resources, Intelligent Order Management, Project Operations, Sales, Sales Insights, Supply Chain Management |
 | Copilot | 2 | Microsoft 365 Copilot, Microsoft Copilot |
+| Entra | 4 | Entra ID, Entra ID Governance, Entra Verified ID, Microsoft Entra |
+| Security | 2 | Defender, Purview |
+| Viva | 9 | Viva Amplify, Viva Connections, Viva Engage, Viva Glint, Viva Home, Viva Insights, Viva Learning, Viva Pulse, Viva Suite |
 | Fabric | 1 | Microsoft Fabric |
-| Other | 6 | Bing, Designer, Family Safety, Microsoft Edge, Microsoft Foundry, Office |
+| Other | 7 | Admin Center, Bing, Designer, Family Safety, Microsoft Edge, Microsoft Foundry, Office |
 
 ## All Icons
 
@@ -29,6 +29,7 @@ One icon per product — clean, consistent, ready to use.
 |------|---------|------|
 | <img src="icons/microsoft-365/access.svg" width="32" /> | **Access** | `icons/microsoft-365/access.svg` |
 | <img src="icons/microsoft-365/bookings.svg" width="32" /> | **Bookings** | `icons/microsoft-365/bookings.svg` |
+| <img src="icons/microsoft-365/calendar.svg" width="32" /> | **Calendar** | `icons/microsoft-365/calendar.svg` |
 | <img src="icons/microsoft-365/clipchamp.svg" width="32" /> | **Clipchamp** | `icons/microsoft-365/clipchamp.svg` |
 | <img src="icons/microsoft-365/delve.svg" width="32" /> | **Delve** | `icons/microsoft-365/delve.svg` |
 | <img src="icons/microsoft-365/excel.svg" width="32" /> | **Excel** | `icons/microsoft-365/excel.svg` |
@@ -48,7 +49,7 @@ One icon per product — clean, consistent, ready to use.
 | <img src="icons/microsoft-365/stream.svg" width="32" /> | **Stream** | `icons/microsoft-365/stream.svg` |
 | <img src="icons/microsoft-365/sway.svg" width="32" /> | **Sway** | `icons/microsoft-365/sway.svg` |
 | <img src="icons/microsoft-365/teams.svg" width="32" /> | **Teams** | `icons/microsoft-365/teams.svg` |
-| <img src="icons/microsoft-365/to-do.svg" width="32" /> | **To Do** | `icons/microsoft-365/to-do.svg` |
+| <img src="icons/microsoft-365/todo.svg" width="32" /> | **To Do** | `icons/microsoft-365/todo.svg` |
 | <img src="icons/microsoft-365/visio.svg" width="32" /> | **Visio** | `icons/microsoft-365/visio.svg` |
 | <img src="icons/microsoft-365/whiteboard.svg" width="32" /> | **Whiteboard** | `icons/microsoft-365/whiteboard.svg` |
 | <img src="icons/microsoft-365/word.svg" width="32" /> | **Word** | `icons/microsoft-365/word.svg` |
@@ -76,17 +77,27 @@ One icon per product — clean, consistent, ready to use.
 |------|---------|------|
 | <img src="icons/dynamics-365/business-central.svg" width="32" /> | **Business Central** | `icons/dynamics-365/business-central.svg` |
 | <img src="icons/dynamics-365/commerce.svg" width="32" /> | **Commerce** | `icons/dynamics-365/commerce.svg` |
+| <img src="icons/dynamics-365/contact-center.svg" width="32" /> | **Contact Center** | `icons/dynamics-365/contact-center.svg` |
+| <img src="icons/dynamics-365/customer-insights.svg" width="32" /> | **Customer Insights** | `icons/dynamics-365/customer-insights.svg` |
 | <img src="icons/dynamics-365/customer-service.svg" width="32" /> | **Customer Service** | `icons/dynamics-365/customer-service.svg` |
 | <img src="icons/dynamics-365/customer-voice.svg" width="32" /> | **Customer Voice** | `icons/dynamics-365/customer-voice.svg` |
 | <img src="icons/dynamics-365/dynamics-365.svg" width="32" /> | **Dynamics 365** | `icons/dynamics-365/dynamics-365.svg` |
 | <img src="icons/dynamics-365/field-service.svg" width="32" /> | **Field Service** | `icons/dynamics-365/field-service.svg` |
 | <img src="icons/dynamics-365/finance.svg" width="32" /> | **Finance** | `icons/dynamics-365/finance.svg` |
-| <img src="icons/dynamics-365/fraud-protection.svg" width="32" /> | **Fraud Protection** | `icons/dynamics-365/fraud-protection.svg` |
-| <img src="icons/dynamics-365/guides.svg" width="32" /> | **Guides** | `icons/dynamics-365/guides.svg` |
+| <img src="icons/dynamics-365/finance-operations.svg" width="32" /> | **Finance & Operations** | `icons/dynamics-365/finance-operations.svg` |
+| <img src="icons/dynamics-365/human-resources.svg" width="32" /> | **Human Resources** | `icons/dynamics-365/human-resources.svg` |
+| <img src="icons/dynamics-365/intelligent-order-management.svg" width="32" /> | **Intelligent Order Management** | `icons/dynamics-365/intelligent-order-management.svg` |
 | <img src="icons/dynamics-365/project-operations.svg" width="32" /> | **Project Operations** | `icons/dynamics-365/project-operations.svg` |
-| <img src="icons/dynamics-365/remote-assist.svg" width="32" /> | **Remote Assist** | `icons/dynamics-365/remote-assist.svg` |
 | <img src="icons/dynamics-365/sales.svg" width="32" /> | **Sales** | `icons/dynamics-365/sales.svg` |
+| <img src="icons/dynamics-365/sales-insights.svg" width="32" /> | **Sales Insights** | `icons/dynamics-365/sales-insights.svg` |
 | <img src="icons/dynamics-365/supply-chain.svg" width="32" /> | **Supply Chain Management** | `icons/dynamics-365/supply-chain.svg` |
+
+### Copilot
+
+| Icon | Product | File |
+|------|---------|------|
+| <img src="icons/copilot/copilot-365.svg" width="32" /> | **Microsoft 365 Copilot** | `icons/copilot/copilot-365.svg` |
+| <img src="icons/copilot/copilot.svg" width="32" /> | **Microsoft Copilot** | `icons/copilot/copilot.svg` |
 
 ### Entra
 
@@ -97,6 +108,13 @@ One icon per product — clean, consistent, ready to use.
 | <img src="icons/entra/entra-verified-id.svg" width="32" /> | **Entra Verified ID** | `icons/entra/entra-verified-id.svg` |
 | <img src="icons/entra/entra.svg" width="32" /> | **Microsoft Entra** | `icons/entra/entra.svg` |
 
+### Security
+
+| Icon | Product | File |
+|------|---------|------|
+| <img src="icons/security/defender.svg" width="32" /> | **Defender** | `icons/security/defender.svg` |
+| <img src="icons/security/purview.svg" width="32" /> | **Purview** | `icons/security/purview.svg` |
+
 ### Viva
 
 | Icon | Product | File |
@@ -105,24 +123,11 @@ One icon per product — clean, consistent, ready to use.
 | <img src="icons/viva/viva-connections.svg" width="32" /> | **Viva Connections** | `icons/viva/viva-connections.svg` |
 | <img src="icons/viva/viva-engage.svg" width="32" /> | **Viva Engage** | `icons/viva/viva-engage.svg` |
 | <img src="icons/viva/viva-glint.svg" width="32" /> | **Viva Glint** | `icons/viva/viva-glint.svg` |
+| <img src="icons/viva/viva-home.svg" width="32" /> | **Viva Home** | `icons/viva/viva-home.svg` |
 | <img src="icons/viva/viva-insights.svg" width="32" /> | **Viva Insights** | `icons/viva/viva-insights.svg` |
 | <img src="icons/viva/viva-learning.svg" width="32" /> | **Viva Learning** | `icons/viva/viva-learning.svg` |
 | <img src="icons/viva/viva-pulse.svg" width="32" /> | **Viva Pulse** | `icons/viva/viva-pulse.svg` |
 | <img src="icons/viva/viva-suite.svg" width="32" /> | **Viva Suite** | `icons/viva/viva-suite.svg` |
-
-### Security
-
-| Icon | Product | File |
-|------|---------|------|
-| <img src="icons/security/defender.svg" width="32" /> | **Defender** | `icons/security/defender.svg` |
-| <img src="icons/security/purview.svg" width="32" /> | **Purview** | `icons/security/purview.svg` |
-
-### Copilot
-
-| Icon | Product | File |
-|------|---------|------|
-| <img src="icons/copilot/copilot.svg" width="32" /> | **Microsoft Copilot** | `icons/copilot/copilot.svg` |
-| <img src="icons/copilot/copilot-365.svg" width="32" /> | **Microsoft 365 Copilot** | `icons/copilot/copilot-365.svg` |
 
 ### Fabric
 
@@ -134,6 +139,7 @@ One icon per product — clean, consistent, ready to use.
 
 | Icon | Product | File |
 |------|---------|------|
+| <img src="icons/other/admin.svg" width="32" /> | **Admin Center** | `icons/other/admin.svg` |
 | <img src="icons/other/bing.svg" width="32" /> | **Bing** | `icons/other/bing.svg` |
 | <img src="icons/other/designer.svg" width="32" /> | **Designer** | `icons/other/designer.svg` |
 | <img src="icons/other/family-safety.svg" width="32" /> | **Family Safety** | `icons/other/family-safety.svg` |
@@ -150,7 +156,7 @@ When adding a new product icon:
 1. **SVG format** — save as `.svg` in the appropriate `icons/{category}/` folder
 2. **Naming** — use kebab-case: `product-name.svg` (e.g. `power-apps.svg`)
 3. **SVG size** — set `width="256" height="256"` on the `<svg>` tag, preserving the original `viewBox`
-4. **PNG version** — create a 512×512 PNG with transparent background alongside the SVG
+4. **PNG version** — create a 512x512 PNG with transparent background alongside the SVG
 5. **Update index.html** — add an entry to the relevant category in the `CATEGORIES` array
 6. **Description** — use [Microsoft Learn](https://learn.microsoft.com) as the source for product descriptions
 

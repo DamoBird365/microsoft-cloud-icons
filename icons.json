@@ -1,26 +1,15 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Microsoft Cloud Product Icons",
-  "description": "Machine-readable index of Microsoft Cloud product icons. Use this file to programmatically discover and retrieve SVG/PNG icons. For raw file access on GitHub, prefix paths with: https://raw.githubusercontent.com/{owner}/{repo}/main/",
-  "version": "1.0",
-  "totalIcons": 73,
+  "totalIcons": 79,
   "formats": [
-    {
-      "type": "svg",
-      "size": "256x256",
-      "description": "Scalable vector — lossless at any size"
-    },
-    {
-      "type": "png",
-      "size": "512x512",
-      "description": "Raster with transparent background"
-    }
+    "svg",
+    "png"
   ],
+  "usageHint": "For raw GitHub URLs, use: https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/{svg|png path}",
   "categories": [
     {
       "id": "microsoft-365",
       "name": "Microsoft 365",
-      "count": 25
+      "count": 26
     },
     {
       "id": "power-platform",
@@ -30,7 +19,7 @@
     {
       "id": "dynamics-365",
       "name": "Dynamics 365",
-      "count": 13
+      "count": 16
     },
     {
       "id": "copilot",
@@ -50,7 +39,7 @@
     {
       "id": "viva",
       "name": "Viva",
-      "count": 8
+      "count": 9
     },
     {
       "id": "fabric",
@@ -60,7 +49,7 @@
     {
       "id": "other",
       "name": "Other",
-      "count": 6
+      "count": 7
     }
   ],
   "icons": [
@@ -245,13 +234,13 @@
       "png": "icons/microsoft-365/bookings.png"
     },
     {
-      "id": "to-do",
+      "id": "todo",
       "name": "To Do",
       "category": "microsoft-365",
       "categoryName": "Microsoft 365",
       "description": "Personal task management app for organising daily tasks with smart suggestions and My Day planning.",
-      "svg": "icons/microsoft-365/to-do.svg",
-      "png": "icons/microsoft-365/to-do.png"
+      "svg": "icons/microsoft-365/todo.svg",
+      "png": "icons/microsoft-365/todo.png"
     },
     {
       "id": "whiteboard",
@@ -279,6 +268,15 @@
       "description": "Workplace coordination app for managing hybrid work, room booking, and office presence.",
       "svg": "icons/microsoft-365/places.svg",
       "png": "icons/microsoft-365/places.png"
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Calendar app for managing and sharing schedules, events, and meetings.",
+      "svg": "icons/microsoft-365/calendar.svg",
+      "png": "icons/microsoft-365/calendar.png"
     },
     {
       "id": "microsoft-365",
@@ -434,6 +432,15 @@
       "png": "icons/dynamics-365/customer-service.png"
     },
     {
+      "id": "contact-center",
+      "name": "Contact Center",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Copilot-first cloud contact center with omnichannel support, AI agents, and unified routing.",
+      "svg": "icons/dynamics-365/contact-center.svg",
+      "png": "icons/dynamics-365/contact-center.png"
+    },
+    {
       "id": "field-service",
       "name": "Field Service",
       "category": "dynamics-365",
@@ -450,6 +457,15 @@
       "description": "Financial management application for automating accounting, budgeting, and global financial operations.",
       "svg": "icons/dynamics-365/finance.svg",
       "png": "icons/dynamics-365/finance.png"
+    },
+    {
+      "id": "finance-operations",
+      "name": "Finance & Operations",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Cross-app capabilities for Dynamics 365 finance and operations applications.",
+      "svg": "icons/dynamics-365/finance-operations.svg",
+      "png": "icons/dynamics-365/finance-operations.png"
     },
     {
       "id": "supply-chain",
@@ -488,31 +504,40 @@
       "png": "icons/dynamics-365/customer-voice.png"
     },
     {
-      "id": "fraud-protection",
-      "name": "Fraud Protection",
+      "id": "customer-insights",
+      "name": "Customer Insights",
       "category": "dynamics-365",
       "categoryName": "Dynamics 365",
-      "description": "AI-powered fraud detection and prevention for e-commerce, account protection, and loss prevention.",
-      "svg": "icons/dynamics-365/fraud-protection.svg",
-      "png": "icons/dynamics-365/fraud-protection.png"
+      "description": "Customer data platform combining unified profiles with real-time journey orchestration for personalised experiences.",
+      "svg": "icons/dynamics-365/customer-insights.svg",
+      "png": "icons/dynamics-365/customer-insights.png"
     },
     {
-      "id": "remote-assist",
-      "name": "Remote Assist",
+      "id": "human-resources",
+      "name": "Human Resources",
       "category": "dynamics-365",
       "categoryName": "Dynamics 365",
-      "description": "Mixed reality tool enabling remote experts to provide hands-free guidance via HoloLens or mobile devices.",
-      "svg": "icons/dynamics-365/remote-assist.svg",
-      "png": "icons/dynamics-365/remote-assist.png"
+      "description": "HR management for employee self-service, benefits, leave, compensation, and workforce analytics.",
+      "svg": "icons/dynamics-365/human-resources.svg",
+      "png": "icons/dynamics-365/human-resources.png"
     },
     {
-      "id": "guides",
-      "name": "Guides",
+      "id": "intelligent-order-management",
+      "name": "Intelligent Order Management",
       "category": "dynamics-365",
       "categoryName": "Dynamics 365",
-      "description": "Mixed reality application for creating step-by-step holographic instructions for task guidance.",
-      "svg": "icons/dynamics-365/guides.svg",
-      "png": "icons/dynamics-365/guides.png"
+      "description": "Order orchestration platform for managing fulfilment across multiple channels and partners.",
+      "svg": "icons/dynamics-365/intelligent-order-management.svg",
+      "png": "icons/dynamics-365/intelligent-order-management.png"
+    },
+    {
+      "id": "sales-insights",
+      "name": "Sales Insights",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "AI-driven sales intelligence with conversation analytics, relationship insights, and predictive scoring.",
+      "svg": "icons/dynamics-365/sales-insights.svg",
+      "png": "icons/dynamics-365/sales-insights.png"
     },
     {
       "id": "copilot",
@@ -528,7 +553,7 @@
       "name": "Microsoft 365 Copilot",
       "category": "copilot",
       "categoryName": "Copilot",
-      "description": "The Copilot experience embedded in Microsoft 365 apps - the swoosh icon with the M365 badge, as seen in the app store and Teams.",
+      "description": "The Copilot experience embedded in Microsoft 365 apps — the swoosh icon with the M365 badge, as seen in the app store and Teams.",
       "svg": "icons/copilot/copilot-365.svg",
       "png": "icons/copilot/copilot-365.png"
     },
@@ -659,6 +684,15 @@
       "png": "icons/viva/viva-glint.png"
     },
     {
+      "id": "viva-home",
+      "name": "Viva Home",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Central dashboard for the Viva employee experience platform, surfacing personalised content and insights.",
+      "svg": "icons/viva/viva-home.svg",
+      "png": "icons/viva/viva-home.png"
+    },
+    {
       "id": "fabric",
       "name": "Microsoft Fabric",
       "category": "fabric",
@@ -720,6 +754,15 @@
       "description": "Digital safety app for families with screen time management, content filtering, and location sharing.",
       "svg": "icons/other/family-safety.svg",
       "png": "icons/other/family-safety.png"
+    },
+    {
+      "id": "admin",
+      "name": "Admin Center",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "Web portal for managing Microsoft 365 subscriptions, users, groups, and service settings.",
+      "svg": "icons/other/admin.svg",
+      "png": "icons/other/admin.png"
     }
   ]
 }
