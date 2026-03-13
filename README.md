@@ -5,6 +5,8 @@ One icon per product — clean, consistent, ready to use.
 
 Open **[index.html](index.html)** to browse, search, and download icons.
 
+**👉 [Browse the icon collection live](https://damobird365.github.io/microsoft-cloud-icons/)**
+
 **73 product icons** across **9 categories**
 
 ## Quick Reference
