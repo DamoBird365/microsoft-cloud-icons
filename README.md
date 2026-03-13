@@ -1,9 +1,9 @@
-# Microsoft Cloud Product Icons (SVG)
+# Microsoft Cloud Product Icons
 
-A curated collection of **latest official SVG icons** for Microsoft Cloud products.
-One icon per product. Clean, consistent, ready to use.
+A curated collection of **official SVG and PNG icons** for Microsoft Cloud products.
+One icon per product — clean, consistent, ready to use.
 
-> Curated from official Microsoft icon sources.
+Open **[index.html](index.html)** to browse, search, and download icons.
 
 **73 product icons** across **9 categories**
 
@@ -143,15 +143,18 @@ One icon per product. Clean, consistent, ready to use.
 
 ---
 
-## Refresh Icons
+## Adding New Icons
 
-```bash
-npm run fetch
-```
+When adding a new product icon:
 
-## Adding Products
+1. **SVG format** — save as `.svg` in the appropriate `icons/{category}/` folder
+2. **Naming** — use kebab-case: `product-name.svg` (e.g. `power-apps.svg`)
+3. **SVG size** — set `width="256" height="256"` on the `<svg>` tag, preserving the original `viewBox`
+4. **PNG version** — create a 512×512 PNG with transparent background alongside the SVG
+5. **Update index.html** — add an entry to the relevant category in the `CATEGORIES` array
+6. **Description** — use [Microsoft Learn](https://learn.microsoft.com) as the source for product descriptions
 
-Edit the `PRODUCTS` array in `fetch-icons.ts` to add or remove products.
-Each entry specifies a CDN id (preferred) and/or a GitHub repo path (fallback).
+## Trademark Notice
 
-All logos are the property of Microsoft Corporation.
+All logos and icons are the property of **Microsoft Corporation**.
+See [Microsoft Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks) before using.
