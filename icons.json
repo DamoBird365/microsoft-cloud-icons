@@ -3,7 +3,7 @@
   "title": "Microsoft Cloud Product Icons",
   "description": "Machine-readable index of Microsoft Cloud product icons. Use this file to programmatically discover and retrieve SVG/PNG icons. For raw file access on GitHub, prefix paths with: https://raw.githubusercontent.com/{owner}/{repo}/main/",
   "version": "1.0",
-  "totalIcons": 72,
+  "totalIcons": 73,
   "formats": [
     {
       "type": "svg",
@@ -35,7 +35,7 @@
     {
       "id": "copilot",
       "name": "Copilot",
-      "count": 1
+      "count": 2
     },
     {
       "id": "entra",
@@ -522,6 +522,15 @@
       "description": "AI-powered assistant that uses large language models to help with tasks across Microsoft products and Microsoft 365.",
       "svg": "icons/copilot/copilot.svg",
       "png": "icons/copilot/copilot.png"
+    },
+    {
+      "id": "copilot-365",
+      "name": "Microsoft 365 Copilot",
+      "category": "copilot",
+      "categoryName": "Copilot",
+      "description": "The Copilot experience embedded in Microsoft 365 apps - the swoosh icon with the M365 badge, as seen in the app store and Teams.",
+      "svg": "icons/copilot/copilot-365.svg",
+      "png": "icons/copilot/copilot-365.png"
     },
     {
       "id": "entra",

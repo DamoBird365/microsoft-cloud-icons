@@ -5,7 +5,7 @@ One icon per product — clean, consistent, ready to use.
 
 **👉 [Browse the icon collection live](https://damobird365.github.io/microsoft-cloud-icons/)**
 
-**72 product icons** across **9 categories**
+**73 product icons** across **9 categories**
 
 ## Quick Reference
 
@@ -17,7 +17,7 @@ One icon per product — clean, consistent, ready to use.
 | Entra | 4 | Microsoft Entra, Entra ID, Entra ID Governance, Entra Verified ID |
 | Viva | 8 | Viva Connections, Viva Insights, Viva Learning, Viva Engage, Viva Pulse, Viva Amplify, Viva Glint, Viva Suite |
 | Security | 2 | Defender, Purview |
-| Copilot | 1 | Microsoft Copilot |
+| Copilot | 2 | Microsoft Copilot, Microsoft 365 Copilot |
 | Fabric | 1 | Microsoft Fabric |
 | Other | 6 | Microsoft Edge, Bing, Designer, Office, Microsoft Foundry, Family Safety |
 
@@ -122,6 +122,7 @@ One icon per product — clean, consistent, ready to use.
 | Icon | Product | File |
 |------|---------|------|
 | <img src="icons/copilot/copilot.svg" width="32" /> | **Microsoft Copilot** | `icons/copilot/copilot.svg` |
+| <img src="icons/copilot/copilot-365.svg" width="32" /> | **Microsoft 365 Copilot** | `icons/copilot/copilot-365.svg` |
 
 ### Fabric
 
