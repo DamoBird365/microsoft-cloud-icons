@@ -1,9 +1,11 @@
 /**
  * fetch-icons.ts
  *
- * Clones loryanstrant/MicrosoftCloudLogos, extracts only the latest
- * official SVG icons (root-level per product folder), and organises
- * them into a clean icons/ directory with a manifest.json index.
+ * Fetches curated Microsoft product/application SVG icons from two sources:
+ *   1. Microsoft Office CDN (Fluent 2 brand icons) — preferred
+ *   2. loryanstrant/MicrosoftCloudLogos GitHub repo — fallback
+ *
+ * Outputs a clean, flat folder structure with consistent kebab-case naming.
  */
 
 import { execSync } from "node:child_process";
@@ -11,13 +13,11 @@ import {
   cpSync,
   existsSync,
   mkdirSync,
-  readdirSync,
   readFileSync,
   rmSync,
-  statSync,
   writeFileSync,
 } from "node:fs";
-import { basename, dirname, extname, join, relative } from "node:path";
+import { dirname, join } from "node:path";
 import https from "node:https";
 
 // ── Config ──────────────────────────────────────────────────────────
@@ -27,407 +27,129 @@ const TEMP_DIR = join(process.cwd(), ".tmp-source");
 const ICONS_DIR = join(process.cwd(), "icons");
 const MANIFEST_PATH = join(process.cwd(), "manifest.json");
 const README_PATH = join(process.cwd(), "README.md");
-
-/** Top-level folders in the source repo to process */
-const CATEGORIES = [
-  "Azure",
-  "Copilot (not M365)",
-  "Dynamics 365",
-  "Entra",
-  "Fabric",
-  "Microsoft 365",
-  "Power Platform",
-  "Viva",
-  "other",
-];
-
-/** Folders to skip entirely */
-const SKIP_FOLDERS = new Set([
-  "zzLEGACY logos",
-  "docs",
-  ".github",
-  ".devcontainer",
-  ".git",
-]);
-
-// ── Fluent UI CDN Brand Icons ───────────────────────────────────────
-
 const CDN_BASE =
   "https://res.cdn.office.net/midgard/versionless/fluentui-resources/1.1.6/assets/brand-icons/product/svg";
-const CDN_SIZES = [16, 24, 32, 48];
+const CDN_SIZE = 48;
 
-/** All available product brand icons on the Office CDN */
-const CDN_PRODUCTS: { id: string; displayName: string }[] = [
-  // Microsoft 365 core apps
-  { id: "word", displayName: "Word" },
-  { id: "excel", displayName: "Excel" },
-  { id: "powerpoint", displayName: "PowerPoint" },
-  { id: "outlook", displayName: "Outlook" },
-  { id: "onenote", displayName: "OneNote" },
-  { id: "teams", displayName: "Teams" },
-  { id: "sharepoint", displayName: "SharePoint" },
-  { id: "onedrive", displayName: "OneDrive" },
-  { id: "access", displayName: "Access" },
-  { id: "publisher", displayName: "Publisher" },
-  { id: "visio", displayName: "Visio" },
-  { id: "project", displayName: "Project" },
-  { id: "loop", displayName: "Loop" },
-  { id: "lists", displayName: "Lists" },
-  { id: "forms", displayName: "Forms" },
-  { id: "planner", displayName: "Planner" },
-  { id: "stream", displayName: "Stream" },
-  { id: "clipchamp", displayName: "Clipchamp" },
-  { id: "sway", displayName: "Sway" },
-  { id: "bookings", displayName: "Bookings" },
-  { id: "todo", displayName: "To Do" },
-  { id: "whiteboard", displayName: "Whiteboard" },
-  { id: "delve", displayName: "Delve" },
+// ── Product Catalogue ───────────────────────────────────────────────
 
-  // Power Platform
-  { id: "powerapps", displayName: "Power Apps" },
-  { id: "powerautomate", displayName: "Power Automate" },
-  { id: "powerbi", displayName: "Power BI" },
-  { id: "powerpages", displayName: "Power Pages" },
+interface ProductDef {
+  /** kebab-case filename (without .svg) */
+  id: string;
+  /** Human-readable name */
+  displayName: string;
+  /** Category folder */
+  category: string;
+  /** CDN product id (for Fluent Brand download), or null */
+  cdnId: string | null;
+  /** Path within the GitHub repo (fallback), or null */
+  repoPath: string | null;
+}
 
-  // Copilot & AI
-  { id: "copilot", displayName: "Copilot" },
-  { id: "designer", displayName: "Designer" },
+const PRODUCTS: ProductDef[] = [
+  // ── Microsoft 365 ──
+  { id: "word", displayName: "Word", category: "microsoft-365", cdnId: "word", repoPath: null },
+  { id: "excel", displayName: "Excel", category: "microsoft-365", cdnId: "excel", repoPath: null },
+  { id: "powerpoint", displayName: "PowerPoint", category: "microsoft-365", cdnId: "powerpoint", repoPath: null },
+  { id: "outlook", displayName: "Outlook", category: "microsoft-365", cdnId: "outlook", repoPath: null },
+  { id: "onenote", displayName: "OneNote", category: "microsoft-365", cdnId: "onenote", repoPath: null },
+  { id: "teams", displayName: "Teams", category: "microsoft-365", cdnId: "teams", repoPath: null },
+  { id: "sharepoint", displayName: "SharePoint", category: "microsoft-365", cdnId: "sharepoint", repoPath: null },
+  { id: "onedrive", displayName: "OneDrive", category: "microsoft-365", cdnId: "onedrive", repoPath: null },
+  { id: "access", displayName: "Access", category: "microsoft-365", cdnId: "access", repoPath: null },
+  { id: "publisher", displayName: "Publisher", category: "microsoft-365", cdnId: "publisher", repoPath: null },
+  { id: "visio", displayName: "Visio", category: "microsoft-365", cdnId: "visio", repoPath: null },
+  { id: "project", displayName: "Project", category: "microsoft-365", cdnId: "project", repoPath: null },
+  { id: "loop", displayName: "Loop", category: "microsoft-365", cdnId: "loop", repoPath: null },
+  { id: "lists", displayName: "Lists", category: "microsoft-365", cdnId: "lists", repoPath: null },
+  { id: "forms", displayName: "Forms", category: "microsoft-365", cdnId: "forms", repoPath: null },
+  { id: "planner", displayName: "Planner", category: "microsoft-365", cdnId: "planner", repoPath: null },
+  { id: "stream", displayName: "Stream", category: "microsoft-365", cdnId: "stream", repoPath: null },
+  { id: "clipchamp", displayName: "Clipchamp", category: "microsoft-365", cdnId: "clipchamp", repoPath: null },
+  { id: "sway", displayName: "Sway", category: "microsoft-365", cdnId: "sway", repoPath: null },
+  { id: "bookings", displayName: "Bookings", category: "microsoft-365", cdnId: "bookings", repoPath: null },
+  { id: "to-do", displayName: "To Do", category: "microsoft-365", cdnId: "todo", repoPath: "Microsoft 365/To Do/To_Do.svg" },
+  { id: "whiteboard", displayName: "Whiteboard", category: "microsoft-365", cdnId: "whiteboard", repoPath: null },
+  { id: "delve", displayName: "Delve", category: "microsoft-365", cdnId: "delve", repoPath: null },
+  { id: "places", displayName: "Places", category: "microsoft-365", cdnId: null, repoPath: "Microsoft 365/Places/Microsoft Places.svg" },
+  { id: "microsoft-365", displayName: "Microsoft 365", category: "microsoft-365", cdnId: "m365", repoPath: null },
 
-  // Viva
-  { id: "vivaconnections", displayName: "Viva Connections" },
-  { id: "vivainsights", displayName: "Viva Insights" },
-  { id: "vivalearning", displayName: "Viva Learning" },
-  { id: "vivaengage", displayName: "Viva Engage" },
-  { id: "vivapulse", displayName: "Viva Pulse" },
-  { id: "vivaamplify", displayName: "Viva Amplify" },
+  // ── Power Platform ──
+  { id: "power-apps", displayName: "Power Apps", category: "power-platform", cdnId: "powerapps", repoPath: "Power Platform/Power Apps/PowerApps_scalable.svg" },
+  { id: "power-automate", displayName: "Power Automate", category: "power-platform", cdnId: "powerautomate", repoPath: "Power Platform/Power Automate/PowerAutomate_scalable.svg" },
+  { id: "power-bi", displayName: "Power BI", category: "power-platform", cdnId: "powerbi", repoPath: "Power Platform/Power BI/PowerBI_scalable.svg" },
+  { id: "power-pages", displayName: "Power Pages", category: "power-platform", cdnId: "powerpages", repoPath: "Power Platform/Power Pages/PowerPages_scalable.svg" },
+  { id: "power-platform", displayName: "Power Platform", category: "power-platform", cdnId: null, repoPath: "Power Platform/Power Platform/PowerPlatform_scalable.svg" },
+  { id: "copilot-studio", displayName: "Copilot Studio", category: "power-platform", cdnId: null, repoPath: "Power Platform/Copilot Studio/CopilotStudio_scalable.svg" },
+  { id: "ai-builder", displayName: "AI Builder", category: "power-platform", cdnId: null, repoPath: "Power Platform/AI Builder/AIBuilder_scalable.svg" },
+  { id: "dataverse", displayName: "Dataverse", category: "power-platform", cdnId: null, repoPath: "Power Platform/Dataverse/Dataverse_scalable.svg" },
+  { id: "power-fx", displayName: "Power Fx", category: "power-platform", cdnId: null, repoPath: "Power Platform/PowerFx_scalable.svg" },
+  { id: "connectors", displayName: "Connectors", category: "power-platform", cdnId: null, repoPath: "Power Platform/PowerPlatform_Connectors.svg" },
+  { id: "agent-365", displayName: "Agent 365", category: "power-platform", cdnId: null, repoPath: "Power Platform/Agent 365_scalable.svg" },
 
-  // Security & Compliance
-  { id: "defender", displayName: "Defender" },
-  { id: "purview", displayName: "Purview" },
+  // ── Dynamics 365 ──
+  { id: "dynamics-365", displayName: "Dynamics 365", category: "dynamics-365", cdnId: "dynamics365", repoPath: "Dynamics 365/Dynamics 365 Product Family Icon/Dynamics365_scalable.svg" },
+  { id: "business-central", displayName: "Business Central", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Business Central/BusinessCentral_scalable.svg" },
+  { id: "customer-service", displayName: "Customer Service", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Customer Service/CustomerService_scalable.svg" },
+  { id: "field-service", displayName: "Field Service", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Field Service/FieldService_scalable.svg" },
+  { id: "finance", displayName: "Finance", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Finance/Finance_scalable.svg" },
+  { id: "sales", displayName: "Sales", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Sales/Sales_scalable.svg" },
+  { id: "supply-chain", displayName: "Supply Chain Management", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Supply Chain Management/SupplyChainManagement_scalable.svg" },
+  { id: "commerce", displayName: "Commerce", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Commerce/Commerce_scalable.svg" },
+  { id: "remote-assist", displayName: "Remote Assist", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Dynamics 365 Mixed Reality Icons/RemoteAssist_scalable.svg" },
+  { id: "guides", displayName: "Guides", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Dynamics 365 Mixed Reality Icons/Guides_scalable.svg" },
+  { id: "customer-voice", displayName: "Customer Voice", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Customer Voice/CustomerVoice_scalable.svg" },
+  { id: "project-operations", displayName: "Project Operations", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Project Operations/ProjectOperations_scalable.svg" },
+  { id: "fraud-protection", displayName: "Fraud Protection", category: "dynamics-365", cdnId: null, repoPath: "Dynamics 365/Fraud Protection/FraudProtection_scalable.svg" },
 
-  // Other Microsoft
-  { id: "dynamics365", displayName: "Dynamics 365" },
-  { id: "edge", displayName: "Edge" },
-  { id: "bing", displayName: "Bing" },
-  { id: "yammer", displayName: "Yammer" },
-  { id: "skype", displayName: "Skype" },
-  { id: "m365", displayName: "Microsoft 365" },
-  { id: "office", displayName: "Office" },
-  { id: "msn", displayName: "MSN" },
-  { id: "familysafety", displayName: "Family Safety" },
-  { id: "kaizala", displayName: "Kaizala" },
+  // ── Entra ──
+  { id: "entra", displayName: "Microsoft Entra", category: "entra", cdnId: null, repoPath: "Entra/Microsoft Entra Product Family.svg" },
+  { id: "entra-id", displayName: "Entra ID", category: "entra", cdnId: null, repoPath: "Entra/Microsoft Entra ID color icon.svg" },
+  { id: "entra-id-governance", displayName: "Entra ID Governance", category: "entra", cdnId: null, repoPath: "Entra/Microsoft Entra ID Governance color icon.svg" },
+  { id: "entra-verified-id", displayName: "Entra Verified ID", category: "entra", cdnId: null, repoPath: "Entra/Microsoft Entra Verified ID color icon.svg" },
+
+  // ── Viva ──
+  { id: "viva-connections", displayName: "Viva Connections", category: "viva", cdnId: "vivaconnections", repoPath: "Viva/Viva Connections/Viva Connections.svg" },
+  { id: "viva-insights", displayName: "Viva Insights", category: "viva", cdnId: "vivainsights", repoPath: "Viva/Viva Insights/Viva Insights.svg" },
+  { id: "viva-learning", displayName: "Viva Learning", category: "viva", cdnId: "vivalearning", repoPath: "Viva/Viva Learning/Viva Learning.svg" },
+  { id: "viva-engage", displayName: "Viva Engage", category: "viva", cdnId: "vivaengage", repoPath: "Viva/Viva Engage/Viva Engage.svg" },
+  { id: "viva-pulse", displayName: "Viva Pulse", category: "viva", cdnId: "vivapulse", repoPath: "Viva/Viva Pulse/Viva Pulse.svg" },
+  { id: "viva-amplify", displayName: "Viva Amplify", category: "viva", cdnId: "vivaamplify", repoPath: "Viva/Viva Amplify/Viva Amplify.svg" },
+  { id: "viva-glint", displayName: "Viva Glint", category: "viva", cdnId: null, repoPath: "Viva/Viva Glint/Glint.svg" },
+  { id: "viva-suite", displayName: "Viva Suite", category: "viva", cdnId: null, repoPath: "Viva/Viva Suite/Viva Suite.svg" },
+
+  // ── Security ──
+  { id: "defender", displayName: "Defender", category: "security", cdnId: "defender", repoPath: null },
+  { id: "purview", displayName: "Purview", category: "security", cdnId: "purview", repoPath: null },
+
+  // ── Copilot ──
+  { id: "copilot", displayName: "Microsoft Copilot", category: "copilot", cdnId: "copilot", repoPath: null },
+  { id: "copilot-365", displayName: "Microsoft 365 Copilot", category: "copilot", cdnId: null, repoPath: "Microsoft 365/Copilot in [app]/Microsoft_365_Copilot.svg" },
+
+  // ── Fabric ──
+  { id: "fabric", displayName: "Microsoft Fabric", category: "fabric", cdnId: null, repoPath: "Fabric/Fabric_256.svg" },
+
+  // ── Other ──
+  { id: "edge", displayName: "Microsoft Edge", category: "other", cdnId: "edge", repoPath: null },
+  { id: "bing", displayName: "Bing", category: "other", cdnId: "bing", repoPath: null },
+  { id: "designer", displayName: "Designer", category: "other", cdnId: "designer", repoPath: null },
+  { id: "office", displayName: "Office", category: "other", cdnId: "office", repoPath: null },
+  { id: "dragon-copilot", displayName: "Dragon Copilot", category: "other", cdnId: null, repoPath: "other/Dragon-Copilot.svg" },
+  { id: "foundry", displayName: "Microsoft Foundry", category: "other", cdnId: null, repoPath: "other/Microsoft Foundry.svg" },
+  { id: "family-safety", displayName: "Family Safety", category: "other", cdnId: "familysafety", repoPath: null },
 ];
-
-/** Sanitise folder name for filesystem (no spaces/special chars) */
-function sanitise(name: string): string {
-  return name
-    .replace(/\(not M365\)/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/[()[\]]/g, "")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-/** Check if a subfolder name is a year-range prefix */
-function parseYearRange(name: string): { start: number; end: number } | null {
-  const match = name.match(/^(\d{4})[-–](\d{4})/);
-  if (!match) return null;
-  return { start: parseInt(match[1]), end: parseInt(match[2]) };
-}
-
-/** Check if a subfolder should be skipped */
-function shouldSkipSubfolder(name: string): boolean {
-  // Known renamed-product subfolders (old branding kept under new product)
-  const renamedProducts = new Set([
-    "Power Virtual Agents",
-    "Azure Active Directory",
-    "MyAnalytics",
-    "Workplace Analytics",
-    "Yammer",
-    "Office",
-    "Skype for Business",
-  ]);
-  if (renamedProducts.has(name)) return true;
-
-  // Year-range subfolders: skip if end year is before 2025
-  const range = parseYearRange(name);
-  if (range && range.end < 2025) return true;
-
-  return false;
-}
-
-/** Check if a filename has a year-range prefix (e.g. "2020-2025 PowerApps_scalable.svg") */
-function stripYearPrefix(filename: string): string {
-  return filename.replace(/^\d{4}[-–]\d{4}\s+/, "");
-}
 
 // ── Types ───────────────────────────────────────────────────────────
 
 interface IconEntry {
-  name: string;
+  id: string;
+  displayName: string;
   category: string;
-  product: string | null;
   path: string;
-  sourceFile: string;
+  source: "cdn" | "repo";
 }
 
-// ── Main ────────────────────────────────────────────────────────────
-
-function cloneSource(): void {
-  if (existsSync(TEMP_DIR)) {
-    console.log("🗑️  Cleaning previous temp clone...");
-    rmSync(TEMP_DIR, { recursive: true, force: true });
-  }
-
-  console.log("📦 Shallow-cloning source repo...");
-  execSync(`git clone --depth 1 "${SOURCE_REPO}" "${TEMP_DIR}"`, {
-    stdio: "inherit",
-  });
-}
-
-function collectSvgs(): IconEntry[] {
-  const icons: IconEntry[] = [];
-
-  for (const category of CATEGORIES) {
-    const categoryDir = join(TEMP_DIR, category);
-    if (!existsSync(categoryDir)) {
-      console.warn(`⚠️  Category folder not found: ${category}`);
-      continue;
-    }
-
-    const sanitisedCategory = sanitise(category);
-
-    // Collect root-level SVGs directly in the category folder
-    const rootEntries = readdirSync(categoryDir);
-    for (const entry of rootEntries) {
-      const fullPath = join(categoryDir, entry);
-      const stat = statSync(fullPath);
-
-      if (stat.isFile() && extname(entry).toLowerCase() === ".svg") {
-        const cleanName = stripYearPrefix(entry);
-        icons.push({
-          name: basename(cleanName, ".svg"),
-          category: sanitisedCategory,
-          product: null,
-          path: `icons/${sanitisedCategory}/${cleanName}`,
-          sourceFile: relative(TEMP_DIR, fullPath).replace(/\\/g, "/"),
-        });
-      }
-    }
-
-    // Collect SVGs from product subfolders
-    for (const entry of rootEntries) {
-      const fullPath = join(categoryDir, entry);
-      const stat = statSync(fullPath);
-
-      if (!stat.isDirectory()) continue;
-      if (SKIP_FOLDERS.has(entry)) continue;
-      if (shouldSkipSubfolder(entry)) continue;
-
-      // If this is a year-range subfolder at category level (not a product), skip
-      // (we already picked up root-level SVGs above)
-      const isYearRange = parseYearRange(entry) !== null;
-      if (isYearRange) continue;
-
-      const sanitisedProduct = sanitise(entry);
-      const productEntries = readdirSync(fullPath);
-
-      // First: collect root-level SVGs from the product folder
-      for (const file of productEntries) {
-        const filePath = join(fullPath, file);
-        const fileStat = statSync(filePath);
-
-        if (fileStat.isFile() && extname(file).toLowerCase() === ".svg") {
-          const cleanName = stripYearPrefix(file);
-          icons.push({
-            name: basename(cleanName, ".svg"),
-            category: sanitisedCategory,
-            product: sanitisedProduct,
-            path: `icons/${sanitisedCategory}/${sanitisedProduct}/${cleanName}`,
-            sourceFile: relative(TEMP_DIR, filePath).replace(/\\/g, "/"),
-          });
-        }
-      }
-
-      // Second: collect SVGs from current-era year-range subfolders
-      for (const subEntry of productEntries) {
-        const subPath = join(fullPath, subEntry);
-        const subStat = statSync(subPath);
-        if (!subStat.isDirectory()) continue;
-        if (shouldSkipSubfolder(subEntry)) continue;
-
-        const range = parseYearRange(subEntry);
-        if (!range) continue; // not a year-range folder — skip (could be a renamed product)
-
-        // Include SVGs from this current-era subfolder
-        const subFiles = readdirSync(subPath);
-        for (const file of subFiles) {
-          const filePath = join(subPath, file);
-          const fileStat = statSync(filePath);
-
-          if (fileStat.isFile() && extname(file).toLowerCase() === ".svg") {
-            icons.push({
-              name: basename(file, ".svg"),
-              category: sanitisedCategory,
-              product: sanitisedProduct,
-              path: `icons/${sanitisedCategory}/${sanitisedProduct}/${file}`,
-              sourceFile: relative(TEMP_DIR, filePath).replace(/\\/g, "/"),
-            });
-          }
-        }
-      }
-    }
-  }
-
-  // Deduplicate: if we have both a year-prefixed and non-prefixed version
-  // with the same cleaned name, prefer the non-prefixed (latest) one
-  const seen = new Map<string, IconEntry>();
-  for (const icon of icons) {
-    const key = icon.path;
-    if (!seen.has(key)) {
-      seen.set(key, icon);
-    }
-  }
-
-  return Array.from(seen.values());
-}
-
-function copyIcons(icons: IconEntry[]): void {
-  // Clean existing icons
-  if (existsSync(ICONS_DIR)) {
-    rmSync(ICONS_DIR, { recursive: true, force: true });
-  }
-
-  for (const icon of icons) {
-    const destPath = join(process.cwd(), icon.path);
-    const destDir = join(destPath, "..");
-    mkdirSync(destDir, { recursive: true });
-
-    const sourcePath = join(TEMP_DIR, icon.sourceFile);
-    cpSync(sourcePath, destPath);
-  }
-}
-
-function writeManifest(icons: IconEntry[]): void {
-  const manifest = {
-    generated: new Date().toISOString(),
-    sources: [
-      "https://github.com/loryanstrant/MicrosoftCloudLogos",
-      "https://res.cdn.office.net (Fluent UI Brand Icons)",
-    ],
-    totalIcons: icons.length,
-    categories: {} as Record<string, { count: number; products: Record<string, number> }>,
-    icons: icons.map((i) => ({
-      name: i.name,
-      category: i.category,
-      product: i.product,
-      path: i.path,
-    })),
-  };
-
-  for (const icon of icons) {
-    if (!manifest.categories[icon.category]) {
-      manifest.categories[icon.category] = { count: 0, products: {} };
-    }
-    manifest.categories[icon.category].count++;
-    const prod = icon.product || "(root)";
-    manifest.categories[icon.category].products[prod] =
-      (manifest.categories[icon.category].products[prod] || 0) + 1;
-  }
-
-  writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
-}
-
-function writeReadme(icons: IconEntry[]): void {
-  const grouped = new Map<string, Map<string | null, IconEntry[]>>();
-
-  for (const icon of icons) {
-    if (!grouped.has(icon.category)) grouped.set(icon.category, new Map());
-    const catMap = grouped.get(icon.category)!;
-    if (!catMap.has(icon.product)) catMap.set(icon.product, []);
-    catMap.get(icon.product)!.push(icon);
-  }
-
-  const lines: string[] = [
-    "# Official Microsoft Cloud Icons (SVG)",
-    "",
-    "A curated collection of the **latest official SVG icons** for Microsoft Cloud products.",
-    "",
-    `> Auto-generated from two sources:`,
-    `> - [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) — community-curated SVGs (Azure, Entra, Fabric, etc.)`,
-    `> - **Microsoft Office CDN** — official Fluent 2 brand icons (Word, Excel, Teams, etc.) in 4 sizes`,
-    "",
-    `**${icons.length} icons** across **${grouped.size} categories**`,
-    "",
-    "## Quick Reference",
-    "",
-    "| Category | Icons |",
-    "|----------|-------|",
-  ];
-
-  for (const [category, products] of grouped) {
-    let count = 0;
-    for (const entries of products.values()) count += entries.length;
-    lines.push(`| ${category} | ${count} |`);
-  }
-
-  lines.push("", "## Icons by Category", "");
-
-  for (const [category, products] of grouped) {
-    lines.push(`### ${category}`, "");
-
-    // Root-level icons (no product)
-    const rootIcons = products.get(null);
-    if (rootIcons) {
-      for (const icon of rootIcons.sort((a, b) => a.name.localeCompare(b.name))) {
-        lines.push(`- \`${icon.name}\` — [\`${icon.path}\`](${icon.path})`);
-      }
-      lines.push("");
-    }
-
-    // Product folders
-    for (const [product, entries] of products) {
-      if (product === null) continue;
-      lines.push(`#### ${product}`, "");
-      for (const icon of entries.sort((a, b) => a.name.localeCompare(b.name))) {
-        lines.push(`- \`${icon.name}\` — [\`${icon.path}\`](${icon.path})`);
-      }
-      lines.push("");
-    }
-  }
-
-  lines.push(
-    "---",
-    "",
-    "## Refresh Icons",
-    "",
-    "```bash",
-    "npm run fetch",
-    "```",
-    "",
-    "This re-clones the source repo and rebuilds the collection with only the latest SVGs.",
-    "",
-    "## Credits",
-    "",
-    "Sources:",
-    "- [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) — community-curated collection",
-    "- [Microsoft Office CDN](https://res.cdn.office.net) — official Fluent 2 brand icons",
-    "",
-    "All logos are the property of Microsoft Corporation.",
-    "",
-  );
-
-  writeFileSync(README_PATH, lines.join("\n"));
-}
-
-function cleanup(): void {
-  if (existsSync(TEMP_DIR)) {
-    console.log("🧹 Cleaning up temp files...");
-    rmSync(TEMP_DIR, { recursive: true, force: true });
-  }
-}
-
-// ── Fluent UI CDN Download ───────────────────────────────────────────
+// ── Helpers ─────────────────────────────────────────────────────────
 
 function downloadFile(url: string): Promise<string | null> {
   return new Promise((resolve) => {
@@ -446,42 +168,207 @@ function downloadFile(url: string): Promise<string | null> {
   });
 }
 
-async function fetchCdnBrandIcons(): Promise<IconEntry[]> {
+function cloneSource(): void {
+  if (existsSync(TEMP_DIR)) {
+    rmSync(TEMP_DIR, { recursive: true, force: true });
+  }
+  console.log("📦 Shallow-cloning source repo...");
+  execSync(`git clone --depth 1 "${SOURCE_REPO}" "${TEMP_DIR}"`, {
+    stdio: "inherit",
+  });
+}
+
+function cleanup(): void {
+  if (existsSync(TEMP_DIR)) {
+    console.log("🧹 Cleaning up temp files...");
+    rmSync(TEMP_DIR, { recursive: true, force: true });
+  }
+}
+
+// ── Fetch Icons ─────────────────────────────────────────────────────
+
+async function fetchAllIcons(): Promise<IconEntry[]> {
   const icons: IconEntry[] = [];
-  const category = "Fluent-Brand";
+  let cdnCount = 0;
+  let repoCount = 0;
+  let skipped = 0;
 
-  console.log(`   Downloading from Office CDN (${CDN_PRODUCTS.length} products × ${CDN_SIZES.length} sizes)...`);
+  // Phase 1: Clone repo (needed for fallbacks)
+  cloneSource();
 
-  let downloaded = 0;
-  let failed = 0;
+  // Phase 2: Process each product
+  console.log(`\n🔍 Processing ${PRODUCTS.length} products...\n`);
 
-  for (const product of CDN_PRODUCTS) {
-    for (const size of CDN_SIZES) {
-      const filename = `${product.id}_${size}x1.svg`;
-      const url = `${CDN_BASE}/${filename}`;
-      const destPath = `icons/${category}/${product.displayName}/${filename}`;
+  for (const product of PRODUCTS) {
+    const destPath = `icons/${product.category}/${product.id}.svg`;
+    const fullDest = join(process.cwd(), destPath);
+    let fetched = false;
 
-      const svg = await downloadFile(url);
-      if (svg) {
-        const fullPath = join(process.cwd(), destPath);
-        mkdirSync(dirname(fullPath), { recursive: true });
-        writeFileSync(fullPath, svg);
-        icons.push({
-          name: `${product.displayName} (${size}px)`,
-          category,
-          product: product.displayName,
-          path: destPath,
-          sourceFile: url,
-        });
-        downloaded++;
-      } else {
-        failed++;
+    // Try CDN first (preferred — latest Fluent 2 brand icons)
+    // Fall back to smaller sizes if 48px not available
+    if (product.cdnId) {
+      for (const size of [48, 32, 24]) {
+        const url = `${CDN_BASE}/${product.cdnId}_${size}x1.svg`;
+        const svg = await downloadFile(url);
+        if (svg) {
+          mkdirSync(dirname(fullDest), { recursive: true });
+          writeFileSync(fullDest, svg);
+          icons.push({
+            id: product.id,
+            displayName: product.displayName,
+            category: product.category,
+            path: destPath,
+            source: "cdn",
+          });
+          cdnCount++;
+          fetched = true;
+          break;
+        }
       }
+    }
+
+    // Fall back to repo
+    if (!fetched && product.repoPath) {
+      const repoFile = join(TEMP_DIR, product.repoPath);
+      if (existsSync(repoFile)) {
+        mkdirSync(dirname(fullDest), { recursive: true });
+        cpSync(repoFile, fullDest);
+        icons.push({
+          id: product.id,
+          displayName: product.displayName,
+          category: product.category,
+          path: destPath,
+          source: "repo",
+        });
+        repoCount++;
+        fetched = true;
+      }
+    }
+
+    if (!fetched) {
+      console.warn(`   ⚠️  ${product.displayName} — no icon found`);
+      skipped++;
     }
   }
 
-  console.log(`   Downloaded ${downloaded} brand icons (${failed} unavailable)`);
+  console.log(`\n   🌐 ${cdnCount} from Office CDN`);
+  console.log(`   📦 ${repoCount} from GitHub repo`);
+  if (skipped > 0) console.log(`   ⚠️  ${skipped} unavailable`);
+
   return icons;
+}
+
+// ── Manifest & README ───────────────────────────────────────────────
+
+function writeManifest(icons: IconEntry[]): void {
+  const categories: Record<string, string[]> = {};
+  for (const icon of icons) {
+    if (!categories[icon.category]) categories[icon.category] = [];
+    categories[icon.category].push(icon.id);
+  }
+
+  const manifest = {
+    generated: new Date().toISOString(),
+    sources: [
+      "https://res.cdn.office.net (Fluent 2 Brand Icons)",
+      "https://github.com/loryanstrant/MicrosoftCloudLogos",
+    ],
+    totalIcons: icons.length,
+    categories,
+    icons: icons.map((i) => ({
+      id: i.id,
+      displayName: i.displayName,
+      category: i.category,
+      path: i.path,
+      source: i.source,
+    })),
+  };
+
+  writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
+}
+
+function writeReadme(icons: IconEntry[]): void {
+  const grouped = new Map<string, IconEntry[]>();
+  for (const icon of icons) {
+    if (!grouped.has(icon.category)) grouped.set(icon.category, []);
+    grouped.get(icon.category)!.push(icon);
+  }
+
+  const categoryNames: Record<string, string> = {
+    "microsoft-365": "Microsoft 365",
+    "power-platform": "Power Platform",
+    "dynamics-365": "Dynamics 365",
+    entra: "Entra",
+    viva: "Viva",
+    security: "Security",
+    copilot: "Copilot",
+    fabric: "Fabric",
+    other: "Other",
+  };
+
+  const lines: string[] = [
+    "# Microsoft Cloud Product Icons (SVG)",
+    "",
+    "A curated collection of **latest official SVG icons** for Microsoft Cloud products.",
+    "One icon per product. Clean, consistent, ready to use.",
+    "",
+    "> Sources: [Microsoft Office CDN](https://res.cdn.office.net) (Fluent 2 brand icons) + [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)",
+    "",
+    `**${icons.length} product icons** across **${grouped.size} categories**`,
+    "",
+    "## Quick Reference",
+    "",
+    "| Category | Icons | Products |",
+    "|----------|-------|----------|",
+  ];
+
+  for (const [category, entries] of grouped) {
+    const names = entries.map((e) => e.displayName).join(", ");
+    lines.push(
+      `| ${categoryNames[category] || category} | ${entries.length} | ${names} |`
+    );
+  }
+
+  lines.push("", "## All Icons", "");
+
+  for (const [category, entries] of grouped) {
+    lines.push(`### ${categoryNames[category] || category}`, "");
+    lines.push("| Icon | Product | File |");
+    lines.push("|------|---------|------|");
+    for (const icon of entries.sort((a, b) =>
+      a.displayName.localeCompare(b.displayName)
+    )) {
+      lines.push(
+        `| <img src="${icon.path}" width="32" /> | **${icon.displayName}** | \`${icon.path}\` |`
+      );
+    }
+    lines.push("");
+  }
+
+  lines.push(
+    "---",
+    "",
+    "## Refresh Icons",
+    "",
+    "```bash",
+    "npm run fetch",
+    "```",
+    "",
+    "## Adding Products",
+    "",
+    "Edit the `PRODUCTS` array in `fetch-icons.ts` to add or remove products.",
+    "Each entry specifies a CDN id (preferred) and/or a GitHub repo path (fallback).",
+    "",
+    "## Credits",
+    "",
+    "- [Microsoft Office CDN](https://res.cdn.office.net) — Fluent 2 brand icons",
+    "- [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)",
+    "",
+    "All logos are the property of Microsoft Corporation.",
+    ""
+  );
+
+  writeFileSync(README_PATH, lines.join("\n"));
 }
 
 // ── Run ─────────────────────────────────────────────────────────────
@@ -490,32 +377,22 @@ async function fetchCdnBrandIcons(): Promise<IconEntry[]> {
   try {
     console.log("🚀 Official Icons — Fetch & Curate\n");
 
-    cloneSource();
+    // Clean existing icons
+    if (existsSync(ICONS_DIR)) {
+      rmSync(ICONS_DIR, { recursive: true, force: true });
+    }
 
-    console.log("\n🔍 Scanning for latest SVGs from GitHub...");
-    const repoIcons = collectSvgs();
-    console.log(`   Found ${repoIcons.length} icons from loryanstrant/MicrosoftCloudLogos\n`);
-
-    console.log("📂 Copying repo icons to icons/ directory...");
-    copyIcons(repoIcons);
-
-    console.log("\n🌐 Fetching Fluent UI brand icons from Office CDN...");
-    const cdnIcons = await fetchCdnBrandIcons();
-
-    const allIcons = [...repoIcons, ...cdnIcons];
+    const icons = await fetchAllIcons();
 
     console.log("\n📋 Writing manifest.json...");
-    writeManifest(allIcons);
+    writeManifest(icons);
 
     console.log("📝 Writing README.md...");
-    writeReadme(allIcons);
+    writeReadme(icons);
 
     cleanup();
 
-    console.log(`\n✅ Done! ${allIcons.length} SVG icons curated into icons/`);
-    console.log(`   📦 ${repoIcons.length} from GitHub repo`);
-    console.log(`   🌐 ${cdnIcons.length} from Office CDN (Fluent Brand)`);
-    console.log("   See manifest.json for the full index.");
+    console.log(`\n✅ Done! ${icons.length} product icons in icons/`);
   } catch (error) {
     cleanup();
     console.error("❌ Failed:", error);

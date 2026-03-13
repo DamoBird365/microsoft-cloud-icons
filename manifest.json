@@ -1,5342 +1,614 @@
 {
-  "generated": "2026-03-13T10:26:01.166Z",
+  "generated": "2026-03-13T10:37:56.715Z",
   "sources": [
-    "https://github.com/loryanstrant/MicrosoftCloudLogos",
-    "https://res.cdn.office.net (Fluent UI Brand Icons)"
+    "https://res.cdn.office.net (Fluent 2 Brand Icons)",
+    "https://github.com/loryanstrant/MicrosoftCloudLogos"
   ],
-  "totalIcons": 860,
+  "totalIcons": 73,
   "categories": {
-    "Azure": {
-      "count": 619,
-      "products": {
-        "ai-+-machine-learning": 28,
-        "analytics": 17,
-        "app-services": 8,
-        "azure-ecosystem": 3,
-        "azure-stack": 7,
-        "blockchain": 6,
-        "compute": 38,
-        "containers": 7,
-        "databases": 26,
-        "devops": 11,
-        "general": 95,
-        "identity": 24,
-        "integration": 27,
-        "intune": 18,
-        "iot": 26,
-        "management-+-governance": 31,
-        "menu": 1,
-        "migrate": 6,
-        "migration": 1,
-        "mixed-reality": 2,
-        "mobile": 3,
-        "monitor": 11,
-        "networking": 44,
-        "new-icons": 27,
-        "other": 101,
-        "security": 18,
-        "storage": 17,
-        "web": 16
-      }
-    },
-    "Dynamics-365": {
-      "count": 35,
-      "products": {
-        "Business-Central": 1,
-        "Commerce": 1,
-        "Connected-Store": 1,
-        "Core-HR": 1,
-        "Customer-Service": 1,
-        "Customer-Service-Insights": 1,
-        "Customer-Voice": 1,
-        "Dynamics-365-Mixed-Reality-Icons": 7,
-        "Dynamics-365-Product-Family-Icon": 1,
-        "Dynamics-365-Sub-App-Icons": 4,
-        "Field-Service": 1,
-        "Finance": 1,
-        "Finance-&-Operations": 1,
-        "Fraud-Protection": 1,
-        "Intelligent-Order-Management": 1,
-        "Market-Insights": 1,
-        "Product-Insights": 1,
-        "Project-Operations": 1,
-        "Project-Service-Automation": 1,
-        "Sales": 1,
-        "Sales-Insights": 1,
-        "Supply-Chain-Management": 1,
-        "Sustainability-Calculator": 1,
-        "Talent": 1,
-        "Talent-Attract": 1,
-        "Talent-Onboard": 1
-      }
-    },
-    "Entra": {
-      "count": 9,
-      "products": {
-        "(root)": 9
-      }
-    },
-    "Fabric": {
-      "count": 42,
-      "products": {
-        "(root)": 9,
-        "Items": 33
-      }
-    },
-    "Microsoft-365": {
-      "count": 4,
-      "products": {
-        "Copilot-in-app": 2,
-        "Places": 1,
-        "To-Do": 1
-      }
-    },
-    "Power-Platform": {
-      "count": 14,
-      "products": {
-        "(root)": 3,
-        "AI-Builder": 1,
-        "Copilot-Studio": 1,
-        "Dataverse": 1,
-        "Power-Apps": 2,
-        "Power-Automate": 2,
-        "Power-BI": 2,
-        "Power-Pages": 1,
-        "Power-Platform": 1
-      }
-    },
-    "Viva": {
-      "count": 9,
-      "products": {
-        "Viva-Amplify": 2,
-        "Viva-Connections": 1,
-        "Viva-Engage": 1,
-        "Viva-Glint": 1,
-        "Viva-Insights": 1,
-        "Viva-Learning": 1,
-        "Viva-Pulse": 1,
-        "Viva-Suite": 1
-      }
-    },
-    "other": {
-      "count": 2,
-      "products": {
-        "(root)": 2
-      }
-    },
-    "Fluent-Brand": {
-      "count": 126,
-      "products": {
-        "Word": 4,
-        "Excel": 4,
-        "PowerPoint": 4,
-        "Outlook": 4,
-        "OneNote": 4,
-        "Teams": 4,
-        "SharePoint": 4,
-        "OneDrive": 4,
-        "Access": 4,
-        "Publisher": 4,
-        "Visio": 4,
-        "Project": 4,
-        "Loop": 4,
-        "Lists": 4,
-        "Forms": 4,
-        "Planner": 1,
-        "Stream": 4,
-        "Clipchamp": 4,
-        "Sway": 3,
-        "Bookings": 1,
-        "To Do": 4,
-        "Whiteboard": 2,
-        "Delve": 4,
-        "Power Apps": 1,
-        "Power Automate": 1,
-        "Power BI": 4,
-        "Power Pages": 1,
-        "Copilot": 3,
-        "Designer": 1,
-        "Viva Connections": 1,
-        "Viva Insights": 1,
-        "Viva Learning": 1,
-        "Viva Engage": 4,
-        "Viva Pulse": 1,
-        "Viva Amplify": 4,
-        "Defender": 2,
-        "Purview": 1,
-        "Dynamics 365": 1,
-        "Edge": 1,
-        "Bing": 1,
-        "Yammer": 4,
-        "Skype": 1,
-        "Microsoft 365": 3,
-        "Office": 3,
-        "MSN": 1,
-        "Family Safety": 1,
-        "Kaizala": 1
-      }
-    }
+    "microsoft-365": [
+      "word",
+      "excel",
+      "powerpoint",
+      "outlook",
+      "onenote",
+      "teams",
+      "sharepoint",
+      "onedrive",
+      "access",
+      "publisher",
+      "visio",
+      "project",
+      "loop",
+      "lists",
+      "forms",
+      "planner",
+      "stream",
+      "clipchamp",
+      "sway",
+      "bookings",
+      "to-do",
+      "whiteboard",
+      "delve",
+      "places",
+      "microsoft-365"
+    ],
+    "power-platform": [
+      "power-apps",
+      "power-automate",
+      "power-bi",
+      "power-pages",
+      "power-platform",
+      "copilot-studio",
+      "ai-builder",
+      "dataverse",
+      "power-fx",
+      "connectors",
+      "agent-365"
+    ],
+    "dynamics-365": [
+      "dynamics-365",
+      "business-central",
+      "customer-service",
+      "field-service",
+      "finance",
+      "sales",
+      "supply-chain",
+      "commerce",
+      "remote-assist",
+      "guides",
+      "customer-voice",
+      "project-operations",
+      "fraud-protection"
+    ],
+    "entra": [
+      "entra",
+      "entra-id",
+      "entra-id-governance",
+      "entra-verified-id"
+    ],
+    "viva": [
+      "viva-connections",
+      "viva-insights",
+      "viva-learning",
+      "viva-engage",
+      "viva-pulse",
+      "viva-amplify",
+      "viva-glint",
+      "viva-suite"
+    ],
+    "security": [
+      "defender",
+      "purview"
+    ],
+    "copilot": [
+      "copilot",
+      "copilot-365"
+    ],
+    "fabric": [
+      "fabric"
+    ],
+    "other": [
+      "edge",
+      "bing",
+      "designer",
+      "office",
+      "dragon-copilot",
+      "foundry",
+      "family-safety"
+    ]
   },
   "icons": [
     {
-      "name": "00028-icon-service-Batch-AI",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00028-icon-service-Batch-AI.svg"
+      "id": "word",
+      "displayName": "Word",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/word.svg",
+      "source": "cdn"
     },
     {
-      "name": "00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg"
+      "id": "excel",
+      "displayName": "Excel",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/excel.svg",
+      "source": "cdn"
     },
     {
-      "name": "00031-icon-service-Genomics",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00031-icon-service-Genomics.svg"
+      "id": "powerpoint",
+      "displayName": "PowerPoint",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/powerpoint.svg",
+      "source": "cdn"
     },
     {
-      "name": "00792-icon-service-Computer-Vision",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00792-icon-service-Computer-Vision.svg"
+      "id": "outlook",
+      "displayName": "Outlook",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/outlook.svg",
+      "source": "cdn"
     },
     {
-      "name": "00793-icon-service-Custom-Vision",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00793-icon-service-Custom-Vision.svg"
+      "id": "onenote",
+      "displayName": "OneNote",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/onenote.svg",
+      "source": "cdn"
     },
     {
-      "name": "00794-icon-service-Face-APIs",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00794-icon-service-Face-APIs.svg"
+      "id": "teams",
+      "displayName": "Teams",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/teams.svg",
+      "source": "cdn"
     },
     {
-      "name": "00795-icon-service-Content-Moderators",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00795-icon-service-Content-Moderators.svg"
+      "id": "sharepoint",
+      "displayName": "SharePoint",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/sharepoint.svg",
+      "source": "cdn"
     },
     {
-      "name": "00796-icon-service-Personalizers",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00796-icon-service-Personalizers.svg"
+      "id": "onedrive",
+      "displayName": "OneDrive",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/onedrive.svg",
+      "source": "cdn"
     },
     {
-      "name": "00797-icon-service-Speech-Services",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00797-icon-service-Speech-Services.svg"
+      "id": "access",
+      "displayName": "Access",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/access.svg",
+      "source": "cdn"
     },
     {
-      "name": "00799-icon-service-QnA-Makers",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00799-icon-service-QnA-Makers.svg"
+      "id": "publisher",
+      "displayName": "Publisher",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/publisher.svg",
+      "source": "cdn"
     },
     {
-      "name": "00800-icon-service-Translator-Text",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00800-icon-service-Translator-Text.svg"
+      "id": "visio",
+      "displayName": "Visio",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/visio.svg",
+      "source": "cdn"
     },
     {
-      "name": "00801-icon-service-Language-Understanding",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00801-icon-service-Language-Understanding.svg"
+      "id": "project",
+      "displayName": "Project",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/project.svg",
+      "source": "cdn"
     },
     {
-      "name": "00812-icon-service-Immersive-Readers",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00812-icon-service-Immersive-Readers.svg"
+      "id": "loop",
+      "displayName": "Loop",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/loop.svg",
+      "source": "cdn"
     },
     {
-      "name": "00814-icon-service-Anomaly-Detector",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00814-icon-service-Anomaly-Detector.svg"
+      "id": "lists",
+      "displayName": "Lists",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/lists.svg",
+      "source": "cdn"
     },
     {
-      "name": "00819-icon-service-Form-Recognizers",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/00819-icon-service-Form-Recognizers.svg"
+      "id": "forms",
+      "displayName": "Forms",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/forms.svg",
+      "source": "cdn"
     },
     {
-      "name": "01239-icon-service-Azure-Experimentation-Studio",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/01239-icon-service-Azure-Experimentation-Studio.svg"
+      "id": "planner",
+      "displayName": "Planner",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/planner.svg",
+      "source": "cdn"
     },
     {
-      "name": "01688-icon-service-Azure-Object-Understanding",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/01688-icon-service-Azure-Object-Understanding.svg"
+      "id": "stream",
+      "displayName": "Stream",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/stream.svg",
+      "source": "cdn"
     },
     {
-      "name": "02409-icon-service-Metrics-Advisor",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/02409-icon-service-Metrics-Advisor.svg"
+      "id": "clipchamp",
+      "displayName": "Clipchamp",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/clipchamp.svg",
+      "source": "cdn"
     },
     {
-      "name": "02749-icon-service-Azure-Applied-AI-Services",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/02749-icon-service-Azure-Applied-AI-Services.svg"
+      "id": "sway",
+      "displayName": "Sway",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/sway.svg",
+      "source": "cdn"
     },
     {
-      "name": "02876-icon-service-Language",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/02876-icon-service-Language.svg"
+      "id": "bookings",
+      "displayName": "Bookings",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/bookings.svg",
+      "source": "cdn"
     },
     {
-      "name": "03337-icon-service-Bonsai",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/03337-icon-service-Bonsai.svg"
+      "id": "to-do",
+      "displayName": "To Do",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/to-do.svg",
+      "source": "cdn"
     },
     {
-      "name": "10044-icon-service-Cognitive-Search",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10044-icon-service-Cognitive-Search.svg"
+      "id": "whiteboard",
+      "displayName": "Whiteboard",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/whiteboard.svg",
+      "source": "cdn"
     },
     {
-      "name": "10162-icon-service-Cognitive-Services",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10162-icon-service-Cognitive-Services.svg"
+      "id": "delve",
+      "displayName": "Delve",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/delve.svg",
+      "source": "cdn"
     },
     {
-      "name": "10164-icon-service-Genomics-Accounts",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10164-icon-service-Genomics-Accounts.svg"
+      "id": "places",
+      "displayName": "Places",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/places.svg",
+      "source": "repo"
     },
     {
-      "name": "10165-icon-service-Bot-Services",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10165-icon-service-Bot-Services.svg"
+      "id": "microsoft-365",
+      "displayName": "Microsoft 365",
+      "category": "microsoft-365",
+      "path": "icons/microsoft-365/microsoft-365.svg",
+      "source": "cdn"
     },
     {
-      "name": "10166-icon-service-Machine-Learning",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10166-icon-service-Machine-Learning.svg"
+      "id": "power-apps",
+      "displayName": "Power Apps",
+      "category": "power-platform",
+      "path": "icons/power-platform/power-apps.svg",
+      "source": "cdn"
     },
     {
-      "name": "10167-icon-service-Machine-Learning-Studio-Workspaces",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10167-icon-service-Machine-Learning-Studio-Workspaces.svg"
+      "id": "power-automate",
+      "displayName": "Power Automate",
+      "category": "power-platform",
+      "path": "icons/power-platform/power-automate.svg",
+      "source": "cdn"
     },
     {
-      "name": "10168-icon-service-Machine-Learning-Studio-Web-Service-Plans",
-      "category": "Azure",
-      "product": "ai-+-machine-learning",
-      "path": "icons/Azure/ai-+-machine-learning/10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg"
+      "id": "power-bi",
+      "displayName": "Power BI",
+      "category": "power-platform",
+      "path": "icons/power-platform/power-bi.svg",
+      "source": "cdn"
     },
     {
-      "name": "00009-icon-service-Log-Analytics-Workspaces",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/00009-icon-service-Log-Analytics-Workspaces.svg"
+      "id": "power-pages",
+      "displayName": "Power Pages",
+      "category": "power-platform",
+      "path": "icons/power-platform/power-pages.svg",
+      "source": "cdn"
     },
     {
-      "name": "00039-icon-service-Event-Hubs",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/00039-icon-service-Event-Hubs.svg"
+      "id": "power-platform",
+      "displayName": "Power Platform",
+      "category": "power-platform",
+      "path": "icons/power-platform/power-platform.svg",
+      "source": "repo"
     },
     {
-      "name": "00042-icon-service-Stream-Analytics-Jobs",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/00042-icon-service-Stream-Analytics-Jobs.svg"
+      "id": "copilot-studio",
+      "displayName": "Copilot Studio",
+      "category": "power-platform",
+      "path": "icons/power-platform/copilot-studio.svg",
+      "source": "repo"
     },
     {
-      "name": "00562-icon-service-Endpoint-Analytics",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/00562-icon-service-Endpoint-Analytics.svg"
+      "id": "ai-builder",
+      "displayName": "AI Builder",
+      "category": "power-platform",
+      "path": "icons/power-platform/ai-builder.svg",
+      "source": "repo"
     },
     {
-      "name": "00606-icon-service-Azure-Synapse-Analytics",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/00606-icon-service-Azure-Synapse-Analytics.svg"
+      "id": "dataverse",
+      "displayName": "Dataverse",
+      "category": "power-platform",
+      "path": "icons/power-platform/dataverse.svg",
+      "source": "repo"
     },
     {
-      "name": "02189-icon-service-Azure-Workbooks",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/02189-icon-service-Azure-Workbooks.svg"
+      "id": "power-fx",
+      "displayName": "Power Fx",
+      "category": "power-platform",
+      "path": "icons/power-platform/power-fx.svg",
+      "source": "repo"
     },
     {
-      "name": "02209-icon-service-Private-Link-Services",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/02209-icon-service-Private-Link-Services.svg"
+      "id": "connectors",
+      "displayName": "Connectors",
+      "category": "power-platform",
+      "path": "icons/power-platform/connectors.svg",
+      "source": "repo"
     },
     {
-      "name": "03332-icon-service-Power-BI-Embedded",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/03332-icon-service-Power-BI-Embedded.svg"
+      "id": "agent-365",
+      "displayName": "Agent 365",
+      "category": "power-platform",
+      "path": "icons/power-platform/agent-365.svg",
+      "source": "repo"
     },
     {
-      "name": "03335-icon-service-Power-Platform",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/03335-icon-service-Power-Platform.svg"
+      "id": "dynamics-365",
+      "displayName": "Dynamics 365",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/dynamics-365.svg",
+      "source": "cdn"
     },
     {
-      "name": "10126-icon-service-Data-Factories",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10126-icon-service-Data-Factories.svg"
+      "id": "business-central",
+      "displayName": "Business Central",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/business-central.svg",
+      "source": "repo"
     },
     {
-      "name": "10142-icon-service-HD-Insight-Clusters",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10142-icon-service-HD-Insight-Clusters.svg"
+      "id": "customer-service",
+      "displayName": "Customer Service",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/customer-service.svg",
+      "source": "repo"
     },
     {
-      "name": "10143-icon-service-Data-Lake-Analytics",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10143-icon-service-Data-Lake-Analytics.svg"
+      "id": "field-service",
+      "displayName": "Field Service",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/field-service.svg",
+      "source": "repo"
     },
     {
-      "name": "10145-icon-service-Azure-Data-Explorer-Clusters",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10145-icon-service-Azure-Data-Explorer-Clusters.svg"
+      "id": "finance",
+      "displayName": "Finance",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/finance.svg",
+      "source": "repo"
     },
     {
-      "name": "10148-icon-service-Analysis-Services",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10148-icon-service-Analysis-Services.svg"
+      "id": "sales",
+      "displayName": "Sales",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/sales.svg",
+      "source": "repo"
     },
     {
-      "name": "10149-icon-service-Event-Hub-Clusters",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10149-icon-service-Event-Hub-Clusters.svg"
+      "id": "supply-chain",
+      "displayName": "Supply Chain Management",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/supply-chain.svg",
+      "source": "repo"
     },
     {
-      "name": "10150-icon-service-Data-Lake-Store-Gen1",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10150-icon-service-Data-Lake-Store-Gen1.svg"
+      "id": "commerce",
+      "displayName": "Commerce",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/commerce.svg",
+      "source": "repo"
     },
     {
-      "name": "10787-icon-service-Azure-Databricks",
-      "category": "Azure",
-      "product": "analytics",
-      "path": "icons/Azure/analytics/10787-icon-service-Azure-Databricks.svg"
+      "id": "remote-assist",
+      "displayName": "Remote Assist",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/remote-assist.svg",
+      "source": "repo"
     },
     {
-      "name": "00046-icon-service-App-Service-Plans",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/00046-icon-service-App-Service-Plans.svg"
+      "id": "guides",
+      "displayName": "Guides",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/guides.svg",
+      "source": "repo"
     },
     {
-      "name": "00049-icon-service-App-Service-Certificates",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/00049-icon-service-App-Service-Certificates.svg"
+      "id": "customer-voice",
+      "displayName": "Customer Voice",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/customer-voice.svg",
+      "source": "repo"
     },
     {
-      "name": "00050-icon-service-App-Service-Domains",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/00050-icon-service-App-Service-Domains.svg"
+      "id": "project-operations",
+      "displayName": "Project Operations",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/project-operations.svg",
+      "source": "repo"
     },
     {
-      "name": "00056-icon-service-CDN-Profiles",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/00056-icon-service-CDN-Profiles.svg"
+      "id": "fraud-protection",
+      "displayName": "Fraud Protection",
+      "category": "dynamics-365",
+      "path": "icons/dynamics-365/fraud-protection.svg",
+      "source": "repo"
     },
     {
-      "name": "10035-icon-service-App-Services",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/10035-icon-service-App-Services.svg"
+      "id": "entra",
+      "displayName": "Microsoft Entra",
+      "category": "entra",
+      "path": "icons/entra/entra.svg",
+      "source": "repo"
     },
     {
-      "name": "10044-icon-service-Cognitive-Search",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/10044-icon-service-Cognitive-Search.svg"
+      "id": "entra-id",
+      "displayName": "Entra ID",
+      "category": "entra",
+      "path": "icons/entra/entra-id.svg",
+      "source": "repo"
     },
     {
-      "name": "10045-icon-service-Notification-Hubs",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/10045-icon-service-Notification-Hubs.svg"
+      "id": "entra-id-governance",
+      "displayName": "Entra ID Governance",
+      "category": "entra",
+      "path": "icons/entra/entra-id-governance.svg",
+      "source": "repo"
     },
     {
-      "name": "10047-icon-service-App-Service-Environments",
-      "category": "Azure",
-      "product": "app-services",
-      "path": "icons/Azure/app-services/10047-icon-service-App-Service-Environments.svg"
+      "id": "entra-verified-id",
+      "displayName": "Entra Verified ID",
+      "category": "entra",
+      "path": "icons/entra/entra-verified-id.svg",
+      "source": "repo"
     },
     {
-      "name": "01038-icon-service-Collaborative-Service",
-      "category": "Azure",
-      "product": "azure-ecosystem",
-      "path": "icons/Azure/azure-ecosystem/01038-icon-service-Collaborative-Service.svg"
+      "id": "viva-connections",
+      "displayName": "Viva Connections",
+      "category": "viva",
+      "path": "icons/viva/viva-connections.svg",
+      "source": "cdn"
     },
     {
-      "name": "02354-icon-service-Applens",
-      "category": "Azure",
-      "product": "azure-ecosystem",
-      "path": "icons/Azure/azure-ecosystem/02354-icon-service-Applens.svg"
+      "id": "viva-insights",
+      "displayName": "Viva Insights",
+      "category": "viva",
+      "path": "icons/viva/viva-insights.svg",
+      "source": "cdn"
     },
     {
-      "name": "02573-icon-service-Azure-Hybrid-Center",
-      "category": "Azure",
-      "product": "azure-ecosystem",
-      "path": "icons/Azure/azure-ecosystem/02573-icon-service-Azure-Hybrid-Center.svg"
+      "id": "viva-learning",
+      "displayName": "Viva Learning",
+      "category": "viva",
+      "path": "icons/viva/viva-learning.svg",
+      "source": "cdn"
     },
     {
-      "name": "00965-icon-service-Multi-Tenancy",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/00965-icon-service-Multi-Tenancy.svg"
+      "id": "viva-engage",
+      "displayName": "Viva Engage",
+      "category": "viva",
+      "path": "icons/viva/viva-engage.svg",
+      "source": "cdn"
     },
     {
-      "name": "10108-icon-service-Infrastructure-Backup",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/10108-icon-service-Infrastructure-Backup.svg"
+      "id": "viva-pulse",
+      "displayName": "Viva Pulse",
+      "category": "viva",
+      "path": "icons/viva/viva-pulse.svg",
+      "source": "cdn"
     },
     {
-      "name": "10109-icon-service-Capacity",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/10109-icon-service-Capacity.svg"
+      "id": "viva-amplify",
+      "displayName": "Viva Amplify",
+      "category": "viva",
+      "path": "icons/viva/viva-amplify.svg",
+      "source": "cdn"
     },
     {
-      "name": "10110-icon-service-Offers",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/10110-icon-service-Offers.svg"
+      "id": "viva-glint",
+      "displayName": "Viva Glint",
+      "category": "viva",
+      "path": "icons/viva/viva-glint.svg",
+      "source": "repo"
     },
     {
-      "name": "10111-icon-service-User-Subscriptions",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/10111-icon-service-User-Subscriptions.svg"
+      "id": "viva-suite",
+      "displayName": "Viva Suite",
+      "category": "viva",
+      "path": "icons/viva/viva-suite.svg",
+      "source": "repo"
     },
     {
-      "name": "10113-icon-service-Plans",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/10113-icon-service-Plans.svg"
+      "id": "defender",
+      "displayName": "Defender",
+      "category": "security",
+      "path": "icons/security/defender.svg",
+      "source": "cdn"
     },
     {
-      "name": "10115-icon-service-Updates",
-      "category": "Azure",
-      "product": "azure-stack",
-      "path": "icons/Azure/azure-stack/10115-icon-service-Updates.svg"
+      "id": "purview",
+      "displayName": "Purview",
+      "category": "security",
+      "path": "icons/security/purview.svg",
+      "source": "cdn"
     },
     {
-      "name": "10210-icon-service-Blockchain-Applications",
-      "category": "Azure",
-      "product": "blockchain",
-      "path": "icons/Azure/blockchain/10210-icon-service-Blockchain-Applications.svg"
+      "id": "copilot",
+      "displayName": "Microsoft Copilot",
+      "category": "copilot",
+      "path": "icons/copilot/copilot.svg",
+      "source": "cdn"
     },
     {
-      "name": "10364-icon-service-Outbound-Connection",
-      "category": "Azure",
-      "product": "blockchain",
-      "path": "icons/Azure/blockchain/10364-icon-service-Outbound-Connection.svg"
+      "id": "copilot-365",
+      "displayName": "Microsoft 365 Copilot",
+      "category": "copilot",
+      "path": "icons/copilot/copilot-365.svg",
+      "source": "repo"
     },
     {
-      "name": "10366-icon-service-Azure-Blockchain-Service",
-      "category": "Azure",
-      "product": "blockchain",
-      "path": "icons/Azure/blockchain/10366-icon-service-Azure-Blockchain-Service.svg"
+      "id": "fabric",
+      "displayName": "Microsoft Fabric",
+      "category": "fabric",
+      "path": "icons/fabric/fabric.svg",
+      "source": "repo"
     },
     {
-      "name": "10367-icon-service-Azure-Token-Service",
-      "category": "Azure",
-      "product": "blockchain",
-      "path": "icons/Azure/blockchain/10367-icon-service-Azure-Token-Service.svg"
-    },
-    {
-      "name": "10374-icon-service-ABS-Member",
-      "category": "Azure",
-      "product": "blockchain",
-      "path": "icons/Azure/blockchain/10374-icon-service-ABS-Member.svg"
-    },
-    {
-      "name": "10375-icon-service-Consortium",
-      "category": "Azure",
-      "product": "blockchain",
-      "path": "icons/Azure/blockchain/10375-icon-service-Consortium.svg"
-    },
-    {
-      "name": "00195-icon-service-Maintenance-Configuration",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/00195-icon-service-Maintenance-Configuration.svg"
-    },
-    {
-      "name": "00328-icon-service-Host-Pools",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/00328-icon-service-Host-Pools.svg"
-    },
-    {
-      "name": "00329-icon-service-Application-Group",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/00329-icon-service-Application-Group.svg"
-    },
-    {
-      "name": "00330-icon-service-Workspaces",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/00330-icon-service-Workspaces.svg"
-    },
-    {
-      "name": "00398-icon-service-Disk-Encryption-Sets",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/00398-icon-service-Disk-Encryption-Sets.svg"
-    },
-    {
-      "name": "00400-icon-service-Workspaces",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/00400-icon-service-Workspaces.svg"
-    },
-    {
-      "name": "02112-icon-service-Automanaged-VM",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02112-icon-service-Automanaged-VM.svg"
-    },
-    {
-      "name": "02370-icon-service-Managed-Service-Fabric",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02370-icon-service-Managed-Service-Fabric.svg"
-    },
-    {
-      "name": "02409-icon-service-Metrics-Advisor",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02409-icon-service-Metrics-Advisor.svg"
-    },
-    {
-      "name": "02634-icon-service-Image-Templates",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02634-icon-service-Image-Templates.svg"
-    },
-    {
-      "name": "02817-icon-service-Restore-Points",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02817-icon-service-Restore-Points.svg"
-    },
-    {
-      "name": "02818-icon-service-Restore-Points-Collections",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02818-icon-service-Restore-Points-Collections.svg"
-    },
-    {
-      "name": "02864-icon-service-Azure-Compute-Galleries",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/02864-icon-service-Azure-Compute-Galleries.svg"
-    },
-    {
-      "name": "10021-icon-service-Virtual-Machine",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10021-icon-service-Virtual-Machine.svg"
-    },
-    {
-      "name": "10023-icon-service-Kubernetes-Services",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10023-icon-service-Kubernetes-Services.svg"
-    },
-    {
-      "name": "10024-icon-service-Mesh-Applications",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10024-icon-service-Mesh-Applications.svg"
-    },
-    {
-      "name": "10025-icon-service-Availability-Sets",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10025-icon-service-Availability-Sets.svg"
-    },
-    {
-      "name": "10026-icon-service-Disks-Snapshots",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10026-icon-service-Disks-Snapshots.svg"
-    },
-    {
-      "name": "10027-icon-service-OS-Images-(Classic)",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10027-icon-service-OS-Images-(Classic).svg"
-    },
-    {
-      "name": "10028-icon-service-Virtual-Machines-(Classic)",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10028-icon-service-Virtual-Machines-(Classic).svg"
-    },
-    {
-      "name": "10029-icon-service-Function-Apps",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10029-icon-service-Function-Apps.svg"
-    },
-    {
-      "name": "10030-icon-service-Cloud-Services-(Classic)",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10030-icon-service-Cloud-Services-(Classic).svg"
-    },
-    {
-      "name": "10031-icon-service-Batch-Accounts",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10031-icon-service-Batch-Accounts.svg"
-    },
-    {
-      "name": "10032-icon-service-Disks",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10032-icon-service-Disks.svg"
-    },
-    {
-      "name": "10033-icon-service-Images",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10033-icon-service-Images.svg"
-    },
-    {
-      "name": "10034-icon-service-VM-Scale-Sets",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10034-icon-service-VM-Scale-Sets.svg"
-    },
-    {
-      "name": "10035-icon-service-App-Services",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10035-icon-service-App-Services.svg"
-    },
-    {
-      "name": "10036-icon-service-Service-Fabric-Clusters",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10036-icon-service-Service-Fabric-Clusters.svg"
-    },
-    {
-      "name": "10037-icon-service-Image-Definitions",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10037-icon-service-Image-Definitions.svg"
-    },
-    {
-      "name": "10038-icon-service-Image-Versions",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10038-icon-service-Image-Versions.svg"
-    },
-    {
-      "name": "10039-icon-service-Shared-Image-Galleries",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10039-icon-service-Shared-Image-Galleries.svg"
-    },
-    {
-      "name": "10040-icon-service-VM-Images-(Classic)",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10040-icon-service-VM-Images-(Classic).svg"
-    },
-    {
-      "name": "10041-icon-service-Disks-(Classic)",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10041-icon-service-Disks-(Classic).svg"
-    },
-    {
-      "name": "10049-icon-service-Container-Services-(Deprecated)",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10049-icon-service-Container-Services-(Deprecated).svg"
-    },
-    {
-      "name": "10104-icon-service-Container-Instances",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10104-icon-service-Container-Instances.svg"
-    },
-    {
-      "name": "10346-icon-service-Host-Groups",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10346-icon-service-Host-Groups.svg"
-    },
-    {
-      "name": "10347-icon-service-Hosts",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10347-icon-service-Hosts.svg"
-    },
-    {
-      "name": "10370-icon-service-Azure-Spring-Apps",
-      "category": "Azure",
-      "product": "compute",
-      "path": "icons/Azure/compute/10370-icon-service-Azure-Spring-Apps.svg"
-    },
-    {
-      "name": "03331-icon-service-Azure-Red-Hat-OpenShift",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/03331-icon-service-Azure-Red-Hat-OpenShift.svg"
-    },
-    {
-      "name": "10023-icon-service-Kubernetes-Services",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/10023-icon-service-Kubernetes-Services.svg"
-    },
-    {
-      "name": "10031-icon-service-Batch-Accounts",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/10031-icon-service-Batch-Accounts.svg"
-    },
-    {
-      "name": "10035-icon-service-App-Services",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/10035-icon-service-App-Services.svg"
-    },
-    {
-      "name": "10036-icon-service-Service-Fabric-Clusters",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/10036-icon-service-Service-Fabric-Clusters.svg"
-    },
-    {
-      "name": "10104-icon-service-Container-Instances",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/10104-icon-service-Container-Instances.svg"
-    },
-    {
-      "name": "10105-icon-service-Container-Registries",
-      "category": "Azure",
-      "product": "containers",
-      "path": "icons/Azure/containers/10105-icon-service-Container-Registries.svg"
-    },
-    {
-      "name": "00036-icon-service-SQL-Data-Warehouses",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/00036-icon-service-SQL-Data-Warehouses.svg"
-    },
-    {
-      "name": "00606-icon-service-Azure-Synapse-Analytics",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/00606-icon-service-Azure-Synapse-Analytics.svg"
-    },
-    {
-      "name": "02390-icon-service-Azure-SQL",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/02390-icon-service-Azure-SQL.svg"
-    },
-    {
-      "name": "02392-icon-service-SSIS-Lift-And-Shift-IR",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/02392-icon-service-SSIS-Lift-And-Shift-IR.svg"
-    },
-    {
-      "name": "02517-icon-service-Azure-Purview-Accounts",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/02517-icon-service-Azure-Purview-Accounts.svg"
-    },
-    {
-      "name": "02750-icon-service-Azure-SQL-Edge",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/02750-icon-service-Azure-SQL-Edge.svg"
-    },
-    {
-      "name": "02827-icon-service-Azure-Database-PostgreSQL-Server-Group",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/02827-icon-service-Azure-Database-PostgreSQL-Server-Group.svg"
-    },
-    {
-      "name": "10121-icon-service-Azure-Cosmos-DB",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10121-icon-service-Azure-Cosmos-DB.svg"
-    },
-    {
-      "name": "10122-icon-service-Azure-Database-MySQL-Server",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10122-icon-service-Azure-Database-MySQL-Server.svg"
-    },
-    {
-      "name": "10123-icon-service-Azure-Database-MariaDB-Server",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10123-icon-service-Azure-Database-MariaDB-Server.svg"
-    },
-    {
-      "name": "10124-icon-service-Azure-SQL-VM",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10124-icon-service-Azure-SQL-VM.svg"
-    },
-    {
-      "name": "10126-icon-service-Data-Factories",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10126-icon-service-Data-Factories.svg"
-    },
-    {
-      "name": "10127-icon-service-Virtual-Clusters",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10127-icon-service-Virtual-Clusters.svg"
-    },
-    {
-      "name": "10128-icon-service-Elastic-Job-Agents",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10128-icon-service-Elastic-Job-Agents.svg"
-    },
-    {
-      "name": "10130-icon-service-SQL-Database",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10130-icon-service-SQL-Database.svg"
-    },
-    {
-      "name": "10131-icon-service-Azure-Database-PostgreSQL-Server",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10131-icon-service-Azure-Database-PostgreSQL-Server.svg"
-    },
-    {
-      "name": "10132-icon-service-SQL-Server",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10132-icon-service-SQL-Server.svg"
-    },
-    {
-      "name": "10133-icon-service-Azure-Database-Migration-Services",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10133-icon-service-Azure-Database-Migration-Services.svg"
-    },
-    {
-      "name": "10134-icon-service-SQL-Elastic-Pools",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10134-icon-service-SQL-Elastic-Pools.svg"
-    },
-    {
-      "name": "10135-icon-service-Managed-Database",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10135-icon-service-Managed-Database.svg"
-    },
-    {
-      "name": "10136-icon-service-SQL-Managed-Instance",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10136-icon-service-SQL-Managed-Instance.svg"
-    },
-    {
-      "name": "10137-icon-service-Azure-SQL-Server-Stretch-Databases",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10137-icon-service-Azure-SQL-Server-Stretch-Databases.svg"
-    },
-    {
-      "name": "10137-icon-service-Cache-Redis",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10137-icon-service-Cache-Redis.svg"
-    },
-    {
-      "name": "10139-icon-service-Instance-Pools",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10139-icon-service-Instance-Pools.svg"
-    },
-    {
-      "name": "10145-icon-service-Azure-Data-Explorer-Clusters",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10145-icon-service-Azure-Data-Explorer-Clusters.svg"
-    },
-    {
-      "name": "10351-icon-service-SQL-Server-Registries",
-      "category": "Azure",
-      "product": "databases",
-      "path": "icons/Azure/databases/10351-icon-service-SQL-Server-Registries.svg"
-    },
-    {
-      "name": "00012-icon-service-Application-Insights",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/00012-icon-service-Application-Insights.svg"
-    },
-    {
-      "name": "00563-icon-service-Change-Analysis",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/00563-icon-service-Change-Analysis.svg"
-    },
-    {
-      "name": "02373-icon-service-CloudTest",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/02373-icon-service-CloudTest.svg"
-    },
-    {
-      "name": "02423-icon-service-Load-Testing",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/02423-icon-service-Load-Testing.svg"
-    },
-    {
-      "name": "02761-icon-service-Lab-Accounts",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/02761-icon-service-Lab-Accounts.svg"
-    },
-    {
-      "name": "03339-icon-service-DevOps-Starter",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/03339-icon-service-DevOps-Starter.svg"
-    },
-    {
-      "name": "10042-icon-service-API-Management-Services",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/10042-icon-service-API-Management-Services.svg"
-    },
-    {
-      "name": "10048-icon-service-API-Connections",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/10048-icon-service-API-Connections.svg"
-    },
-    {
-      "name": "10261-icon-service-Azure-DevOps",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/10261-icon-service-Azure-DevOps.svg"
-    },
-    {
-      "name": "10264-icon-service-DevTest-Labs",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/10264-icon-service-DevTest-Labs.svg"
-    },
-    {
-      "name": "10265-icon-service-Lab-Services",
-      "category": "Azure",
-      "product": "devops",
-      "path": "icons/Azure/devops/10265-icon-service-Lab-Services.svg"
-    },
-    {
-      "name": "00004-icon-service-Cost-Management-and-Billing",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/00004-icon-service-Cost-Management-and-Billing.svg"
-    },
-    {
-      "name": "00456-icon-service-Preview-Features",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/00456-icon-service-Preview-Features.svg"
-    },
-    {
-      "name": "10001-icon-service-All-Resources",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10001-icon-service-All-Resources.svg"
-    },
-    {
-      "name": "10002-icon-service-Subscriptions",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10002-icon-service-Subscriptions.svg"
-    },
-    {
-      "name": "10003-icon-service-Reservations",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10003-icon-service-Reservations.svg"
-    },
-    {
-      "name": "10004-icon-service-Service-Health",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10004-icon-service-Service-Health.svg"
-    },
-    {
-      "name": "10005-icon-service-Information",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10005-icon-service-Information.svg"
-    },
-    {
-      "name": "10006-icon-service-Recent",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10006-icon-service-Recent.svg"
-    },
-    {
-      "name": "10007-icon-service-Resource-Groups",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10007-icon-service-Resource-Groups.svg"
-    },
-    {
-      "name": "10008-icon-service-Marketplace",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10008-icon-service-Marketplace.svg"
-    },
-    {
-      "name": "10009-icon-service-Templates",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10009-icon-service-Templates.svg"
-    },
-    {
-      "name": "10010-icon-service-Quickstart-Center",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10010-icon-service-Quickstart-Center.svg"
-    },
-    {
-      "name": "10011-icon-service-Management-Groups",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10011-icon-service-Management-Groups.svg"
-    },
-    {
-      "name": "10013-icon-service-Help-and-Support",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10013-icon-service-Help-and-Support.svg"
-    },
-    {
-      "name": "10014-icon-service-Tag",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10014-icon-service-Tag.svg"
-    },
-    {
-      "name": "10015-icon-service-Dashboard",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10015-icon-service-Dashboard.svg"
-    },
-    {
-      "name": "10016-icon-service-Free-Services",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10016-icon-service-Free-Services.svg"
-    },
-    {
-      "name": "10019-icon-service-Cost-Management",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10019-icon-service-Cost-Management.svg"
-    },
-    {
-      "name": "10116-icon-service-Region-Management",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10116-icon-service-Region-Management.svg"
-    },
-    {
-      "name": "10341-icon-service-Troubleshoot",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10341-icon-service-Troubleshoot.svg"
-    },
-    {
-      "name": "10349-icon-service-Resource-Explorer",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10349-icon-service-Resource-Explorer.svg"
-    },
-    {
-      "name": "10779-icon-service-Biz-Talk",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10779-icon-service-Biz-Talk.svg"
-    },
-    {
-      "name": "10780-icon-service-Blob-Block",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10780-icon-service-Blob-Block.svg"
-    },
-    {
-      "name": "10781-icon-service-Blob-Page",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10781-icon-service-Blob-Page.svg"
-    },
-    {
-      "name": "10782-icon-service-Branch",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10782-icon-service-Branch.svg"
-    },
-    {
-      "name": "10783-icon-service-Browser",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10783-icon-service-Browser.svg"
-    },
-    {
-      "name": "10784-icon-service-Bug",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10784-icon-service-Bug.svg"
-    },
-    {
-      "name": "10785-icon-service-Builds",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10785-icon-service-Builds.svg"
-    },
-    {
-      "name": "10786-icon-service-Cache",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10786-icon-service-Cache.svg"
-    },
-    {
-      "name": "10787-icon-service-Code",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10787-icon-service-Code.svg"
-    },
-    {
-      "name": "10788-icon-service-Commit",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10788-icon-service-Commit.svg"
-    },
-    {
-      "name": "10789-icon-service-Controls",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10789-icon-service-Controls.svg"
-    },
-    {
-      "name": "10790-icon-service-Controls-Horizontal",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10790-icon-service-Controls-Horizontal.svg"
-    },
-    {
-      "name": "10791-icon-service-Cost-Alerts",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10791-icon-service-Cost-Alerts.svg"
-    },
-    {
-      "name": "10792-icon-service-Cost-Analysis",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10792-icon-service-Cost-Analysis.svg"
-    },
-    {
-      "name": "10793-icon-service-Cost-Budgets",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10793-icon-service-Cost-Budgets.svg"
-    },
-    {
-      "name": "10794-icon-service-Counter",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10794-icon-service-Counter.svg"
-    },
-    {
-      "name": "10795-icon-service-Cubes",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10795-icon-service-Cubes.svg"
-    },
-    {
-      "name": "10796-icon-service-Dev-Console",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10796-icon-service-Dev-Console.svg"
-    },
-    {
-      "name": "10797-icon-service-Download",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10797-icon-service-Download.svg"
-    },
-    {
-      "name": "10798-icon-service-Error",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10798-icon-service-Error.svg"
-    },
-    {
-      "name": "10799-icon-service-Extensions",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10799-icon-service-Extensions.svg"
-    },
-    {
-      "name": "10800-icon-service-File",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10800-icon-service-File.svg"
-    },
-    {
-      "name": "10801-icon-service-Files",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10801-icon-service-Files.svg"
-    },
-    {
-      "name": "10802-icon-service-Folder-Blank",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10802-icon-service-Folder-Blank.svg"
-    },
-    {
-      "name": "10803-icon-service-Folder-Website",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10803-icon-service-Folder-Website.svg"
-    },
-    {
-      "name": "10804-icon-service-FTP",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10804-icon-service-FTP.svg"
-    },
-    {
-      "name": "10805-icon-service-Gear",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10805-icon-service-Gear.svg"
-    },
-    {
-      "name": "10807-icon-service-Globe-Error",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10807-icon-service-Globe-Error.svg"
-    },
-    {
-      "name": "10808-icon-service-Globe-Success",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10808-icon-service-Globe-Success.svg"
-    },
-    {
-      "name": "10809-icon-service-Globe-Warning",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10809-icon-service-Globe-Warning.svg"
-    },
-    {
-      "name": "10810-icon-service-Guide",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10810-icon-service-Guide.svg"
-    },
-    {
-      "name": "10811-icon-service-Heart",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10811-icon-service-Heart.svg"
-    },
-    {
-      "name": "10812-icon-service-Image",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10812-icon-service-Image.svg"
-    },
-    {
-      "name": "10813-icon-service-Input-Output",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10813-icon-service-Input-Output.svg"
-    },
-    {
-      "name": "10814-icon-service-Journey-Hub",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10814-icon-service-Journey-Hub.svg"
-    },
-    {
-      "name": "10815-icon-service-Launch-Portal",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10815-icon-service-Launch-Portal.svg"
-    },
-    {
-      "name": "10816-icon-service-Learn",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10816-icon-service-Learn.svg"
-    },
-    {
-      "name": "10817-icon-service-Load-Test",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10817-icon-service-Load-Test.svg"
-    },
-    {
-      "name": "10818-icon-service-Location",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10818-icon-service-Location.svg"
-    },
-    {
-      "name": "10819-icon-service-Log-Streaming",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10819-icon-service-Log-Streaming.svg"
-    },
-    {
-      "name": "10820-icon-service-Management-Portal",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10820-icon-service-Management-Portal.svg"
-    },
-    {
-      "name": "10821-icon-service-Media-File",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10821-icon-service-Media-File.svg"
-    },
-    {
-      "name": "10822-icon-service-Mobile",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10822-icon-service-Mobile.svg"
-    },
-    {
-      "name": "10823-icon-service-Mobile-Engagement",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10823-icon-service-Mobile-Engagement.svg"
-    },
-    {
-      "name": "10824-icon-service-Power",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10824-icon-service-Power.svg"
-    },
-    {
-      "name": "10825-icon-service-Powershell",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10825-icon-service-Powershell.svg"
-    },
-    {
-      "name": "10826-icon-service-Power-Up",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10826-icon-service-Power-Up.svg"
-    },
-    {
-      "name": "10827-icon-service-Feature-Previews",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10827-icon-service-Feature-Previews.svg"
-    },
-    {
-      "name": "10828-icon-service-Process-Explorer",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10828-icon-service-Process-Explorer.svg"
-    },
-    {
-      "name": "10829-icon-service-Production-Ready-Database",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10829-icon-service-Production-Ready-Database.svg"
-    },
-    {
-      "name": "10830-icon-service-Resource-Group-List",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10830-icon-service-Resource-Group-List.svg"
-    },
-    {
-      "name": "10831-icon-service-Resource-Linked",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10831-icon-service-Resource-Linked.svg"
-    },
-    {
-      "name": "10833-icon-service-Scheduler",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10833-icon-service-Scheduler.svg"
-    },
-    {
-      "name": "10834-icon-service-Search",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10834-icon-service-Search.svg"
-    },
-    {
-      "name": "10835-icon-service-Server-Farm",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10835-icon-service-Server-Farm.svg"
-    },
-    {
-      "name": "10837-icon-service-SSD",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10837-icon-service-SSD.svg"
-    },
-    {
-      "name": "10838-icon-service-Storage-Azure-Files",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10838-icon-service-Storage-Azure-Files.svg"
-    },
-    {
-      "name": "10839-icon-service-Storage-Container",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10839-icon-service-Storage-Container.svg"
-    },
-    {
-      "name": "10840-icon-service-Storage-Queue",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10840-icon-service-Storage-Queue.svg"
-    },
-    {
-      "name": "10841-icon-service-Table",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10841-icon-service-Table.svg"
-    },
-    {
-      "name": "10842-icon-service-Tags",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10842-icon-service-Tags.svg"
-    },
-    {
-      "name": "10843-icon-service-TFS-VC-Repository",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10843-icon-service-TFS-VC-Repository.svg"
-    },
-    {
-      "name": "10844-icon-service-Toolbox",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10844-icon-service-Toolbox.svg"
-    },
-    {
-      "name": "10845-icon-service-Versions",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10845-icon-service-Versions.svg"
-    },
-    {
-      "name": "10847-icon-service-Website-Power",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10847-icon-service-Website-Power.svg"
-    },
-    {
-      "name": "10848-icon-service-Website-Staging",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10848-icon-service-Website-Staging.svg"
-    },
-    {
-      "name": "10849-icon-service-Web-Slots",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10849-icon-service-Web-Slots.svg"
-    },
-    {
-      "name": "10850-icon-service-Web-Test",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10850-icon-service-Web-Test.svg"
-    },
-    {
-      "name": "10851-icon-service-Workbooks",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10851-icon-service-Workbooks.svg"
-    },
-    {
-      "name": "10852-icon-service-Workflow",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10852-icon-service-Workflow.svg"
-    },
-    {
-      "name": "10853-icon-service-Backlog",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10853-icon-service-Backlog.svg"
-    },
-    {
-      "name": "10854-icon-service-Media",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10854-icon-service-Media.svg"
-    },
-    {
-      "name": "10855-icon-service-Module",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10855-icon-service-Module.svg"
-    },
-    {
-      "name": "10856-icon-service-Search-Grid",
-      "category": "Azure",
-      "product": "general",
-      "path": "icons/Azure/general/10856-icon-service-Search-Grid.svg"
-    },
-    {
-      "name": "00321-icon-service-Security",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/00321-icon-service-Security.svg"
-    },
-    {
-      "name": "00919-icon-service-Administrative-Units",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/00919-icon-service-Administrative-Units.svg"
-    },
-    {
-      "name": "01084-icon-service-Verifiable-Credentials",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/01084-icon-service-Verifiable-Credentials.svg"
-    },
-    {
-      "name": "02251-icon-service-Azure-AD-Privleged-Identity-Management",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/02251-icon-service-Azure-AD-Privleged-Identity-Management.svg"
-    },
-    {
-      "name": "02386-icon-service-API-Proxy",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/02386-icon-service-API-Proxy.svg"
-    },
-    {
-      "name": "02679-icon-service-Tenant-Properties",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/02679-icon-service-Tenant-Properties.svg"
-    },
-    {
-      "name": "02680-icon-service-Custom-Azure-AD-Roles",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/02680-icon-service-Custom-Azure-AD-Roles.svg"
-    },
-    {
-      "name": "02681-icon-service-AAD-Licenses",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/02681-icon-service-AAD-Licenses.svg"
-    },
-    {
-      "name": "03338-icon-service-External-Identities",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/03338-icon-service-External-Identities.svg"
-    },
-    {
-      "name": "10221-icon-service-Azure-Active-Directory",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10221-icon-service-Azure-Active-Directory.svg"
-    },
-    {
-      "name": "10222-icon-service-Azure-AD-Domain-Services",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10222-icon-service-Azure-AD-Domain-Services.svg"
-    },
-    {
-      "name": "10223-icon-service-Groups",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10223-icon-service-Groups.svg"
-    },
-    {
-      "name": "10224-icon-service-Active-Directory-Connect-Health",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10224-icon-service-Active-Directory-Connect-Health.svg"
-    },
-    {
-      "name": "10225-icon-service-Enterprise-Applications",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10225-icon-service-Enterprise-Applications.svg"
-    },
-    {
-      "name": "10227-icon-service-Managed-Identities",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10227-icon-service-Managed-Identities.svg"
-    },
-    {
-      "name": "10228-icon-service-Azure-AD-B2C",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10228-icon-service-Azure-AD-B2C.svg"
-    },
-    {
-      "name": "10229-icon-service-Azure-Information-Protection",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10229-icon-service-Azure-Information-Protection.svg"
-    },
-    {
-      "name": "10230-icon-service-Users",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10230-icon-service-Users.svg"
-    },
-    {
-      "name": "10231-icon-service-Azure-AD-Identity-Protection",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10231-icon-service-Azure-AD-Identity-Protection.svg"
-    },
-    {
-      "name": "10232-icon-service-App-Registrations",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10232-icon-service-App-Registrations.svg"
-    },
-    {
-      "name": "10234-icon-service-Azure-AD-Privilege-Identity-Management",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10234-icon-service-Azure-AD-Privilege-Identity-Management.svg"
-    },
-    {
-      "name": "10235-icon-service-Identity-Governance",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10235-icon-service-Identity-Governance.svg"
-    },
-    {
-      "name": "10340-icon-service-Azure-AD-Roles-and-Administrators",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10340-icon-service-Azure-AD-Roles-and-Administrators.svg"
-    },
-    {
-      "name": "10433-icon-service-User-Settings",
-      "category": "Azure",
-      "product": "identity",
-      "path": "icons/Azure/identity/10433-icon-service-User-Settings.svg"
-    },
-    {
-      "name": "00036-icon-service-SQL-Data-Warehouses",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/00036-icon-service-SQL-Data-Warehouses.svg"
-    },
-    {
-      "name": "00555-icon-service-Integration-Service-Environments",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/00555-icon-service-Integration-Service-Environments.svg"
-    },
-    {
-      "name": "00691-icon-service-Azure-Databox-Gateway",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/00691-icon-service-Azure-Databox-Gateway.svg"
-    },
-    {
-      "name": "02072-icon-service-Partner-Topic",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/02072-icon-service-Partner-Topic.svg"
-    },
-    {
-      "name": "02073-icon-service-System-Topic",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/02073-icon-service-System-Topic.svg"
-    },
-    {
-      "name": "02265-icon-service-Partner-Registration",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/02265-icon-service-Partner-Registration.svg"
-    },
-    {
-      "name": "02266-icon-service-Partner-Namespace",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/02266-icon-service-Partner-Namespace.svg"
-    },
-    {
-      "name": "02631-icon-service-Logic-Apps",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/02631-icon-service-Logic-Apps.svg"
-    },
-    {
-      "name": "03335-icon-service-Power-Platform",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/03335-icon-service-Power-Platform.svg"
-    },
-    {
-      "name": "10042-icon-service-API-Management-Services",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10042-icon-service-API-Management-Services.svg"
-    },
-    {
-      "name": "10048-icon-service-API-Connections",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10048-icon-service-API-Connections.svg"
-    },
-    {
-      "name": "10089-icon-service-StorSimple-Device-Managers",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10089-icon-service-StorSimple-Device-Managers.svg"
-    },
-    {
-      "name": "10095-icon-service-Azure-Stack-Edge",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10095-icon-service-Azure-Stack-Edge.svg"
-    },
-    {
-      "name": "10126-icon-service-Data-Factories",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10126-icon-service-Data-Factories.svg"
-    },
-    {
-      "name": "10137-icon-service-Azure-SQL-Server-Stretch-Databases",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10137-icon-service-Azure-SQL-Server-Stretch-Databases.svg"
-    },
-    {
-      "name": "10206-icon-service-Event-Grid-Topics",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10206-icon-service-Event-Grid-Topics.svg"
-    },
-    {
-      "name": "10209-icon-service-Relays",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10209-icon-service-Relays.svg"
-    },
-    {
-      "name": "10212-icon-service-Azure-API-for-FHIR",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10212-icon-service-Azure-API-for-FHIR.svg"
-    },
-    {
-      "name": "10213-icon-service-Software-as-a-Service",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10213-icon-service-Software-as-a-Service.svg"
-    },
-    {
-      "name": "10215-icon-service-Event-Grid-Domains",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10215-icon-service-Event-Grid-Domains.svg"
-    },
-    {
-      "name": "10216-icon-service-Azure-Data-Catalog",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10216-icon-service-Azure-Data-Catalog.svg"
-    },
-    {
-      "name": "10218-icon-service-Integration-Accounts",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10218-icon-service-Integration-Accounts.svg"
-    },
-    {
-      "name": "10219-icon-service-App-Configuration",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10219-icon-service-App-Configuration.svg"
-    },
-    {
-      "name": "10220-icon-service-SendGrid-Accounts",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10220-icon-service-SendGrid-Accounts.svg"
-    },
-    {
-      "name": "10221-icon-service-Event-Grid-Subscriptions",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10221-icon-service-Event-Grid-Subscriptions.svg"
-    },
-    {
-      "name": "10363-icon-service-Logic-Apps-Custom-Connector",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10363-icon-service-Logic-Apps-Custom-Connector.svg"
-    },
-    {
-      "name": "10836-icon-service-Azure-Service-Bus",
-      "category": "Azure",
-      "product": "integration",
-      "path": "icons/Azure/integration/10836-icon-service-Azure-Service-Bus.svg"
-    },
-    {
-      "name": "00399-icon-service-Device-Security-Apple",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/00399-icon-service-Device-Security-Apple.svg"
-    },
-    {
-      "name": "00399-icon-service-Device-Security-Google",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/00399-icon-service-Device-Security-Google.svg"
-    },
-    {
-      "name": "00399-icon-service-Device-Security-Windows",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/00399-icon-service-Device-Security-Windows.svg"
-    },
-    {
-      "name": "10329-icon-service-Intune",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10329-icon-service-Intune.svg"
-    },
-    {
-      "name": "10330-icon-service-eBooks",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10330-icon-service-eBooks.svg"
-    },
-    {
-      "name": "10331-icon-service-Client-Apps",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10331-icon-service-Client-Apps.svg"
-    },
-    {
-      "name": "10332-icon-service-Devices",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10332-icon-service-Devices.svg"
-    },
-    {
-      "name": "10333-icon-service-Device-Compliance",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10333-icon-service-Device-Compliance.svg"
-    },
-    {
-      "name": "10335-icon-service-Software-Updates",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10335-icon-service-Software-Updates.svg"
-    },
-    {
-      "name": "10336-icon-service-Security-Baselines",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10336-icon-service-Security-Baselines.svg"
-    },
-    {
-      "name": "10337-icon-service-Device-Enrollment",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10337-icon-service-Device-Enrollment.svg"
-    },
-    {
-      "name": "10338-icon-service-Device-Configuration",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10338-icon-service-Device-Configuration.svg"
-    },
-    {
-      "name": "10339-icon-service-Exchange-Access",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10339-icon-service-Exchange-Access.svg"
-    },
-    {
-      "name": "10340-icon-service-Azure-AD-Roles-and-Administrators",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10340-icon-service-Azure-AD-Roles-and-Administrators.svg"
-    },
-    {
-      "name": "10342-icon-service-Tenant-Status",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10342-icon-service-Tenant-Status.svg"
-    },
-    {
-      "name": "10343-icon-service-Intune-For-Education",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10343-icon-service-Intune-For-Education.svg"
-    },
-    {
-      "name": "10344-icon-service-Intune-App-Protection",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10344-icon-service-Intune-App-Protection.svg"
-    },
-    {
-      "name": "10350-icon-service-Mindaro",
-      "category": "Azure",
-      "product": "intune",
-      "path": "icons/Azure/intune/10350-icon-service-Mindaro.svg"
-    },
-    {
-      "name": "00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg"
-    },
-    {
-      "name": "00039-icon-service-Event-Hubs",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/00039-icon-service-Event-Hubs.svg"
-    },
-    {
-      "name": "00042-icon-service-Stream-Analytics-Jobs",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/00042-icon-service-Stream-Analytics-Jobs.svg"
-    },
-    {
-      "name": "00691-icon-service-Azure-Databox-Gateway",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/00691-icon-service-Azure-Databox-Gateway.svg"
-    },
-    {
-      "name": "01030-icon-service-Digital-Twins",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/01030-icon-service-Digital-Twins.svg"
-    },
-    {
-      "name": "02359-icon-service-Industrial-IoT",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/02359-icon-service-Industrial-IoT.svg"
-    },
-    {
-      "name": "02631-icon-service-Logic-Apps",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/02631-icon-service-Logic-Apps.svg"
-    },
-    {
-      "name": "10029-icon-service-Function-Apps",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10029-icon-service-Function-Apps.svg"
-    },
-    {
-      "name": "10045-icon-service-Notification-Hubs",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10045-icon-service-Notification-Hubs.svg"
-    },
-    {
-      "name": "10053-icon-service-Notification-Hub-Namespaces",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10053-icon-service-Notification-Hub-Namespaces.svg"
-    },
-    {
-      "name": "10114-icon-service-Azure-Stack",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10114-icon-service-Azure-Stack.svg"
-    },
-    {
-      "name": "10121-icon-service-Azure-Cosmos-DB",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10121-icon-service-Azure-Cosmos-DB.svg"
-    },
-    {
-      "name": "10149-icon-service-Event-Hub-Clusters",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10149-icon-service-Event-Hub-Clusters.svg"
-    },
-    {
-      "name": "10167-icon-service-Machine-Learning-Studio-Workspaces",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10167-icon-service-Machine-Learning-Studio-Workspaces.svg"
-    },
-    {
-      "name": "10168-icon-service-Machine-Learning-Studio-Web-Service-Plans",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg"
-    },
-    {
-      "name": "10181-icon-service-Time-Series-Insights-Environments",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10181-icon-service-Time-Series-Insights-Environments.svg"
-    },
-    {
-      "name": "10182-icon-service-IoT-Hub",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10182-icon-service-IoT-Hub.svg"
-    },
-    {
-      "name": "10184-icon-service-IoT-Central-Applications",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10184-icon-service-IoT-Central-Applications.svg"
-    },
-    {
-      "name": "10185-icon-service-Azure-Maps-Accounts",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10185-icon-service-Azure-Maps-Accounts.svg"
-    },
-    {
-      "name": "10186-icon-service-IoT-Edge",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10186-icon-service-IoT-Edge.svg"
-    },
-    {
-      "name": "10188-icon-service-Time-Series-Insights-Event-Sources",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10188-icon-service-Time-Series-Insights-Event-Sources.svg"
-    },
-    {
-      "name": "10192-icon-service-Time-Series-Insights-Access-Policies",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10192-icon-service-Time-Series-Insights-Access-Policies.svg"
-    },
-    {
-      "name": "10198-icon-service-Time-Series-Data-Sets",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10198-icon-service-Time-Series-Data-Sets.svg"
-    },
-    {
-      "name": "10203-icon-service-Windows10-Core-Services",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10203-icon-service-Windows10-Core-Services.svg"
-    },
-    {
-      "name": "10221-icon-service-Event-Grid-Subscriptions",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10221-icon-service-Event-Grid-Subscriptions.svg"
-    },
-    {
-      "name": "10369-icon-service-Device-Provisioning-Services",
-      "category": "Azure",
-      "product": "iot",
-      "path": "icons/Azure/iot/10369-icon-service-Device-Provisioning-Services.svg"
-    },
-    {
-      "name": "00001-icon-service-Monitor",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00001-icon-service-Monitor.svg"
-    },
-    {
-      "name": "00002-icon-service-Alerts",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00002-icon-service-Alerts.svg"
-    },
-    {
-      "name": "00003-icon-service-Advisor",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00003-icon-service-Advisor.svg"
-    },
-    {
-      "name": "00004-icon-service-Cost-Management-and-Billing",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00004-icon-service-Cost-Management-and-Billing.svg"
-    },
-    {
-      "name": "00006-icon-service-Blueprints",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00006-icon-service-Blueprints.svg"
-    },
-    {
-      "name": "00007-icon-service-Activity-Log",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00007-icon-service-Activity-Log.svg"
-    },
-    {
-      "name": "00008-icon-service-Diagnostics-Settings",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00008-icon-service-Diagnostics-Settings.svg"
-    },
-    {
-      "name": "00009-icon-service-Log-Analytics-Workspaces",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00009-icon-service-Log-Analytics-Workspaces.svg"
-    },
-    {
-      "name": "00010-icon-service-Scheduler-Job-Collections",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00010-icon-service-Scheduler-Job-Collections.svg"
-    },
-    {
-      "name": "00011-icon-service-Compliance",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00011-icon-service-Compliance.svg"
-    },
-    {
-      "name": "00012-icon-service-Application-Insights",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00012-icon-service-Application-Insights.svg"
-    },
-    {
-      "name": "00014-icon-service-My-Customers",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00014-icon-service-My-Customers.svg"
-    },
-    {
-      "name": "00017-icon-service-Recovery-Services-Vaults",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00017-icon-service-Recovery-Services-Vaults.svg"
-    },
-    {
-      "name": "00020-icon-service-Metrics",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00020-icon-service-Metrics.svg"
-    },
-    {
-      "name": "00021-icon-service-Solutions",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00021-icon-service-Solutions.svg"
-    },
-    {
-      "name": "00022-icon-service-Automation-Accounts",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00022-icon-service-Automation-Accounts.svg"
-    },
-    {
-      "name": "00024-icon-service-Operation-Log-(Classic)",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00024-icon-service-Operation-Log-(Classic).svg"
-    },
-    {
-      "name": "00025-icon-service-Service-Providers",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00025-icon-service-Service-Providers.svg"
-    },
-    {
-      "name": "00026-icon-service-Education",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00026-icon-service-Education.svg"
-    },
-    {
-      "name": "00027-icon-service-Service-Catalog-MAD",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00027-icon-service-Service-Catalog-MAD.svg"
-    },
-    {
-      "name": "00471-icon-service-Azure-Lighthouse",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00471-icon-service-Azure-Lighthouse.svg"
-    },
-    {
-      "name": "00571-icon-service-Universal-Print",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00571-icon-service-Universal-Print.svg"
-    },
-    {
-      "name": "00756-icon-service-Azure-Arc",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/00756-icon-service-Azure-Arc.svg"
-    },
-    {
-      "name": "01710-icon-service-Arc-Machines",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/01710-icon-service-Arc-Machines.svg"
-    },
-    {
-      "name": "10303-icon-service-User-Privacy",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10303-icon-service-User-Privacy.svg"
-    },
-    {
-      "name": "10311-icon-service-Managed-Desktop",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10311-icon-service-Managed-Desktop.svg"
-    },
-    {
-      "name": "10313-icon-service-Managed-Applications-Center",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10313-icon-service-Managed-Applications-Center.svg"
-    },
-    {
-      "name": "10314-icon-service-Customer-Lockbox-for-Microsoft-Azure",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10314-icon-service-Customer-Lockbox-for-Microsoft-Azure.svg"
-    },
-    {
-      "name": "10316-icon-service-Policy",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10316-icon-service-Policy.svg"
-    },
-    {
-      "name": "10318-icon-service-Resource-Graph-Explorer",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10318-icon-service-Resource-Graph-Explorer.svg"
-    },
-    {
-      "name": "10450-icon-service-MachinesAzureArc",
-      "category": "Azure",
-      "product": "management-+-governance",
-      "path": "icons/Azure/management-+-governance/10450-icon-service-MachinesAzureArc.svg"
-    },
-    {
-      "name": "00787-icon-service-Keys",
-      "category": "Azure",
-      "product": "menu",
-      "path": "icons/Azure/menu/00787-icon-service-Keys.svg"
-    },
-    {
-      "name": "00004-icon-service-Cost-Management-and-Billing",
-      "category": "Azure",
-      "product": "migrate",
-      "path": "icons/Azure/migrate/00004-icon-service-Cost-Management-and-Billing.svg"
-    },
-    {
-      "name": "00017-icon-service-Recovery-Services-Vaults",
-      "category": "Azure",
-      "product": "migrate",
-      "path": "icons/Azure/migrate/00017-icon-service-Recovery-Services-Vaults.svg"
-    },
-    {
-      "name": "00691-icon-service-Azure-Databox-Gateway",
-      "category": "Azure",
-      "product": "migrate",
-      "path": "icons/Azure/migrate/00691-icon-service-Azure-Databox-Gateway.svg"
-    },
-    {
-      "name": "10094-icon-service-Data-Box",
-      "category": "Azure",
-      "product": "migrate",
-      "path": "icons/Azure/migrate/10094-icon-service-Data-Box.svg"
-    },
-    {
-      "name": "10095-icon-service-Azure-Stack-Edge",
-      "category": "Azure",
-      "product": "migrate",
-      "path": "icons/Azure/migrate/10095-icon-service-Azure-Stack-Edge.svg"
-    },
-    {
-      "name": "10281-icon-service-Azure-Migrate",
-      "category": "Azure",
-      "product": "migrate",
-      "path": "icons/Azure/migrate/10281-icon-service-Azure-Migrate.svg"
-    },
-    {
-      "name": "10133-icon-service-Azure-Database-Migration-Services",
-      "category": "Azure",
-      "product": "migration",
-      "path": "icons/Azure/migration/10133-icon-service-Azure-Database-Migration-Services.svg"
-    },
-    {
-      "name": "00698-icon-service-Remote-Rendering",
-      "category": "Azure",
-      "product": "mixed-reality",
-      "path": "icons/Azure/mixed-reality/00698-icon-service-Remote-Rendering.svg"
-    },
-    {
-      "name": "10352-icon-service-Spatial-Anchor-Accounts",
-      "category": "Azure",
-      "product": "mixed-reality",
-      "path": "icons/Azure/mixed-reality/10352-icon-service-Spatial-Anchor-Accounts.svg"
-    },
-    {
-      "name": "03335-icon-service-Power-Platform",
-      "category": "Azure",
-      "product": "mobile",
-      "path": "icons/Azure/mobile/03335-icon-service-Power-Platform.svg"
-    },
-    {
-      "name": "10035-icon-service-App-Services",
-      "category": "Azure",
-      "product": "mobile",
-      "path": "icons/Azure/mobile/10035-icon-service-App-Services.svg"
-    },
-    {
-      "name": "10045-icon-service-Notification-Hubs",
-      "category": "Azure",
-      "product": "mobile",
-      "path": "icons/Azure/mobile/10045-icon-service-Notification-Hubs.svg"
-    },
-    {
-      "name": "00001-icon-service-Monitor",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00001-icon-service-Monitor.svg"
-    },
-    {
-      "name": "00007-icon-service-Activity-Log",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00007-icon-service-Activity-Log.svg"
-    },
-    {
-      "name": "00008-icon-service-Diagnostics-Settings",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00008-icon-service-Diagnostics-Settings.svg"
-    },
-    {
-      "name": "00009-icon-service-Log-Analytics-Workspaces",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00009-icon-service-Log-Analytics-Workspaces.svg"
-    },
-    {
-      "name": "00012-icon-service-Application-Insights",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00012-icon-service-Application-Insights.svg"
-    },
-    {
-      "name": "00020-icon-service-Metrics",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00020-icon-service-Metrics.svg"
-    },
-    {
-      "name": "00438-icon-service-Azure-Monitors-for-SAP-Solutions",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00438-icon-service-Azure-Monitors-for-SAP-Solutions.svg"
-    },
-    {
-      "name": "00563-icon-service-Change-Analysis",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/00563-icon-service-Change-Analysis.svg"
-    },
-    {
-      "name": "02189-icon-service-Azure-Workbooks",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/02189-icon-service-Azure-Workbooks.svg"
-    },
-    {
-      "name": "10066-icon-service-Network-Watcher",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/10066-icon-service-Network-Watcher.svg"
-    },
-    {
-      "name": "10832-icon-service-Auto-Scale",
-      "category": "Azure",
-      "product": "monitor",
-      "path": "icons/Azure/monitor/10832-icon-service-Auto-Scale.svg"
-    },
-    {
-      "name": "00056-icon-service-CDN-Profiles",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/00056-icon-service-CDN-Profiles.svg"
-    },
-    {
-      "name": "00271-icon-service-Azure-Firewall-Manager",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/00271-icon-service-Azure-Firewall-Manager.svg"
-    },
-    {
-      "name": "00272-icon-service-Azure-Firewall-Policy",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/00272-icon-service-Azure-Firewall-Policy.svg"
-    },
-    {
-      "name": "00427-icon-service-Private-Link",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/00427-icon-service-Private-Link.svg"
-    },
-    {
-      "name": "00701-icon-service-IP-Groups",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/00701-icon-service-IP-Groups.svg"
-    },
-    {
-      "name": "00860-icon-service-Virtual-WAN-Hub",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/00860-icon-service-Virtual-WAN-Hub.svg"
-    },
-    {
-      "name": "01105-icon-service-Private-Link-Service",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/01105-icon-service-Private-Link-Service.svg"
-    },
-    {
-      "name": "02145-icon-service-Resource-Management-Private-Link",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02145-icon-service-Resource-Management-Private-Link.svg"
-    },
-    {
-      "name": "02209-icon-service-Private-Link-Services",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02209-icon-service-Private-Link-Services.svg"
-    },
-    {
-      "name": "02302-icon-service-Load-Balancer-Hub",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02302-icon-service-Load-Balancer-Hub.svg"
-    },
-    {
-      "name": "02422-icon-service-Bastions",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02422-icon-service-Bastions.svg"
-    },
-    {
-      "name": "02496-icon-service-Virtual-Router",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02496-icon-service-Virtual-Router.svg"
-    },
-    {
-      "name": "02692-icon-service-Spot-VMSS",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02692-icon-service-Spot-VMSS.svg"
-    },
-    {
-      "name": "02695-icon-service-Spot-VM",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02695-icon-service-Spot-VM.svg"
-    },
-    {
-      "name": "02742-icon-service-Subnet",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02742-icon-service-Subnet.svg"
-    },
-    {
-      "name": "02882-icon-service-DNS-Private-Resolver",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/02882-icon-service-DNS-Private-Resolver.svg"
-    },
-    {
-      "name": "10061-icon-service-Virtual-Networks",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10061-icon-service-Virtual-Networks.svg"
-    },
-    {
-      "name": "10062-icon-service-Load-Balancers",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10062-icon-service-Load-Balancers.svg"
-    },
-    {
-      "name": "10063-icon-service-Virtual-Network-Gateways",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10063-icon-service-Virtual-Network-Gateways.svg"
-    },
-    {
-      "name": "10064-icon-service-DNS-Zones",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10064-icon-service-DNS-Zones.svg"
-    },
-    {
-      "name": "10065-icon-service-Traffic-Manager-Profiles",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10065-icon-service-Traffic-Manager-Profiles.svg"
-    },
-    {
-      "name": "10066-icon-service-Network-Watcher",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10066-icon-service-Network-Watcher.svg"
-    },
-    {
-      "name": "10067-icon-service-Network-Security-Groups",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10067-icon-service-Network-Security-Groups.svg"
-    },
-    {
-      "name": "10068-icon-service-Public-IP-Addresses-(Classic)",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10068-icon-service-Public-IP-Addresses-(Classic).svg"
-    },
-    {
-      "name": "10069-icon-service-Public-IP-Addresses",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10069-icon-service-Public-IP-Addresses.svg"
-    },
-    {
-      "name": "10070-icon-service-On-Premises-Data-Gateways",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10070-icon-service-On-Premises-Data-Gateways.svg"
-    },
-    {
-      "name": "10071-icon-service-Route-Filters",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10071-icon-service-Route-Filters.svg"
-    },
-    {
-      "name": "10072-icon-service-DDoS-Protection-Plans",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10072-icon-service-DDoS-Protection-Plans.svg"
-    },
-    {
-      "name": "10073-icon-service-Front-Door-and-CDN-Profiles",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10073-icon-service-Front-Door-and-CDN-Profiles.svg"
-    },
-    {
-      "name": "10075-icon-service-Virtual-Networks-(Classic)",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10075-icon-service-Virtual-Networks-(Classic).svg"
-    },
-    {
-      "name": "10076-icon-service-Application-Gateways",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10076-icon-service-Application-Gateways.svg"
-    },
-    {
-      "name": "10077-icon-service-Local-Network-Gateways",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10077-icon-service-Local-Network-Gateways.svg"
-    },
-    {
-      "name": "10079-icon-service-ExpressRoute-Circuits",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10079-icon-service-ExpressRoute-Circuits.svg"
-    },
-    {
-      "name": "10080-icon-service-Network-Interfaces",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10080-icon-service-Network-Interfaces.svg"
-    },
-    {
-      "name": "10081-icon-service-Connections",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10081-icon-service-Connections.svg"
-    },
-    {
-      "name": "10082-icon-service-Route-Tables",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10082-icon-service-Route-Tables.svg"
-    },
-    {
-      "name": "10084-icon-service-Firewalls",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10084-icon-service-Firewalls.svg"
-    },
-    {
-      "name": "10085-icon-service-Service-Endpoint-Policies",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10085-icon-service-Service-Endpoint-Policies.svg"
-    },
-    {
-      "name": "10310-icon-service-NAT",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10310-icon-service-NAT.svg"
-    },
-    {
-      "name": "10353-icon-service-Virtual-WANs",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10353-icon-service-Virtual-WANs.svg"
-    },
-    {
-      "name": "10362-icon-service-Web-Application-Firewall-Policies(WAF)",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10362-icon-service-Web-Application-Firewall-Policies(WAF).svg"
-    },
-    {
-      "name": "10365-icon-service-Proximity-Placement-Groups",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10365-icon-service-Proximity-Placement-Groups.svg"
-    },
-    {
-      "name": "10371-icon-service-Reserved-IP-Addresses-(Classic)",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10371-icon-service-Reserved-IP-Addresses-(Classic).svg"
-    },
-    {
-      "name": "10372-icon-service-Public-IP-Prefixes",
-      "category": "Azure",
-      "product": "networking",
-      "path": "icons/Azure/networking/10372-icon-service-Public-IP-Prefixes.svg"
-    },
-    {
-      "name": "00408-icon-service-Intune-Trends",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/00408-icon-service-Intune-Trends.svg"
-    },
-    {
-      "name": "01757-icon-service-Dashboard-Hub",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/01757-icon-service-Dashboard-Hub.svg"
-    },
-    {
-      "name": "01846-icon-service-AVS-VM",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/01846-icon-service-AVS-VM.svg"
-    },
-    {
-      "name": "01857-icon-service-Data-Collection-Rules",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/01857-icon-service-Data-Collection-Rules.svg"
-    },
-    {
-      "name": "02322-icon-service-Dedicated-HSM",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02322-icon-service-Dedicated-HSM.svg"
-    },
-    {
-      "name": "02323-icon-service-Modular-Data-Center",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02323-icon-service-Modular-Data-Center.svg"
-    },
-    {
-      "name": "02486-icon-service-Fiji",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02486-icon-service-Fiji.svg"
-    },
-    {
-      "name": "02507-icon-service-Azure-Support-Center-Blue",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02507-icon-service-Azure-Support-Center-Blue.svg"
-    },
-    {
-      "name": "02509-icon-service-Connected-Cache",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02509-icon-service-Connected-Cache.svg"
-    },
-    {
-      "name": "02515-icon-service-Web-App-+-Database",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02515-icon-service-Web-App-+-Database.svg"
-    },
-    {
-      "name": "02573-icon-service-Connected-Vehicle-Platform",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02573-icon-service-Connected-Vehicle-Platform.svg"
-    },
-    {
-      "name": "02625-icon-service-Aquila",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02625-icon-service-Aquila.svg"
-    },
-    {
-      "name": "02638-icon-service-Reserved-Capacity",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02638-icon-service-Reserved-Capacity.svg"
-    },
-    {
-      "name": "02733-icon-service-Windows-Notification-Services",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02733-icon-service-Windows-Notification-Services.svg"
-    },
-    {
-      "name": "02793-icon-service-Mission-Landing-Zone",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02793-icon-service-Mission-Landing-Zone.svg"
-    },
-    {
-      "name": "02828-icon-service-Ceres",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02828-icon-service-Ceres.svg"
-    },
-    {
-      "name": "02842-icon-service-Azurite",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02842-icon-service-Azurite.svg"
-    },
-    {
-      "name": "02884-icon-service-Worker-Container-App",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02884-icon-service-Worker-Container-App.svg"
-    },
-    {
-      "name": "02909-icon-service-Storage-Tasks",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02909-icon-service-Storage-Tasks.svg"
-    },
-    {
-      "name": "02922-icon-service-Sonic-Dash",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02922-icon-service-Sonic-Dash.svg"
-    },
-    {
-      "name": "02931-icon-service-Compliance-Center",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/02931-icon-service-Compliance-Center.svg"
-    },
-    {
-      "name": "10112-icon-service-Marketplace-Management",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/10112-icon-service-Marketplace-Management.svg"
-    },
-    {
-      "name": "10117-icon-service-Edge-Management",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/10117-icon-service-Edge-Management.svg"
-    },
-    {
-      "name": "10190-icon-service-Azure-Sphere",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/10190-icon-service-Azure-Sphere.svg"
-    },
-    {
-      "name": "10334-icon-service-Exchange-On-Premises-Access",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/10334-icon-service-Exchange-On-Premises-Access.svg"
-    },
-    {
-      "name": "10422-icon-service-AzureAttestation",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/10422-icon-service-AzureAttestation.svg"
-    },
-    {
-      "name": "10846-icon-service-Web-Jobs",
-      "category": "Azure",
-      "product": "new-icons",
-      "path": "icons/Azure/new-icons/10846-icon-service-Web-Jobs.svg"
-    },
-    {
-      "name": "00327-icon-service-Azure-Virtual-Desktop",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00327-icon-service-Azure-Virtual-Desktop.svg"
-    },
-    {
-      "name": "00412-icon-service-SSH-Keys",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00412-icon-service-SSH-Keys.svg"
-    },
-    {
-      "name": "00469-icon-service-Internet-Analyzer-Profiles",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00469-icon-service-Internet-Analyzer-Profiles.svg"
-    },
-    {
-      "name": "00559-icon-service-Azure-Cloud-Shell",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00559-icon-service-Azure-Cloud-Shell.svg"
-    },
-    {
-      "name": "00712-icon-service-Video-Analyzers",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00712-icon-service-Video-Analyzers.svg"
-    },
-    {
-      "name": "00903-icon-service-ExpressRoute-Direct",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00903-icon-service-ExpressRoute-Direct.svg"
-    },
-    {
-      "name": "00913-icon-service-Cost-Export",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00913-icon-service-Cost-Export.svg"
-    },
-    {
-      "name": "00968-icon-service-Azure-Communication-Services",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00968-icon-service-Azure-Communication-Services.svg"
-    },
-    {
-      "name": "00970-icon-service-Peering-Service",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/00970-icon-service-Peering-Service.svg"
-    },
-    {
-      "name": "01001-icon-service-Azure-Network-Function-Manager-Functions",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01001-icon-service-Azure-Network-Function-Manager-Functions.svg"
-    },
-    {
-      "name": "01085-icon-service-Log-Analytics-Query-Pack",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01085-icon-service-Log-Analytics-Query-Pack.svg"
-    },
-    {
-      "name": "01088-icon-service-Arc-Kubernetes",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01088-icon-service-Arc-Kubernetes.svg"
-    },
-    {
-      "name": "01219-icon-service-Azure-VMware-Solution",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01219-icon-service-Azure-VMware-Solution.svg"
-    },
-    {
-      "name": "01285-icon-service-Peerings",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01285-icon-service-Peerings.svg"
-    },
-    {
-      "name": "01800-icon-service-Azure-Video-Indexer",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01800-icon-service-Azure-Video-Indexer.svg"
-    },
-    {
-      "name": "01848-icon-service-Arc-PostgreSQL ",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01848-icon-service-Arc-PostgreSQL .svg"
-    },
-    {
-      "name": "01849-icon-service-Arc-SQL-Managed-Instance",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01849-icon-service-Arc-SQL-Managed-Instance.svg"
-    },
-    {
-      "name": "01850-icon-service-Arc-SQL-Server",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/01850-icon-service-Arc-SQL-Server.svg"
-    },
-    {
-      "name": "02200-icon-service-Resource-Mover",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02200-icon-service-Resource-Mover.svg"
-    },
-    {
-      "name": "02223-icon-service-Azure-Chaos-Studio",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02223-icon-service-Azure-Chaos-Studio.svg"
-    },
-    {
-      "name": "02237-icon-service-Network-Managers",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02237-icon-service-Network-Managers.svg"
-    },
-    {
-      "name": "02340-icon-service-Template-Specs",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02340-icon-service-Template-Specs.svg"
-    },
-    {
-      "name": "02356-icon-service-Arc-Data-services",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02356-icon-service-Arc-Data-services.svg"
-    },
-    {
-      "name": "02360-icon-service-Azure-Backup-Center",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02360-icon-service-Azure-Backup-Center.svg"
-    },
-    {
-      "name": "02361-icon-service-Backup-Vault",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02361-icon-service-Backup-Vault.svg"
-    },
-    {
-      "name": "02475-icon-service-Device-Update-IoT-Hub",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02475-icon-service-Device-Update-IoT-Hub.svg"
-    },
-    {
-      "name": "02488-icon-service-Azure-Monitor-Dashboard",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02488-icon-service-Azure-Monitor-Dashboard.svg"
-    },
-    {
-      "name": "02503-icon-service-SCVMM-Management-Servers",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02503-icon-service-SCVMM-Management-Servers.svg"
-    },
-    {
-      "name": "02505-icon-service-Cloud-Services-(extended-support)",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02505-icon-service-Cloud-Services-(extended-support).svg"
-    },
-    {
-      "name": "02518-icon-service-Azure-HPC-Workbenches",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02518-icon-service-Azure-HPC-Workbenches.svg"
-    },
-    {
-      "name": "02560-icon-service-Disk-Pool",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02560-icon-service-Disk-Pool.svg"
-    },
-    {
-      "name": "02561-icon-service-Bare-Metal-Infrastructure",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02561-icon-service-Bare-Metal-Infrastructure.svg"
-    },
-    {
-      "name": "02579-icon-service-Private-Endpoints",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02579-icon-service-Private-Endpoints.svg"
-    },
-    {
-      "name": "02602-icon-service-Open-Supply-Chain-Platform",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02602-icon-service-Open-Supply-Chain-Platform.svg"
-    },
-    {
-      "name": "02654-icon-service-Custom-IP-Prefix",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02654-icon-service-Custom-IP-Prefix.svg"
-    },
-    {
-      "name": "02658-icon-service-FHIR-Service",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02658-icon-service-FHIR-Service.svg"
-    },
-    {
-      "name": "02660-icon-service-MedTech-Service",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02660-icon-service-MedTech-Service.svg"
-    },
-    {
-      "name": "02663-icon-service-Managed-Instance-Apache-Cassandra",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02663-icon-service-Managed-Instance-Apache-Cassandra.svg"
-    },
-    {
-      "name": "02668-icon-service-Confidential-Ledgers",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02668-icon-service-Confidential-Ledgers.svg"
-    },
-    {
-      "name": "02681-icon-service-AAD-Licenses",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02681-icon-service-AAD-Licenses.svg"
-    },
-    {
-      "name": "02691-icon-service-Test-Base",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02691-icon-service-Test-Base.svg"
-    },
-    {
-      "name": "02697-icon-service-Azure-Orbital",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02697-icon-service-Azure-Orbital.svg"
-    },
-    {
-      "name": "02732-icon-service-Capacity-Reservation-Groups",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02732-icon-service-Capacity-Reservation-Groups.svg"
-    },
-    {
-      "name": "02740-icon-service-Azure-Network-Function-Manager",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02740-icon-service-Azure-Network-Function-Manager.svg"
-    },
-    {
-      "name": "02794-icon-service-Mobile-Networks",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02794-icon-service-Mobile-Networks.svg"
-    },
-    {
-      "name": "02805-icon-service-VM-App-Definitions",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02805-icon-service-VM-App-Definitions.svg"
-    },
-    {
-      "name": "02806-icon-service-VM-App-Versions",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02806-icon-service-VM-App-Versions.svg"
-    },
-    {
-      "name": "02810-icon-service-Azure-Edge-Hardware-Center",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02810-icon-service-Azure-Edge-Hardware-Center.svg"
-    },
-    {
-      "name": "02819-icon-service-Resource-Guard",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02819-icon-service-Resource-Guard.svg"
-    },
-    {
-      "name": "02846-icon-service-Update-Management-Center",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02846-icon-service-Update-Management-Center.svg"
-    },
-    {
-      "name": "02864-icon-service-Azure-Compute-Galleries",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02864-icon-service-Azure-Compute-Galleries.svg"
-    },
-    {
-      "name": "02865-icon-service-Community-Images",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02865-icon-service-Community-Images.svg"
-    },
-    {
-      "name": "02866-icon-service-VM-Image-Version",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02866-icon-service-VM-Image-Version.svg"
-    },
-    {
-      "name": "02880-icon-service-Savings-Plans",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02880-icon-service-Savings-Plans.svg"
-    },
-    {
-      "name": "02905-icon-service-Azure-Managed-Grafana",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02905-icon-service-Azure-Managed-Grafana.svg"
-    },
-    {
-      "name": "02908-icon-service-Targets-Management",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02908-icon-service-Targets-Management.svg"
-    },
-    {
-      "name": "02939-icon-service-Network-Security-Perimeters",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02939-icon-service-Network-Security-Perimeters.svg"
-    },
-    {
-      "name": "02944-icon-service-Azure-Load-Testing",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02944-icon-service-Azure-Load-Testing.svg"
-    },
-    {
-      "name": "02949-icon-service-Virtual-Visits-Builder",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02949-icon-service-Virtual-Visits-Builder.svg"
-    },
-    {
-      "name": "02951-icon-service-Azure-Quotas",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02951-icon-service-Azure-Quotas.svg"
-    },
-    {
-      "name": "02989-icon-service-Container-Apps-Environments",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/02989-icon-service-Container-Apps-Environments.svg"
-    },
-    {
-      "name": "03071-icon-service-App-Compliance-Automation",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03071-icon-service-App-Compliance-Automation.svg"
-    },
-    {
-      "name": "03089-icon-service-Virtual-Instance-for-SAP",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03089-icon-service-Virtual-Instance-for-SAP.svg"
-    },
-    {
-      "name": "03090-icon-service-Azure-Center-for-SAP",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03090-icon-service-Azure-Center-for-SAP.svg"
-    },
-    {
-      "name": "03091-icon-service-Azure-Storage-Mover",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03091-icon-service-Azure-Storage-Mover.svg"
-    },
-    {
-      "name": "03092-icon-service-Central-Service-Instance-For-SAP",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03092-icon-service-Central-Service-Instance-For-SAP.svg"
-    },
-    {
-      "name": "03134-icon-service-Kubernetes-Fleet-Manager",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03134-icon-service-Kubernetes-Fleet-Manager.svg"
-    },
-    {
-      "name": "03137-icon-service-Express-Route-Traffic-Collector",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03137-icon-service-Express-Route-Traffic-Collector.svg"
-    },
-    {
-      "name": "03175-icon-service-Database-Instance-For-SAP",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03175-icon-service-Database-Instance-For-SAP.svg"
-    },
-    {
-      "name": "03190-icon-service-Elastic-SAN",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03190-icon-service-Elastic-SAN.svg"
-    },
-    {
-      "name": "03250-icon-service-Microsoft-Dev-Box",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03250-icon-service-Microsoft-Dev-Box.svg"
-    },
-    {
-      "name": "03251-icon-service-Azure-Deployment-Environments",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03251-icon-service-Azure-Deployment-Environments.svg"
-    },
-    {
-      "name": "03402-icon-service-Defender-CM-Local-Manager",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03402-icon-service-Defender-CM-Local-Manager.svg"
-    },
-    {
-      "name": "03403-icon-service-Defender-External-Management",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03403-icon-service-Defender-External-Management.svg"
-    },
-    {
-      "name": "03404-icon-service-Defender-Freezer-Monitor",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03404-icon-service-Defender-Freezer-Monitor.svg"
-    },
-    {
-      "name": "03405-icon-service-Defender-Historian",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03405-icon-service-Defender-Historian.svg"
-    },
-    {
-      "name": "03406-icon-service-Defender-HMI",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03406-icon-service-Defender-HMI.svg"
-    },
-    {
-      "name": "03407-icon-service-Defender-Marquee",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03407-icon-service-Defender-Marquee.svg"
-    },
-    {
-      "name": "03408-icon-service-Defender-Robot-Controller",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03408-icon-service-Defender-Robot-Controller.svg"
-    },
-    {
-      "name": "03409-icon-service-Defender-Sensor",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03409-icon-service-Defender-Sensor.svg"
-    },
-    {
-      "name": "03410-icon-service-Defender-Slot",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03410-icon-service-Defender-Slot.svg"
-    },
-    {
-      "name": "03411-icon-service-Defender-Web-Guiding-System",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03411-icon-service-Defender-Web-Guiding-System.svg"
-    },
-    {
-      "name": "03412-icon-service-Defender-DCS-Controller",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03412-icon-service-Defender-DCS-Controller.svg"
-    },
-    {
-      "name": "03413-icon-service-Defender-Distributer-Control-System",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03413-icon-service-Defender-Distributer-Control-System.svg"
-    },
-    {
-      "name": "03414-icon-service-Defender-Engineering-Station",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03414-icon-service-Defender-Engineering-Station.svg"
-    },
-    {
-      "name": "03415-icon-service-Defender-Industrial-Packaging-System",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03415-icon-service-Defender-Industrial-Packaging-System.svg"
-    },
-    {
-      "name": "03416-icon-service-Defender-Industrial-Printer",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03416-icon-service-Defender-Industrial-Printer.svg"
-    },
-    {
-      "name": "03417-icon-service-Defender-Industrial-Scale-System",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03417-icon-service-Defender-Industrial-Scale-System.svg"
-    },
-    {
-      "name": "03418-icon-service-Defender-Industrial-Robot",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03418-icon-service-Defender-Industrial-Robot.svg"
-    },
-    {
-      "name": "03419-icon-service-Defender-Meter",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03419-icon-service-Defender-Meter.svg"
-    },
-    {
-      "name": "03420-icon-service-Defender-PLC",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03420-icon-service-Defender-PLC.svg"
-    },
-    {
-      "name": "03421-icon-service-Defender-Pneumatic-Device",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03421-icon-service-Defender-Pneumatic-Device.svg"
-    },
-    {
-      "name": "03422-icon-service-Defender-Programable-Board",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03422-icon-service-Defender-Programable-Board.svg"
-    },
-    {
-      "name": "03423-icon-service-Defender-Relay",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03423-icon-service-Defender-Relay.svg"
-    },
-    {
-      "name": "03424-icon-service-Defender-RTU",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/03424-icon-service-Defender-RTU.svg"
-    },
-    {
-      "name": "10018-icon-service-Azure-A",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/10018-icon-service-Azure-A.svg"
-    },
-    {
-      "name": "10077-icon-service-Local-Network-Gateways",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/10077-icon-service-Local-Network-Gateways.svg"
-    },
-    {
-      "name": "10139-icon-service-Instance-Pools",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/10139-icon-service-Instance-Pools.svg"
-    },
-    {
-      "name": "10232-icon-service-App-Registrations",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/10232-icon-service-App-Registrations.svg"
-    },
-    {
-      "name": "10355-icon-service-WAC",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/10355-icon-service-WAC.svg"
-    },
-    {
-      "name": "10778-icon-service-RTOS",
-      "category": "Azure",
-      "product": "other",
-      "path": "icons/Azure/other/10778-icon-service-RTOS.svg"
-    },
-    {
-      "name": "00378-icon-service-Detonation",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/00378-icon-service-Detonation.svg"
-    },
-    {
-      "name": "02247-icon-service-Microsoft-Defender-for-IoT",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/02247-icon-service-Microsoft-Defender-for-IoT.svg"
-    },
-    {
-      "name": "02251-icon-service-Azure-AD-Privleged-Identity-Management",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/02251-icon-service-Azure-AD-Privleged-Identity-Management.svg"
-    },
-    {
-      "name": "03336-icon-service-Microsoft-Defender-EASM",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/03336-icon-service-Microsoft-Defender-EASM.svg"
-    },
-    {
-      "name": "03340-icon-service-Identity-Secure-Score",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/03340-icon-service-Identity-Secure-Score.svg"
-    },
-    {
-      "name": "03341-icon-service-Azure-AD-Risky-Signins",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/03341-icon-service-Azure-AD-Risky-Signins.svg"
-    },
-    {
-      "name": "03342-icon-service-Azure-AD-Risky-Users",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/03342-icon-service-Azure-AD-Risky-Users.svg"
-    },
-    {
-      "name": "03343-icon-service-Azure-AD-Authentication-Methods",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/03343-icon-service-Azure-AD-Authentication-Methods.svg"
-    },
-    {
-      "name": "03344-icon-service-Multifactor-Authentication",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/03344-icon-service-Multifactor-Authentication.svg"
-    },
-    {
-      "name": "10229-icon-service-Azure-Information-Protection",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10229-icon-service-Azure-Information-Protection.svg"
-    },
-    {
-      "name": "10231-icon-service-Azure-AD-Identity-Protection",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10231-icon-service-Azure-AD-Identity-Protection.svg"
-    },
-    {
-      "name": "10233-icon-service-Conditional-Access",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10233-icon-service-Conditional-Access.svg"
-    },
-    {
-      "name": "10241-icon-service-Security-Center",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10241-icon-service-Security-Center.svg"
-    },
-    {
-      "name": "10244-icon-service-Application-Security-Groups",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10244-icon-service-Application-Security-Groups.svg"
-    },
-    {
-      "name": "10245-icon-service-Key-Vaults",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10245-icon-service-Key-Vaults.svg"
-    },
-    {
-      "name": "10248-icon-service-Azure-Sentinel",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10248-icon-service-Azure-Sentinel.svg"
-    },
-    {
-      "name": "10433-icon-service-User-Settings",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10433-icon-service-User-Settings.svg"
-    },
-    {
-      "name": "10572-icon-service-ExtendedSecurityUpdates",
-      "category": "Azure",
-      "product": "security",
-      "path": "icons/Azure/security/10572-icon-service-ExtendedSecurityUpdates.svg"
-    },
-    {
-      "name": "00017-icon-service-Recovery-Services-Vaults",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/00017-icon-service-Recovery-Services-Vaults.svg"
-    },
-    {
-      "name": "00691-icon-service-Azure-Databox-Gateway",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/00691-icon-service-Azure-Databox-Gateway.svg"
-    },
-    {
-      "name": "00776-icon-service-Azure-HCP-Cache",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/00776-icon-service-Azure-HCP-Cache.svg"
-    },
-    {
-      "name": "10086-icon-service-Storage-Accounts",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10086-icon-service-Storage-Accounts.svg"
-    },
-    {
-      "name": "10087-icon-service-Storage-Accounts-(Classic)",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10087-icon-service-Storage-Accounts-(Classic).svg"
-    },
-    {
-      "name": "10089-icon-service-StorSimple-Device-Managers",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10089-icon-service-StorSimple-Device-Managers.svg"
-    },
-    {
-      "name": "10090-icon-service-Data-Lake-Storage-Gen1",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10090-icon-service-Data-Lake-Storage-Gen1.svg"
-    },
-    {
-      "name": "10091-icon-service-Storage-Explorer",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10091-icon-service-Storage-Explorer.svg"
-    },
-    {
-      "name": "10092-icon-service-StorSimple-Data-Managers",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10092-icon-service-StorSimple-Data-Managers.svg"
-    },
-    {
-      "name": "10093-icon-service-Storage-Sync-Services",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10093-icon-service-Storage-Sync-Services.svg"
-    },
-    {
-      "name": "10094-icon-service-Data-Box",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10094-icon-service-Data-Box.svg"
-    },
-    {
-      "name": "10095-icon-service-Azure-Stack-Edge",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10095-icon-service-Azure-Stack-Edge.svg"
-    },
-    {
-      "name": "10096-icon-service-Azure-NetApp-Files",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10096-icon-service-Azure-NetApp-Files.svg"
-    },
-    {
-      "name": "10097-icon-service-Data-Share-Invitations",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10097-icon-service-Data-Share-Invitations.svg"
-    },
-    {
-      "name": "10098-icon-service-Data-Shares",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10098-icon-service-Data-Shares.svg"
-    },
-    {
-      "name": "10100-icon-service-Import-Export-Jobs",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10100-icon-service-Import-Export-Jobs.svg"
-    },
-    {
-      "name": "10400-icon-service-Azure-Fileshares",
-      "category": "Azure",
-      "product": "storage",
-      "path": "icons/Azure/storage/10400-icon-service-Azure-Fileshares.svg"
-    },
-    {
-      "name": "00046-icon-service-App-Service-Plans",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/00046-icon-service-App-Service-Plans.svg"
-    },
-    {
-      "name": "00049-icon-service-App-Service-Certificates",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/00049-icon-service-App-Service-Certificates.svg"
-    },
-    {
-      "name": "00050-icon-service-App-Service-Domains",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/00050-icon-service-App-Service-Domains.svg"
-    },
-    {
-      "name": "01007-icon-service-Static-Apps",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/01007-icon-service-Static-Apps.svg"
-    },
-    {
-      "name": "03335-icon-service-Power-Platform",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/03335-icon-service-Power-Platform.svg"
-    },
-    {
-      "name": "10035-icon-service-App-Services",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10035-icon-service-App-Services.svg"
-    },
-    {
-      "name": "10042-icon-service-API-Management-Services",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10042-icon-service-API-Management-Services.svg"
-    },
-    {
-      "name": "10044-icon-service-Cognitive-Search",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10044-icon-service-Cognitive-Search.svg"
-    },
-    {
-      "name": "10047-icon-service-App-Service-Environments",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10047-icon-service-App-Service-Environments.svg"
-    },
-    {
-      "name": "10048-icon-service-API-Connections",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10048-icon-service-API-Connections.svg"
-    },
-    {
-      "name": "10052-icon-service-SignalR",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10052-icon-service-SignalR.svg"
-    },
-    {
-      "name": "10053-icon-service-Notification-Hub-Namespaces",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10053-icon-service-Notification-Hub-Namespaces.svg"
-    },
-    {
-      "name": "10073-icon-service-Front-Door-and-CDN-Profiles",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10073-icon-service-Front-Door-and-CDN-Profiles.svg"
-    },
-    {
-      "name": "10162-icon-service-Cognitive-Services",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10162-icon-service-Cognitive-Services.svg"
-    },
-    {
-      "name": "10309-icon-service-Azure-Media-Service",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10309-icon-service-Azure-Media-Service.svg"
-    },
-    {
-      "name": "10370-icon-service-Azure-Spring-Apps",
-      "category": "Azure",
-      "product": "web",
-      "path": "icons/Azure/web/10370-icon-service-Azure-Spring-Apps.svg"
-    },
-    {
-      "name": "BusinessCentral_scalable",
-      "category": "Dynamics-365",
-      "product": "Business-Central",
-      "path": "icons/Dynamics-365/Business-Central/BusinessCentral_scalable.svg"
-    },
-    {
-      "name": "Commerce_scalable",
-      "category": "Dynamics-365",
-      "product": "Commerce",
-      "path": "icons/Dynamics-365/Commerce/Commerce_scalable.svg"
-    },
-    {
-      "name": "ConnectedStore_scalable",
-      "category": "Dynamics-365",
-      "product": "Connected-Store",
-      "path": "icons/Dynamics-365/Connected-Store/ConnectedStore_scalable.svg"
-    },
-    {
-      "name": "CoreHR_scalable",
-      "category": "Dynamics-365",
-      "product": "Core-HR",
-      "path": "icons/Dynamics-365/Core-HR/CoreHR_scalable.svg"
-    },
-    {
-      "name": "CustomerService_scalable",
-      "category": "Dynamics-365",
-      "product": "Customer-Service",
-      "path": "icons/Dynamics-365/Customer-Service/CustomerService_scalable.svg"
-    },
-    {
-      "name": "CustomerServiceInsights_scalable",
-      "category": "Dynamics-365",
-      "product": "Customer-Service-Insights",
-      "path": "icons/Dynamics-365/Customer-Service-Insights/CustomerServiceInsights_scalable.svg"
-    },
-    {
-      "name": "CustomerVoice_scalable",
-      "category": "Dynamics-365",
-      "product": "Customer-Voice",
-      "path": "icons/Dynamics-365/Customer-Voice/CustomerVoice_scalable.svg"
-    },
-    {
-      "name": "Guides_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/Guides_scalable.svg"
-    },
-    {
-      "name": "ImportTool_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/ImportTool_scalable.svg"
-    },
-    {
-      "name": "Layout_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/Layout_scalable.svg"
-    },
-    {
-      "name": "MRPortal_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/MRPortal_scalable.svg"
-    },
-    {
-      "name": "ProductVisualize_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/ProductVisualize_scalable.svg"
-    },
-    {
-      "name": "RemoteAssist_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/RemoteAssist_scalable.svg"
-    },
-    {
-      "name": "VoiceAssistant_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Mixed-Reality-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Mixed-Reality-Icons/VoiceAssistant_scalable.svg"
-    },
-    {
-      "name": "Dynamics365_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Product-Family-Icon",
-      "path": "icons/Dynamics-365/Dynamics-365-Product-Family-Icon/Dynamics365_scalable.svg"
-    },
-    {
-      "name": "ProjectTimesheet_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Sub-App-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Sub-App-Icons/ProjectTimesheet_scalable.svg"
-    },
-    {
-      "name": "ReturnToSchool_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Sub-App-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Sub-App-Icons/ReturnToSchool_scalable.svg"
-    },
-    {
-      "name": "ReturnToWork_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Sub-App-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Sub-App-Icons/ReturnToWork_scalable.svg"
-    },
-    {
-      "name": "SCMWarehousing_scalable",
-      "category": "Dynamics-365",
-      "product": "Dynamics-365-Sub-App-Icons",
-      "path": "icons/Dynamics-365/Dynamics-365-Sub-App-Icons/SCMWarehousing_scalable.svg"
-    },
-    {
-      "name": "FieldService_scalable",
-      "category": "Dynamics-365",
-      "product": "Field-Service",
-      "path": "icons/Dynamics-365/Field-Service/FieldService_scalable.svg"
-    },
-    {
-      "name": "Finance_scalable",
-      "category": "Dynamics-365",
-      "product": "Finance",
-      "path": "icons/Dynamics-365/Finance/Finance_scalable.svg"
-    },
-    {
-      "name": "Finance+Operations_scalable",
-      "category": "Dynamics-365",
-      "product": "Finance-&-Operations",
-      "path": "icons/Dynamics-365/Finance-&-Operations/Finance+Operations_scalable.svg"
-    },
-    {
-      "name": "FraudProtection_scalable",
-      "category": "Dynamics-365",
-      "product": "Fraud-Protection",
-      "path": "icons/Dynamics-365/Fraud-Protection/FraudProtection_scalable.svg"
-    },
-    {
-      "name": "IntelligentOrderManagement_scalable (1)",
-      "category": "Dynamics-365",
-      "product": "Intelligent-Order-Management",
-      "path": "icons/Dynamics-365/Intelligent-Order-Management/IntelligentOrderManagement_scalable (1).svg"
-    },
-    {
-      "name": "MarketInsights_scalable",
-      "category": "Dynamics-365",
-      "product": "Market-Insights",
-      "path": "icons/Dynamics-365/Market-Insights/MarketInsights_scalable.svg"
-    },
-    {
-      "name": "Product_Insights__scalable",
-      "category": "Dynamics-365",
-      "product": "Product-Insights",
-      "path": "icons/Dynamics-365/Product-Insights/Product_Insights__scalable.svg"
-    },
-    {
-      "name": "ProjectOperations_scalable",
-      "category": "Dynamics-365",
-      "product": "Project-Operations",
-      "path": "icons/Dynamics-365/Project-Operations/ProjectOperations_scalable.svg"
-    },
-    {
-      "name": "ProjectServiceAutomation_scalable",
-      "category": "Dynamics-365",
-      "product": "Project-Service-Automation",
-      "path": "icons/Dynamics-365/Project-Service-Automation/ProjectServiceAutomation_scalable.svg"
-    },
-    {
-      "name": "Sales_scalable",
-      "category": "Dynamics-365",
-      "product": "Sales",
-      "path": "icons/Dynamics-365/Sales/Sales_scalable.svg"
-    },
-    {
-      "name": "SalesInsights_scalable",
-      "category": "Dynamics-365",
-      "product": "Sales-Insights",
-      "path": "icons/Dynamics-365/Sales-Insights/SalesInsights_scalable.svg"
-    },
-    {
-      "name": "SupplyChainManagement_scalable",
-      "category": "Dynamics-365",
-      "product": "Supply-Chain-Management",
-      "path": "icons/Dynamics-365/Supply-Chain-Management/SupplyChainManagement_scalable.svg"
-    },
-    {
-      "name": "SustainabilityCalculator_scalable",
-      "category": "Dynamics-365",
-      "product": "Sustainability-Calculator",
-      "path": "icons/Dynamics-365/Sustainability-Calculator/SustainabilityCalculator_scalable.svg"
-    },
-    {
-      "name": "Talent_scalable",
-      "category": "Dynamics-365",
-      "product": "Talent",
-      "path": "icons/Dynamics-365/Talent/Talent_scalable.svg"
-    },
-    {
-      "name": "TalentAttract_scalable",
-      "category": "Dynamics-365",
-      "product": "Talent-Attract",
-      "path": "icons/Dynamics-365/Talent-Attract/TalentAttract_scalable.svg"
-    },
-    {
-      "name": "TalentOnboard_scalable",
-      "category": "Dynamics-365",
-      "product": "Talent-Onboard",
-      "path": "icons/Dynamics-365/Talent-Onboard/TalentOnboard_scalable.svg"
-    },
-    {
-      "name": "Microsoft Entra BW icon (product family)",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra BW icon (product family).svg"
-    },
-    {
-      "name": "Microsoft Entra ID BW icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra ID BW icon.svg"
-    },
-    {
-      "name": "Microsoft Entra ID color icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra ID color icon.svg"
-    },
-    {
-      "name": "Microsoft Entra ID filled BW icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra ID filled BW icon.svg"
-    },
-    {
-      "name": "Microsoft Entra ID Governance BW icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra ID Governance BW icon.svg"
-    },
-    {
-      "name": "Microsoft Entra ID Governance color icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra ID Governance color icon.svg"
-    },
-    {
-      "name": "Microsoft Entra Product Family",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra Product Family.svg"
-    },
-    {
-      "name": "Microsoft Entra Verified ID BW icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra Verified ID BW icon.svg"
-    },
-    {
-      "name": "Microsoft Entra Verified ID color icon",
-      "category": "Entra",
-      "product": null,
-      "path": "icons/Entra/Microsoft Entra Verified ID color icon.svg"
-    },
-    {
-      "name": "Data_Activator_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/Data_Activator_48_color.svg"
-    },
-    {
-      "name": "data_factory_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/data_factory_48_color.svg"
-    },
-    {
-      "name": "Fabric_256",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/Fabric_256.svg"
-    },
-    {
-      "name": "onelake_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/onelake_48_color.svg"
-    },
-    {
-      "name": "power_bi_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/power_bi_48_color.svg"
-    },
-    {
-      "name": "synapse_data_engineering_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/synapse_data_engineering_48_color.svg"
-    },
-    {
-      "name": "synapse_data_science_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/synapse_data_science_48_color.svg"
-    },
-    {
-      "name": "synapse_data_warehouse_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/synapse_data_warehouse_48_color.svg"
-    },
-    {
-      "name": "synapse_real_time_analytics_48_color",
-      "category": "Fabric",
-      "product": null,
-      "path": "icons/Fabric/synapse_real_time_analytics_48_color.svg"
-    },
-    {
-      "name": "Apps",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Apps.svg"
-    },
-    {
-      "name": "Azure SQL",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Azure SQL.svg"
-    },
-    {
-      "name": "Azure Synapse Link",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Azure Synapse Link.svg"
-    },
-    {
-      "name": "Dashboard",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Dashboard.svg"
-    },
-    {
-      "name": "Data Warehouse (legacy)",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Data Warehouse (legacy).svg"
-    },
-    {
-      "name": "Data Warehouse",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Data Warehouse.svg"
-    },
-    {
-      "name": "Dataflow",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Dataflow.svg"
-    },
-    {
-      "name": "Datamart",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Datamart.svg"
-    },
-    {
-      "name": "Dataset",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Dataset.svg"
-    },
-    {
-      "name": "Dataverse",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Dataverse.svg"
-    },
-    {
-      "name": "Experiments",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Experiments.svg"
-    },
-    {
-      "name": "External Dataflow",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/External Dataflow.svg"
-    },
-    {
-      "name": "External Datamart",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/External Datamart.svg"
-    },
-    {
-      "name": "External Dataset",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/External Dataset.svg"
-    },
-    {
-      "name": "KQL Database",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/KQL Database.svg"
-    },
-    {
-      "name": "KQL Queryset",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/KQL Queryset.svg"
-    },
-    {
-      "name": "Lakehouse",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Lakehouse.svg"
-    },
-    {
-      "name": "Links",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Links.svg"
-    },
-    {
-      "name": "Models",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Models.svg"
-    },
-    {
-      "name": "No Access Dataset",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/No Access Dataset.svg"
-    },
-    {
-      "name": "Notebook",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Notebook.svg"
-    },
-    {
-      "name": "Paginated Reports",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Paginated Reports.svg"
-    },
-    {
-      "name": "Pipelines",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Pipelines.svg"
-    },
-    {
-      "name": "Purview",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Purview.svg"
-    },
-    {
-      "name": "Real-time Dashboard",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Real-time Dashboard.svg"
-    },
-    {
-      "name": "Report",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Report.svg"
-    },
-    {
-      "name": "Scorecard",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Scorecard.svg"
-    },
-    {
-      "name": "Shared Dataset",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Shared Dataset.svg"
-    },
-    {
-      "name": "Spark Job",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Spark Job.svg"
-    },
-    {
-      "name": "Streaming Dataflow",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Streaming Dataflow.svg"
-    },
-    {
-      "name": "Streaming Dataset",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Streaming Dataset.svg"
-    },
-    {
-      "name": "Workbook",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Workbook.svg"
-    },
-    {
-      "name": "Workspace",
-      "category": "Fabric",
-      "product": "Items",
-      "path": "icons/Fabric/Items/Workspace.svg"
-    },
-    {
-      "name": "Microsoft_365_Copilot",
-      "category": "Microsoft-365",
-      "product": "Copilot-in-app",
-      "path": "icons/Microsoft-365/Copilot-in-app/Microsoft_365_Copilot.svg"
-    },
-    {
-      "name": "Microsoft_365_Copilot_Badge",
-      "category": "Microsoft-365",
-      "product": "Copilot-in-app",
-      "path": "icons/Microsoft-365/Copilot-in-app/Microsoft_365_Copilot_Badge.svg"
-    },
-    {
-      "name": "Microsoft Places",
-      "category": "Microsoft-365",
-      "product": "Places",
-      "path": "icons/Microsoft-365/Places/Microsoft Places.svg"
-    },
-    {
-      "name": "To_Do",
-      "category": "Microsoft-365",
-      "product": "To-Do",
-      "path": "icons/Microsoft-365/To-Do/To_Do.svg"
-    },
-    {
-      "name": "Agent 365_scalable",
-      "category": "Power-Platform",
-      "product": null,
-      "path": "icons/Power-Platform/Agent 365_scalable.svg"
-    },
-    {
-      "name": "PowerFx_scalable",
-      "category": "Power-Platform",
-      "product": null,
-      "path": "icons/Power-Platform/PowerFx_scalable.svg"
-    },
-    {
-      "name": "PowerPlatform_Connectors",
-      "category": "Power-Platform",
-      "product": null,
-      "path": "icons/Power-Platform/PowerPlatform_Connectors.svg"
-    },
-    {
-      "name": "AIBuilder_scalable",
-      "category": "Power-Platform",
-      "product": "AI-Builder",
-      "path": "icons/Power-Platform/AI-Builder/AIBuilder_scalable.svg"
-    },
-    {
-      "name": "CopilotStudio_scalable",
-      "category": "Power-Platform",
-      "product": "Copilot-Studio",
-      "path": "icons/Power-Platform/Copilot-Studio/CopilotStudio_scalable.svg"
-    },
-    {
-      "name": "Dataverse_scalable",
-      "category": "Power-Platform",
-      "product": "Dataverse",
-      "path": "icons/Power-Platform/Dataverse/Dataverse_scalable.svg"
-    },
-    {
-      "name": "PowerApps_scalable",
-      "category": "Power-Platform",
-      "product": "Power-Apps",
-      "path": "icons/Power-Platform/Power-Apps/PowerApps_scalable.svg"
-    },
-    {
-      "name": "Power_Apps_scalable",
-      "category": "Power-Platform",
-      "product": "Power-Apps",
-      "path": "icons/Power-Platform/Power-Apps/Power_Apps_scalable.svg"
-    },
-    {
-      "name": "PowerAutomate_scalable",
-      "category": "Power-Platform",
-      "product": "Power-Automate",
-      "path": "icons/Power-Platform/Power-Automate/PowerAutomate_scalable.svg"
-    },
-    {
-      "name": "Power_Automate_Scalable",
-      "category": "Power-Platform",
-      "product": "Power-Automate",
-      "path": "icons/Power-Platform/Power-Automate/Power_Automate_Scalable.svg"
-    },
-    {
-      "name": "PowerBI_scalable",
-      "category": "Power-Platform",
-      "product": "Power-BI",
-      "path": "icons/Power-Platform/Power-BI/PowerBI_scalable.svg"
-    },
-    {
-      "name": "Power_BI_Scalable",
-      "category": "Power-Platform",
-      "product": "Power-BI",
-      "path": "icons/Power-Platform/Power-BI/Power_BI_Scalable.svg"
-    },
-    {
-      "name": "PowerPages_scalable",
-      "category": "Power-Platform",
-      "product": "Power-Pages",
-      "path": "icons/Power-Platform/Power-Pages/PowerPages_scalable.svg"
-    },
-    {
-      "name": "PowerPlatform_scalable",
-      "category": "Power-Platform",
-      "product": "Power-Platform",
-      "path": "icons/Power-Platform/Power-Platform/PowerPlatform_scalable.svg"
-    },
-    {
-      "name": "Amplify_192",
-      "category": "Viva",
-      "product": "Viva-Amplify",
-      "path": "icons/Viva/Viva-Amplify/Amplify_192.svg"
-    },
-    {
-      "name": "Viva Amplify",
-      "category": "Viva",
-      "product": "Viva-Amplify",
-      "path": "icons/Viva/Viva-Amplify/Viva Amplify.svg"
-    },
-    {
-      "name": "Viva Connections",
-      "category": "Viva",
-      "product": "Viva-Connections",
-      "path": "icons/Viva/Viva-Connections/Viva Connections.svg"
-    },
-    {
-      "name": "Viva Engage",
-      "category": "Viva",
-      "product": "Viva-Engage",
-      "path": "icons/Viva/Viva-Engage/Viva Engage.svg"
-    },
-    {
-      "name": "Glint",
-      "category": "Viva",
-      "product": "Viva-Glint",
-      "path": "icons/Viva/Viva-Glint/Glint.svg"
-    },
-    {
-      "name": "Viva Insights",
-      "category": "Viva",
-      "product": "Viva-Insights",
-      "path": "icons/Viva/Viva-Insights/Viva Insights.svg"
-    },
-    {
-      "name": "Viva Learning",
-      "category": "Viva",
-      "product": "Viva-Learning",
-      "path": "icons/Viva/Viva-Learning/Viva Learning.svg"
-    },
-    {
-      "name": "Viva Pulse",
-      "category": "Viva",
-      "product": "Viva-Pulse",
-      "path": "icons/Viva/Viva-Pulse/Viva Pulse.svg"
-    },
-    {
-      "name": "Viva Suite",
-      "category": "Viva",
-      "product": "Viva-Suite",
-      "path": "icons/Viva/Viva-Suite/Viva Suite.svg"
-    },
-    {
-      "name": "Dragon-Copilot",
+      "id": "edge",
+      "displayName": "Microsoft Edge",
       "category": "other",
-      "product": null,
-      "path": "icons/other/Dragon-Copilot.svg"
+      "path": "icons/other/edge.svg",
+      "source": "cdn"
     },
     {
-      "name": "Microsoft Foundry",
+      "id": "bing",
+      "displayName": "Bing",
       "category": "other",
-      "product": null,
-      "path": "icons/other/Microsoft Foundry.svg"
+      "path": "icons/other/bing.svg",
+      "source": "cdn"
     },
     {
-      "name": "Word (16px)",
-      "category": "Fluent-Brand",
-      "product": "Word",
-      "path": "icons/Fluent-Brand/Word/word_16x1.svg"
+      "id": "designer",
+      "displayName": "Designer",
+      "category": "other",
+      "path": "icons/other/designer.svg",
+      "source": "cdn"
     },
     {
-      "name": "Word (24px)",
-      "category": "Fluent-Brand",
-      "product": "Word",
-      "path": "icons/Fluent-Brand/Word/word_24x1.svg"
+      "id": "office",
+      "displayName": "Office",
+      "category": "other",
+      "path": "icons/other/office.svg",
+      "source": "cdn"
     },
     {
-      "name": "Word (32px)",
-      "category": "Fluent-Brand",
-      "product": "Word",
-      "path": "icons/Fluent-Brand/Word/word_32x1.svg"
+      "id": "dragon-copilot",
+      "displayName": "Dragon Copilot",
+      "category": "other",
+      "path": "icons/other/dragon-copilot.svg",
+      "source": "repo"
     },
     {
-      "name": "Word (48px)",
-      "category": "Fluent-Brand",
-      "product": "Word",
-      "path": "icons/Fluent-Brand/Word/word_48x1.svg"
+      "id": "foundry",
+      "displayName": "Microsoft Foundry",
+      "category": "other",
+      "path": "icons/other/foundry.svg",
+      "source": "repo"
     },
     {
-      "name": "Excel (16px)",
-      "category": "Fluent-Brand",
-      "product": "Excel",
-      "path": "icons/Fluent-Brand/Excel/excel_16x1.svg"
-    },
-    {
-      "name": "Excel (24px)",
-      "category": "Fluent-Brand",
-      "product": "Excel",
-      "path": "icons/Fluent-Brand/Excel/excel_24x1.svg"
-    },
-    {
-      "name": "Excel (32px)",
-      "category": "Fluent-Brand",
-      "product": "Excel",
-      "path": "icons/Fluent-Brand/Excel/excel_32x1.svg"
-    },
-    {
-      "name": "Excel (48px)",
-      "category": "Fluent-Brand",
-      "product": "Excel",
-      "path": "icons/Fluent-Brand/Excel/excel_48x1.svg"
-    },
-    {
-      "name": "PowerPoint (16px)",
-      "category": "Fluent-Brand",
-      "product": "PowerPoint",
-      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_16x1.svg"
-    },
-    {
-      "name": "PowerPoint (24px)",
-      "category": "Fluent-Brand",
-      "product": "PowerPoint",
-      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_24x1.svg"
-    },
-    {
-      "name": "PowerPoint (32px)",
-      "category": "Fluent-Brand",
-      "product": "PowerPoint",
-      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_32x1.svg"
-    },
-    {
-      "name": "PowerPoint (48px)",
-      "category": "Fluent-Brand",
-      "product": "PowerPoint",
-      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_48x1.svg"
-    },
-    {
-      "name": "Outlook (16px)",
-      "category": "Fluent-Brand",
-      "product": "Outlook",
-      "path": "icons/Fluent-Brand/Outlook/outlook_16x1.svg"
-    },
-    {
-      "name": "Outlook (24px)",
-      "category": "Fluent-Brand",
-      "product": "Outlook",
-      "path": "icons/Fluent-Brand/Outlook/outlook_24x1.svg"
-    },
-    {
-      "name": "Outlook (32px)",
-      "category": "Fluent-Brand",
-      "product": "Outlook",
-      "path": "icons/Fluent-Brand/Outlook/outlook_32x1.svg"
-    },
-    {
-      "name": "Outlook (48px)",
-      "category": "Fluent-Brand",
-      "product": "Outlook",
-      "path": "icons/Fluent-Brand/Outlook/outlook_48x1.svg"
-    },
-    {
-      "name": "OneNote (16px)",
-      "category": "Fluent-Brand",
-      "product": "OneNote",
-      "path": "icons/Fluent-Brand/OneNote/onenote_16x1.svg"
-    },
-    {
-      "name": "OneNote (24px)",
-      "category": "Fluent-Brand",
-      "product": "OneNote",
-      "path": "icons/Fluent-Brand/OneNote/onenote_24x1.svg"
-    },
-    {
-      "name": "OneNote (32px)",
-      "category": "Fluent-Brand",
-      "product": "OneNote",
-      "path": "icons/Fluent-Brand/OneNote/onenote_32x1.svg"
-    },
-    {
-      "name": "OneNote (48px)",
-      "category": "Fluent-Brand",
-      "product": "OneNote",
-      "path": "icons/Fluent-Brand/OneNote/onenote_48x1.svg"
-    },
-    {
-      "name": "Teams (16px)",
-      "category": "Fluent-Brand",
-      "product": "Teams",
-      "path": "icons/Fluent-Brand/Teams/teams_16x1.svg"
-    },
-    {
-      "name": "Teams (24px)",
-      "category": "Fluent-Brand",
-      "product": "Teams",
-      "path": "icons/Fluent-Brand/Teams/teams_24x1.svg"
-    },
-    {
-      "name": "Teams (32px)",
-      "category": "Fluent-Brand",
-      "product": "Teams",
-      "path": "icons/Fluent-Brand/Teams/teams_32x1.svg"
-    },
-    {
-      "name": "Teams (48px)",
-      "category": "Fluent-Brand",
-      "product": "Teams",
-      "path": "icons/Fluent-Brand/Teams/teams_48x1.svg"
-    },
-    {
-      "name": "SharePoint (16px)",
-      "category": "Fluent-Brand",
-      "product": "SharePoint",
-      "path": "icons/Fluent-Brand/SharePoint/sharepoint_16x1.svg"
-    },
-    {
-      "name": "SharePoint (24px)",
-      "category": "Fluent-Brand",
-      "product": "SharePoint",
-      "path": "icons/Fluent-Brand/SharePoint/sharepoint_24x1.svg"
-    },
-    {
-      "name": "SharePoint (32px)",
-      "category": "Fluent-Brand",
-      "product": "SharePoint",
-      "path": "icons/Fluent-Brand/SharePoint/sharepoint_32x1.svg"
-    },
-    {
-      "name": "SharePoint (48px)",
-      "category": "Fluent-Brand",
-      "product": "SharePoint",
-      "path": "icons/Fluent-Brand/SharePoint/sharepoint_48x1.svg"
-    },
-    {
-      "name": "OneDrive (16px)",
-      "category": "Fluent-Brand",
-      "product": "OneDrive",
-      "path": "icons/Fluent-Brand/OneDrive/onedrive_16x1.svg"
-    },
-    {
-      "name": "OneDrive (24px)",
-      "category": "Fluent-Brand",
-      "product": "OneDrive",
-      "path": "icons/Fluent-Brand/OneDrive/onedrive_24x1.svg"
-    },
-    {
-      "name": "OneDrive (32px)",
-      "category": "Fluent-Brand",
-      "product": "OneDrive",
-      "path": "icons/Fluent-Brand/OneDrive/onedrive_32x1.svg"
-    },
-    {
-      "name": "OneDrive (48px)",
-      "category": "Fluent-Brand",
-      "product": "OneDrive",
-      "path": "icons/Fluent-Brand/OneDrive/onedrive_48x1.svg"
-    },
-    {
-      "name": "Access (16px)",
-      "category": "Fluent-Brand",
-      "product": "Access",
-      "path": "icons/Fluent-Brand/Access/access_16x1.svg"
-    },
-    {
-      "name": "Access (24px)",
-      "category": "Fluent-Brand",
-      "product": "Access",
-      "path": "icons/Fluent-Brand/Access/access_24x1.svg"
-    },
-    {
-      "name": "Access (32px)",
-      "category": "Fluent-Brand",
-      "product": "Access",
-      "path": "icons/Fluent-Brand/Access/access_32x1.svg"
-    },
-    {
-      "name": "Access (48px)",
-      "category": "Fluent-Brand",
-      "product": "Access",
-      "path": "icons/Fluent-Brand/Access/access_48x1.svg"
-    },
-    {
-      "name": "Publisher (16px)",
-      "category": "Fluent-Brand",
-      "product": "Publisher",
-      "path": "icons/Fluent-Brand/Publisher/publisher_16x1.svg"
-    },
-    {
-      "name": "Publisher (24px)",
-      "category": "Fluent-Brand",
-      "product": "Publisher",
-      "path": "icons/Fluent-Brand/Publisher/publisher_24x1.svg"
-    },
-    {
-      "name": "Publisher (32px)",
-      "category": "Fluent-Brand",
-      "product": "Publisher",
-      "path": "icons/Fluent-Brand/Publisher/publisher_32x1.svg"
-    },
-    {
-      "name": "Publisher (48px)",
-      "category": "Fluent-Brand",
-      "product": "Publisher",
-      "path": "icons/Fluent-Brand/Publisher/publisher_48x1.svg"
-    },
-    {
-      "name": "Visio (16px)",
-      "category": "Fluent-Brand",
-      "product": "Visio",
-      "path": "icons/Fluent-Brand/Visio/visio_16x1.svg"
-    },
-    {
-      "name": "Visio (24px)",
-      "category": "Fluent-Brand",
-      "product": "Visio",
-      "path": "icons/Fluent-Brand/Visio/visio_24x1.svg"
-    },
-    {
-      "name": "Visio (32px)",
-      "category": "Fluent-Brand",
-      "product": "Visio",
-      "path": "icons/Fluent-Brand/Visio/visio_32x1.svg"
-    },
-    {
-      "name": "Visio (48px)",
-      "category": "Fluent-Brand",
-      "product": "Visio",
-      "path": "icons/Fluent-Brand/Visio/visio_48x1.svg"
-    },
-    {
-      "name": "Project (16px)",
-      "category": "Fluent-Brand",
-      "product": "Project",
-      "path": "icons/Fluent-Brand/Project/project_16x1.svg"
-    },
-    {
-      "name": "Project (24px)",
-      "category": "Fluent-Brand",
-      "product": "Project",
-      "path": "icons/Fluent-Brand/Project/project_24x1.svg"
-    },
-    {
-      "name": "Project (32px)",
-      "category": "Fluent-Brand",
-      "product": "Project",
-      "path": "icons/Fluent-Brand/Project/project_32x1.svg"
-    },
-    {
-      "name": "Project (48px)",
-      "category": "Fluent-Brand",
-      "product": "Project",
-      "path": "icons/Fluent-Brand/Project/project_48x1.svg"
-    },
-    {
-      "name": "Loop (16px)",
-      "category": "Fluent-Brand",
-      "product": "Loop",
-      "path": "icons/Fluent-Brand/Loop/loop_16x1.svg"
-    },
-    {
-      "name": "Loop (24px)",
-      "category": "Fluent-Brand",
-      "product": "Loop",
-      "path": "icons/Fluent-Brand/Loop/loop_24x1.svg"
-    },
-    {
-      "name": "Loop (32px)",
-      "category": "Fluent-Brand",
-      "product": "Loop",
-      "path": "icons/Fluent-Brand/Loop/loop_32x1.svg"
-    },
-    {
-      "name": "Loop (48px)",
-      "category": "Fluent-Brand",
-      "product": "Loop",
-      "path": "icons/Fluent-Brand/Loop/loop_48x1.svg"
-    },
-    {
-      "name": "Lists (16px)",
-      "category": "Fluent-Brand",
-      "product": "Lists",
-      "path": "icons/Fluent-Brand/Lists/lists_16x1.svg"
-    },
-    {
-      "name": "Lists (24px)",
-      "category": "Fluent-Brand",
-      "product": "Lists",
-      "path": "icons/Fluent-Brand/Lists/lists_24x1.svg"
-    },
-    {
-      "name": "Lists (32px)",
-      "category": "Fluent-Brand",
-      "product": "Lists",
-      "path": "icons/Fluent-Brand/Lists/lists_32x1.svg"
-    },
-    {
-      "name": "Lists (48px)",
-      "category": "Fluent-Brand",
-      "product": "Lists",
-      "path": "icons/Fluent-Brand/Lists/lists_48x1.svg"
-    },
-    {
-      "name": "Forms (16px)",
-      "category": "Fluent-Brand",
-      "product": "Forms",
-      "path": "icons/Fluent-Brand/Forms/forms_16x1.svg"
-    },
-    {
-      "name": "Forms (24px)",
-      "category": "Fluent-Brand",
-      "product": "Forms",
-      "path": "icons/Fluent-Brand/Forms/forms_24x1.svg"
-    },
-    {
-      "name": "Forms (32px)",
-      "category": "Fluent-Brand",
-      "product": "Forms",
-      "path": "icons/Fluent-Brand/Forms/forms_32x1.svg"
-    },
-    {
-      "name": "Forms (48px)",
-      "category": "Fluent-Brand",
-      "product": "Forms",
-      "path": "icons/Fluent-Brand/Forms/forms_48x1.svg"
-    },
-    {
-      "name": "Planner (24px)",
-      "category": "Fluent-Brand",
-      "product": "Planner",
-      "path": "icons/Fluent-Brand/Planner/planner_24x1.svg"
-    },
-    {
-      "name": "Stream (16px)",
-      "category": "Fluent-Brand",
-      "product": "Stream",
-      "path": "icons/Fluent-Brand/Stream/stream_16x1.svg"
-    },
-    {
-      "name": "Stream (24px)",
-      "category": "Fluent-Brand",
-      "product": "Stream",
-      "path": "icons/Fluent-Brand/Stream/stream_24x1.svg"
-    },
-    {
-      "name": "Stream (32px)",
-      "category": "Fluent-Brand",
-      "product": "Stream",
-      "path": "icons/Fluent-Brand/Stream/stream_32x1.svg"
-    },
-    {
-      "name": "Stream (48px)",
-      "category": "Fluent-Brand",
-      "product": "Stream",
-      "path": "icons/Fluent-Brand/Stream/stream_48x1.svg"
-    },
-    {
-      "name": "Clipchamp (16px)",
-      "category": "Fluent-Brand",
-      "product": "Clipchamp",
-      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_16x1.svg"
-    },
-    {
-      "name": "Clipchamp (24px)",
-      "category": "Fluent-Brand",
-      "product": "Clipchamp",
-      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_24x1.svg"
-    },
-    {
-      "name": "Clipchamp (32px)",
-      "category": "Fluent-Brand",
-      "product": "Clipchamp",
-      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_32x1.svg"
-    },
-    {
-      "name": "Clipchamp (48px)",
-      "category": "Fluent-Brand",
-      "product": "Clipchamp",
-      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_48x1.svg"
-    },
-    {
-      "name": "Sway (16px)",
-      "category": "Fluent-Brand",
-      "product": "Sway",
-      "path": "icons/Fluent-Brand/Sway/sway_16x1.svg"
-    },
-    {
-      "name": "Sway (24px)",
-      "category": "Fluent-Brand",
-      "product": "Sway",
-      "path": "icons/Fluent-Brand/Sway/sway_24x1.svg"
-    },
-    {
-      "name": "Sway (48px)",
-      "category": "Fluent-Brand",
-      "product": "Sway",
-      "path": "icons/Fluent-Brand/Sway/sway_48x1.svg"
-    },
-    {
-      "name": "Bookings (24px)",
-      "category": "Fluent-Brand",
-      "product": "Bookings",
-      "path": "icons/Fluent-Brand/Bookings/bookings_24x1.svg"
-    },
-    {
-      "name": "To Do (16px)",
-      "category": "Fluent-Brand",
-      "product": "To Do",
-      "path": "icons/Fluent-Brand/To Do/todo_16x1.svg"
-    },
-    {
-      "name": "To Do (24px)",
-      "category": "Fluent-Brand",
-      "product": "To Do",
-      "path": "icons/Fluent-Brand/To Do/todo_24x1.svg"
-    },
-    {
-      "name": "To Do (32px)",
-      "category": "Fluent-Brand",
-      "product": "To Do",
-      "path": "icons/Fluent-Brand/To Do/todo_32x1.svg"
-    },
-    {
-      "name": "To Do (48px)",
-      "category": "Fluent-Brand",
-      "product": "To Do",
-      "path": "icons/Fluent-Brand/To Do/todo_48x1.svg"
-    },
-    {
-      "name": "Whiteboard (16px)",
-      "category": "Fluent-Brand",
-      "product": "Whiteboard",
-      "path": "icons/Fluent-Brand/Whiteboard/whiteboard_16x1.svg"
-    },
-    {
-      "name": "Whiteboard (24px)",
-      "category": "Fluent-Brand",
-      "product": "Whiteboard",
-      "path": "icons/Fluent-Brand/Whiteboard/whiteboard_24x1.svg"
-    },
-    {
-      "name": "Delve (16px)",
-      "category": "Fluent-Brand",
-      "product": "Delve",
-      "path": "icons/Fluent-Brand/Delve/delve_16x1.svg"
-    },
-    {
-      "name": "Delve (24px)",
-      "category": "Fluent-Brand",
-      "product": "Delve",
-      "path": "icons/Fluent-Brand/Delve/delve_24x1.svg"
-    },
-    {
-      "name": "Delve (32px)",
-      "category": "Fluent-Brand",
-      "product": "Delve",
-      "path": "icons/Fluent-Brand/Delve/delve_32x1.svg"
-    },
-    {
-      "name": "Delve (48px)",
-      "category": "Fluent-Brand",
-      "product": "Delve",
-      "path": "icons/Fluent-Brand/Delve/delve_48x1.svg"
-    },
-    {
-      "name": "Power Apps (24px)",
-      "category": "Fluent-Brand",
-      "product": "Power Apps",
-      "path": "icons/Fluent-Brand/Power Apps/powerapps_24x1.svg"
-    },
-    {
-      "name": "Power Automate (24px)",
-      "category": "Fluent-Brand",
-      "product": "Power Automate",
-      "path": "icons/Fluent-Brand/Power Automate/powerautomate_24x1.svg"
-    },
-    {
-      "name": "Power BI (16px)",
-      "category": "Fluent-Brand",
-      "product": "Power BI",
-      "path": "icons/Fluent-Brand/Power BI/powerbi_16x1.svg"
-    },
-    {
-      "name": "Power BI (24px)",
-      "category": "Fluent-Brand",
-      "product": "Power BI",
-      "path": "icons/Fluent-Brand/Power BI/powerbi_24x1.svg"
-    },
-    {
-      "name": "Power BI (32px)",
-      "category": "Fluent-Brand",
-      "product": "Power BI",
-      "path": "icons/Fluent-Brand/Power BI/powerbi_32x1.svg"
-    },
-    {
-      "name": "Power BI (48px)",
-      "category": "Fluent-Brand",
-      "product": "Power BI",
-      "path": "icons/Fluent-Brand/Power BI/powerbi_48x1.svg"
-    },
-    {
-      "name": "Power Pages (24px)",
-      "category": "Fluent-Brand",
-      "product": "Power Pages",
-      "path": "icons/Fluent-Brand/Power Pages/powerpages_24x1.svg"
-    },
-    {
-      "name": "Copilot (16px)",
-      "category": "Fluent-Brand",
-      "product": "Copilot",
-      "path": "icons/Fluent-Brand/Copilot/copilot_16x1.svg"
-    },
-    {
-      "name": "Copilot (24px)",
-      "category": "Fluent-Brand",
-      "product": "Copilot",
-      "path": "icons/Fluent-Brand/Copilot/copilot_24x1.svg"
-    },
-    {
-      "name": "Copilot (48px)",
-      "category": "Fluent-Brand",
-      "product": "Copilot",
-      "path": "icons/Fluent-Brand/Copilot/copilot_48x1.svg"
-    },
-    {
-      "name": "Designer (24px)",
-      "category": "Fluent-Brand",
-      "product": "Designer",
-      "path": "icons/Fluent-Brand/Designer/designer_24x1.svg"
-    },
-    {
-      "name": "Viva Connections (24px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Connections",
-      "path": "icons/Fluent-Brand/Viva Connections/vivaconnections_24x1.svg"
-    },
-    {
-      "name": "Viva Insights (24px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Insights",
-      "path": "icons/Fluent-Brand/Viva Insights/vivainsights_24x1.svg"
-    },
-    {
-      "name": "Viva Learning (24px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Learning",
-      "path": "icons/Fluent-Brand/Viva Learning/vivalearning_24x1.svg"
-    },
-    {
-      "name": "Viva Engage (16px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Engage",
-      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_16x1.svg"
-    },
-    {
-      "name": "Viva Engage (24px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Engage",
-      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_24x1.svg"
-    },
-    {
-      "name": "Viva Engage (32px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Engage",
-      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_32x1.svg"
-    },
-    {
-      "name": "Viva Engage (48px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Engage",
-      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_48x1.svg"
-    },
-    {
-      "name": "Viva Pulse (24px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Pulse",
-      "path": "icons/Fluent-Brand/Viva Pulse/vivapulse_24x1.svg"
-    },
-    {
-      "name": "Viva Amplify (16px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Amplify",
-      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_16x1.svg"
-    },
-    {
-      "name": "Viva Amplify (24px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Amplify",
-      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_24x1.svg"
-    },
-    {
-      "name": "Viva Amplify (32px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Amplify",
-      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_32x1.svg"
-    },
-    {
-      "name": "Viva Amplify (48px)",
-      "category": "Fluent-Brand",
-      "product": "Viva Amplify",
-      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_48x1.svg"
-    },
-    {
-      "name": "Defender (24px)",
-      "category": "Fluent-Brand",
-      "product": "Defender",
-      "path": "icons/Fluent-Brand/Defender/defender_24x1.svg"
-    },
-    {
-      "name": "Defender (32px)",
-      "category": "Fluent-Brand",
-      "product": "Defender",
-      "path": "icons/Fluent-Brand/Defender/defender_32x1.svg"
-    },
-    {
-      "name": "Purview (24px)",
-      "category": "Fluent-Brand",
-      "product": "Purview",
-      "path": "icons/Fluent-Brand/Purview/purview_24x1.svg"
-    },
-    {
-      "name": "Dynamics 365 (24px)",
-      "category": "Fluent-Brand",
-      "product": "Dynamics 365",
-      "path": "icons/Fluent-Brand/Dynamics 365/dynamics365_24x1.svg"
-    },
-    {
-      "name": "Edge (24px)",
-      "category": "Fluent-Brand",
-      "product": "Edge",
-      "path": "icons/Fluent-Brand/Edge/edge_24x1.svg"
-    },
-    {
-      "name": "Bing (24px)",
-      "category": "Fluent-Brand",
-      "product": "Bing",
-      "path": "icons/Fluent-Brand/Bing/bing_24x1.svg"
-    },
-    {
-      "name": "Yammer (16px)",
-      "category": "Fluent-Brand",
-      "product": "Yammer",
-      "path": "icons/Fluent-Brand/Yammer/yammer_16x1.svg"
-    },
-    {
-      "name": "Yammer (24px)",
-      "category": "Fluent-Brand",
-      "product": "Yammer",
-      "path": "icons/Fluent-Brand/Yammer/yammer_24x1.svg"
-    },
-    {
-      "name": "Yammer (32px)",
-      "category": "Fluent-Brand",
-      "product": "Yammer",
-      "path": "icons/Fluent-Brand/Yammer/yammer_32x1.svg"
-    },
-    {
-      "name": "Yammer (48px)",
-      "category": "Fluent-Brand",
-      "product": "Yammer",
-      "path": "icons/Fluent-Brand/Yammer/yammer_48x1.svg"
-    },
-    {
-      "name": "Skype (24px)",
-      "category": "Fluent-Brand",
-      "product": "Skype",
-      "path": "icons/Fluent-Brand/Skype/skype_24x1.svg"
-    },
-    {
-      "name": "Microsoft 365 (16px)",
-      "category": "Fluent-Brand",
-      "product": "Microsoft 365",
-      "path": "icons/Fluent-Brand/Microsoft 365/m365_16x1.svg"
-    },
-    {
-      "name": "Microsoft 365 (24px)",
-      "category": "Fluent-Brand",
-      "product": "Microsoft 365",
-      "path": "icons/Fluent-Brand/Microsoft 365/m365_24x1.svg"
-    },
-    {
-      "name": "Microsoft 365 (48px)",
-      "category": "Fluent-Brand",
-      "product": "Microsoft 365",
-      "path": "icons/Fluent-Brand/Microsoft 365/m365_48x1.svg"
-    },
-    {
-      "name": "Office (16px)",
-      "category": "Fluent-Brand",
-      "product": "Office",
-      "path": "icons/Fluent-Brand/Office/office_16x1.svg"
-    },
-    {
-      "name": "Office (24px)",
-      "category": "Fluent-Brand",
-      "product": "Office",
-      "path": "icons/Fluent-Brand/Office/office_24x1.svg"
-    },
-    {
-      "name": "Office (48px)",
-      "category": "Fluent-Brand",
-      "product": "Office",
-      "path": "icons/Fluent-Brand/Office/office_48x1.svg"
-    },
-    {
-      "name": "MSN (24px)",
-      "category": "Fluent-Brand",
-      "product": "MSN",
-      "path": "icons/Fluent-Brand/MSN/msn_24x1.svg"
-    },
-    {
-      "name": "Family Safety (24px)",
-      "category": "Fluent-Brand",
-      "product": "Family Safety",
-      "path": "icons/Fluent-Brand/Family Safety/familysafety_24x1.svg"
-    },
-    {
-      "name": "Kaizala (24px)",
-      "category": "Fluent-Brand",
-      "product": "Kaizala",
-      "path": "icons/Fluent-Brand/Kaizala/kaizala_24x1.svg"
+      "id": "family-safety",
+      "displayName": "Family Safety",
+      "category": "other",
+      "path": "icons/other/family-safety.svg",
+      "source": "cdn"
     }
   ]
 }
