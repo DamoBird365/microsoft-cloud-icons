@@ -149,7 +149,49 @@ interface IconEntry {
   source: "cdn" | "repo";
 }
 
+const STANDARD_SIZE = 256;
+
 // ── Helpers ─────────────────────────────────────────────────────────
+
+/** Normalise SVG to a standard display size while preserving the original viewBox */
+function normaliseSvgSize(svgContent: string): string {
+  // Extract and modify only the <svg ...> opening tag
+  const svgTagMatch = svgContent.match(/<svg\b[^>]*>/);
+  if (!svgTagMatch) return svgContent;
+
+  let svgTag = svgTagMatch[0];
+  const beforeTag = svgContent.slice(0, svgTagMatch.index!);
+  const afterTag = svgContent.slice(svgTagMatch.index! + svgTag.length);
+
+  // Ensure viewBox exists — infer from existing width/height if needed
+  if (!/viewBox\s*=\s*"[^"]+?"/.test(svgTag)) {
+    const wMatch = svgTag.match(/\bwidth\s*=\s*"([^"]+)"/);
+    const hMatch = svgTag.match(/\bheight\s*=\s*"([^"]+)"/);
+    if (wMatch && hMatch) {
+      const w = parseFloat(wMatch[1]);
+      const h = parseFloat(hMatch[1]);
+      if (!isNaN(w) && !isNaN(h)) {
+        svgTag = svgTag.replace(/<svg\b/, `<svg viewBox="0 0 ${w} ${h}"`);
+      }
+    }
+  }
+
+  // Replace or add width on the <svg> tag only
+  if (/\bwidth\s*=\s*"[^"]*"/.test(svgTag)) {
+    svgTag = svgTag.replace(/\bwidth\s*=\s*"[^"]*"/, `width="${STANDARD_SIZE}"`);
+  } else {
+    svgTag = svgTag.replace(/<svg\b/, `<svg width="${STANDARD_SIZE}"`);
+  }
+
+  // Replace or add height on the <svg> tag only
+  if (/\bheight\s*=\s*"[^"]*"/.test(svgTag)) {
+    svgTag = svgTag.replace(/\bheight\s*=\s*"[^"]*"/, `height="${STANDARD_SIZE}"`);
+  } else {
+    svgTag = svgTag.replace(/<svg\b/, `<svg height="${STANDARD_SIZE}"`);
+  }
+
+  return beforeTag + svgTag + afterTag;
+}
 
 function downloadFile(url: string): Promise<string | null> {
   return new Promise((resolve) => {
@@ -212,7 +254,7 @@ async function fetchAllIcons(): Promise<IconEntry[]> {
         const svg = await downloadFile(url);
         if (svg) {
           mkdirSync(dirname(fullDest), { recursive: true });
-          writeFileSync(fullDest, svg);
+          writeFileSync(fullDest, normaliseSvgSize(svg));
           icons.push({
             id: product.id,
             displayName: product.displayName,
@@ -232,7 +274,8 @@ async function fetchAllIcons(): Promise<IconEntry[]> {
       const repoFile = join(TEMP_DIR, product.repoPath);
       if (existsSync(repoFile)) {
         mkdirSync(dirname(fullDest), { recursive: true });
-        cpSync(repoFile, fullDest);
+        const svg = readFileSync(repoFile, "utf-8");
+        writeFileSync(fullDest, normaliseSvgSize(svg));
         icons.push({
           id: product.id,
           displayName: product.displayName,
