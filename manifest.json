@@ -1,9 +1,7 @@
 {
-  "generated": "2026-03-13T12:37:34.669Z",
+  "generated": "2026-03-13T12:58:40.083Z",
   "sources": [
-    "https://learn.microsoft.com/power-platform/guidance/icons (Official Microsoft PP Icons)",
-    "https://res.cdn.office.net (Fluent 2 Brand Icons)",
-    "https://github.com/loryanstrant/MicrosoftCloudLogos"
+    "Microsoft official icon sources"
   ],
   "totalIcons": 73,
   "categories": {

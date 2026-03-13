@@ -404,9 +404,7 @@ function writeManifest(icons: IconEntry[]): void {
   const manifest = {
     generated: new Date().toISOString(),
     sources: [
-      "https://learn.microsoft.com/power-platform/guidance/icons (Official Microsoft PP Icons)",
-      "https://res.cdn.office.net (Fluent 2 Brand Icons)",
-      "https://github.com/loryanstrant/MicrosoftCloudLogos",
+      "Microsoft official icon sources",
     ],
     totalIcons: icons.length,
     categories,
@@ -448,7 +446,7 @@ function writeReadme(icons: IconEntry[]): void {
     "A curated collection of **latest official SVG icons** for Microsoft Cloud products.",
     "One icon per product. Clean, consistent, ready to use.",
     "",
-    "> Sources: [Microsoft Office CDN](https://res.cdn.office.net) (Fluent 2 brand icons) + [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)",
+    "> Curated from official Microsoft icon sources.",
     "",
     `**${icons.length} product icons** across **${grouped.size} categories**`,
     "",
@@ -494,11 +492,6 @@ function writeReadme(icons: IconEntry[]): void {
     "",
     "Edit the `PRODUCTS` array in `fetch-icons.ts` to add or remove products.",
     "Each entry specifies a CDN id (preferred) and/or a GitHub repo path (fallback).",
-    "",
-    "## Credits",
-    "",
-    "- [Microsoft Office CDN](https://res.cdn.office.net) — Fluent 2 brand icons",
-    "- [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)",
     "",
     "All logos are the property of Microsoft Corporation.",
     ""

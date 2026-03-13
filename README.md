@@ -3,7 +3,7 @@
 A curated collection of **latest official SVG icons** for Microsoft Cloud products.
 One icon per product. Clean, consistent, ready to use.
 
-> Sources: [Microsoft Office CDN](https://res.cdn.office.net) (Fluent 2 brand icons) + [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)
+> Curated from official Microsoft icon sources.
 
 **73 product icons** across **9 categories**
 
@@ -153,10 +153,5 @@ npm run fetch
 
 Edit the `PRODUCTS` array in `fetch-icons.ts` to add or remove products.
 Each entry specifies a CDN id (preferred) and/or a GitHub repo path (fallback).
-
-## Credits
-
-- [Microsoft Office CDN](https://res.cdn.office.net) — Fluent 2 brand icons
-- [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)
 
 All logos are the property of Microsoft Corporation.
