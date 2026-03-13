@@ -5,14 +5,14 @@ One icon per product. Clean, consistent, ready to use.
 
 > Sources: [Microsoft Office CDN](https://res.cdn.office.net) (Fluent 2 brand icons) + [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)
 
-**72 product icons** across **9 categories**
+**73 product icons** across **9 categories**
 
 ## Quick Reference
 
 | Category | Icons | Products |
 |----------|-------|----------|
 | Microsoft 365 | 25 | Word, Excel, PowerPoint, Outlook, OneNote, Teams, SharePoint, OneDrive, Access, Publisher, Visio, Project, Loop, Lists, Forms, Planner, Stream, Clipchamp, Sway, Bookings, To Do, Whiteboard, Delve, Places, Microsoft 365 |
-| Power Platform | 11 | Power Apps, Power Automate, Power BI, Power Pages, Power Platform, Copilot Studio, AI Builder, Dataverse, Power Fx, Connectors, Agent 365 |
+| Power Platform | 12 | Power Apps, Power Automate, Power BI, Power Pages, Power Platform, Copilot Studio, AI Builder, Dataverse, Power Fx, Connectors, Agent 365, Agent Builder |
 | Dynamics 365 | 13 | Dynamics 365, Business Central, Customer Service, Field Service, Finance, Sales, Supply Chain Management, Commerce, Remote Assist, Guides, Customer Voice, Project Operations, Fraud Protection |
 | Entra | 4 | Microsoft Entra, Entra ID, Entra ID Governance, Entra Verified ID |
 | Viva | 8 | Viva Connections, Viva Insights, Viva Learning, Viva Engage, Viva Pulse, Viva Amplify, Viva Glint, Viva Suite |
@@ -58,6 +58,7 @@ One icon per product. Clean, consistent, ready to use.
 | Icon | Product | File |
 |------|---------|------|
 | <img src="icons/power-platform/agent-365.svg" width="32" /> | **Agent 365** | `icons/power-platform/agent-365.svg` |
+| <img src="icons/power-platform/agent-builder.svg" width="32" /> | **Agent Builder** | `icons/power-platform/agent-builder.svg` |
 | <img src="icons/power-platform/ai-builder.svg" width="32" /> | **AI Builder** | `icons/power-platform/ai-builder.svg` |
 | <img src="icons/power-platform/connectors.svg" width="32" /> | **Connectors** | `icons/power-platform/connectors.svg` |
 | <img src="icons/power-platform/copilot-studio.svg" width="32" /> | **Copilot Studio** | `icons/power-platform/copilot-studio.svg` |

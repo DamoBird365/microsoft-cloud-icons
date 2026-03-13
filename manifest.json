@@ -1,10 +1,11 @@
 {
-  "generated": "2026-03-13T10:45:47.214Z",
+  "generated": "2026-03-13T11:02:58.348Z",
   "sources": [
+    "https://learn.microsoft.com/power-platform/guidance/icons (Official Microsoft PP Icons)",
     "https://res.cdn.office.net (Fluent 2 Brand Icons)",
     "https://github.com/loryanstrant/MicrosoftCloudLogos"
   ],
-  "totalIcons": 72,
+  "totalIcons": 73,
   "categories": {
     "microsoft-365": [
       "word",
@@ -44,7 +45,8 @@
       "dataverse",
       "power-fx",
       "connectors",
-      "agent-365"
+      "agent-365",
+      "agent-builder"
     ],
     "dynamics-365": [
       "dynamics-365",
@@ -278,14 +280,14 @@
       "displayName": "Power Apps",
       "category": "power-platform",
       "path": "icons/power-platform/power-apps.svg",
-      "source": "cdn"
+      "source": "official"
     },
     {
       "id": "power-automate",
       "displayName": "Power Automate",
       "category": "power-platform",
       "path": "icons/power-platform/power-automate.svg",
-      "source": "cdn"
+      "source": "official"
     },
     {
       "id": "power-bi",
@@ -299,35 +301,35 @@
       "displayName": "Power Pages",
       "category": "power-platform",
       "path": "icons/power-platform/power-pages.svg",
-      "source": "cdn"
+      "source": "official"
     },
     {
       "id": "power-platform",
       "displayName": "Power Platform",
       "category": "power-platform",
       "path": "icons/power-platform/power-platform.svg",
-      "source": "repo"
+      "source": "official"
     },
     {
       "id": "copilot-studio",
       "displayName": "Copilot Studio",
       "category": "power-platform",
       "path": "icons/power-platform/copilot-studio.svg",
-      "source": "repo"
+      "source": "official"
     },
     {
       "id": "ai-builder",
       "displayName": "AI Builder",
       "category": "power-platform",
       "path": "icons/power-platform/ai-builder.svg",
-      "source": "repo"
+      "source": "official"
     },
     {
       "id": "dataverse",
       "displayName": "Dataverse",
       "category": "power-platform",
       "path": "icons/power-platform/dataverse.svg",
-      "source": "repo"
+      "source": "official"
     },
     {
       "id": "power-fx",
@@ -348,7 +350,14 @@
       "displayName": "Agent 365",
       "category": "power-platform",
       "path": "icons/power-platform/agent-365.svg",
-      "source": "repo"
+      "source": "official"
+    },
+    {
+      "id": "agent-builder",
+      "displayName": "Agent Builder",
+      "category": "power-platform",
+      "path": "icons/power-platform/agent-builder.svg",
+      "source": "direct"
     },
     {
       "id": "dynamics-365",
