@@ -11,15 +11,15 @@ One icon per product — clean, consistent, ready to use.
 
 | Category | Icons | Products |
 |----------|-------|----------|
-| Microsoft 365 | 25 | Word, Excel, PowerPoint, Outlook, OneNote, Teams, SharePoint, OneDrive, Access, Publisher, Visio, Project, Loop, Lists, Forms, Planner, Stream, Clipchamp, Sway, Bookings, To Do, Whiteboard, Delve, Places, Microsoft 365 |
-| Power Platform | 12 | Power Apps, Power Automate, Power BI, Power Pages, Power Platform, Copilot Studio, AI Builder, Dataverse, Power Fx, Connectors, Agent 365, Agent Builder |
-| Dynamics 365 | 13 | Dynamics 365, Business Central, Customer Service, Field Service, Finance, Sales, Supply Chain Management, Commerce, Remote Assist, Guides, Customer Voice, Project Operations, Fraud Protection |
-| Entra | 4 | Microsoft Entra, Entra ID, Entra ID Governance, Entra Verified ID |
-| Viva | 8 | Viva Connections, Viva Insights, Viva Learning, Viva Engage, Viva Pulse, Viva Amplify, Viva Glint, Viva Suite |
+| Microsoft 365 | 25 | Access, Bookings, Clipchamp, Delve, Excel, Forms, Lists, Loop, Microsoft 365, OneDrive, OneNote, Outlook, Places, Planner, PowerPoint, Project, Publisher, SharePoint, Stream, Sway, Teams, To Do, Visio, Whiteboard, Word |
+| Power Platform | 12 | Agent 365, Agent Builder, AI Builder, Connectors, Copilot Studio, Dataverse, Power Apps, Power Automate, Power BI, Power Fx, Power Pages, Power Platform |
+| Dynamics 365 | 13 | Business Central, Commerce, Customer Service, Customer Voice, Dynamics 365, Field Service, Finance, Fraud Protection, Guides, Project Operations, Remote Assist, Sales, Supply Chain Management |
+| Entra | 4 | Entra ID, Entra ID Governance, Entra Verified ID, Microsoft Entra |
+| Viva | 8 | Viva Amplify, Viva Connections, Viva Engage, Viva Glint, Viva Insights, Viva Learning, Viva Pulse, Viva Suite |
 | Security | 2 | Defender, Purview |
-| Copilot | 2 | Microsoft Copilot, Microsoft 365 Copilot |
+| Copilot | 2 | Microsoft 365 Copilot, Microsoft Copilot |
 | Fabric | 1 | Microsoft Fabric |
-| Other | 6 | Microsoft Edge, Bing, Designer, Office, Microsoft Foundry, Family Safety |
+| Other | 6 | Bing, Designer, Family Safety, Microsoft Edge, Microsoft Foundry, Office |
 
 ## All Icons
 
