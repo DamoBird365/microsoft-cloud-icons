@@ -1,0 +1,725 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Microsoft Cloud Product Icons",
+  "description": "Machine-readable index of Microsoft Cloud product icons. Use this file to programmatically discover and retrieve SVG/PNG icons. For raw file access on GitHub, prefix paths with: https://raw.githubusercontent.com/{owner}/{repo}/main/",
+  "version": "1.0",
+  "totalIcons": 73,
+  "formats": [
+    {
+      "type": "svg",
+      "size": "256x256",
+      "description": "Scalable vector — lossless at any size"
+    },
+    {
+      "type": "png",
+      "size": "512x512",
+      "description": "Raster with transparent background"
+    }
+  ],
+  "categories": [
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "count": 25
+    },
+    {
+      "id": "power-platform",
+      "name": "Power Platform",
+      "count": 12
+    },
+    {
+      "id": "dynamics-365",
+      "name": "Dynamics 365",
+      "count": 13
+    },
+    {
+      "id": "copilot",
+      "name": "Copilot",
+      "count": 2
+    },
+    {
+      "id": "entra",
+      "name": "Entra",
+      "count": 4
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "count": 2
+    },
+    {
+      "id": "viva",
+      "name": "Viva",
+      "count": 8
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "count": 1
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "count": 6
+    }
+  ],
+  "icons": [
+    {
+      "id": "word",
+      "name": "Word",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Word processor for creating, editing, and sharing documents with rich formatting and collaboration features.",
+      "svg": "icons/microsoft-365/word.svg",
+      "png": "icons/microsoft-365/word.png"
+    },
+    {
+      "id": "excel",
+      "name": "Excel",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Spreadsheet application for data analysis, calculations, charts, and business intelligence.",
+      "svg": "icons/microsoft-365/excel.svg",
+      "png": "icons/microsoft-365/excel.png"
+    },
+    {
+      "id": "powerpoint",
+      "name": "PowerPoint",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Presentation tool for creating slide decks with animations, transitions, and design templates.",
+      "svg": "icons/microsoft-365/powerpoint.svg",
+      "png": "icons/microsoft-365/powerpoint.png"
+    },
+    {
+      "id": "outlook",
+      "name": "Outlook",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Email, calendar, and contacts application for communication and scheduling.",
+      "svg": "icons/microsoft-365/outlook.svg",
+      "png": "icons/microsoft-365/outlook.png"
+    },
+    {
+      "id": "teams",
+      "name": "Teams",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Collaboration hub for chat, video meetings, file sharing, and app integration.",
+      "svg": "icons/microsoft-365/teams.svg",
+      "png": "icons/microsoft-365/teams.png"
+    },
+    {
+      "id": "sharepoint",
+      "name": "SharePoint",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Intranet and content management platform for team sites, document libraries, and workflows.",
+      "svg": "icons/microsoft-365/sharepoint.svg",
+      "png": "icons/microsoft-365/sharepoint.png"
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Cloud storage service for saving, syncing, and sharing files across devices.",
+      "svg": "icons/microsoft-365/onedrive.svg",
+      "png": "icons/microsoft-365/onedrive.png"
+    },
+    {
+      "id": "onenote",
+      "name": "OneNote",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Digital notebook for capturing and organising notes, drawings, and clippings.",
+      "svg": "icons/microsoft-365/onenote.svg",
+      "png": "icons/microsoft-365/onenote.png"
+    },
+    {
+      "id": "access",
+      "name": "Access",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Desktop database application for building custom database solutions and forms.",
+      "svg": "icons/microsoft-365/access.svg",
+      "png": "icons/microsoft-365/access.png"
+    },
+    {
+      "id": "publisher",
+      "name": "Publisher",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Desktop publishing tool for creating professional layouts like newsletters, flyers, and brochures.",
+      "svg": "icons/microsoft-365/publisher.svg",
+      "png": "icons/microsoft-365/publisher.png"
+    },
+    {
+      "id": "visio",
+      "name": "Visio",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Diagramming tool for flowcharts, org charts, floor plans, and network diagrams.",
+      "svg": "icons/microsoft-365/visio.svg",
+      "png": "icons/microsoft-365/visio.png"
+    },
+    {
+      "id": "project",
+      "name": "Project",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Project management tool for scheduling, resource allocation, and tracking project progress.",
+      "svg": "icons/microsoft-365/project.svg",
+      "png": "icons/microsoft-365/project.png"
+    },
+    {
+      "id": "loop",
+      "name": "Loop",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Co-creation app with portable components that sync across Microsoft 365 apps in real time.",
+      "svg": "icons/microsoft-365/loop.svg",
+      "png": "icons/microsoft-365/loop.png"
+    },
+    {
+      "id": "lists",
+      "name": "Lists",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Smart tracking app for organising information with customisable views, rules, and alerts.",
+      "svg": "icons/microsoft-365/lists.svg",
+      "png": "icons/microsoft-365/lists.png"
+    },
+    {
+      "id": "forms",
+      "name": "Forms",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Survey and quiz builder for collecting feedback, registrations, and responses.",
+      "svg": "icons/microsoft-365/forms.svg",
+      "png": "icons/microsoft-365/forms.png"
+    },
+    {
+      "id": "planner",
+      "name": "Planner",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Task management app for creating plans, assigning tasks, and tracking team progress with visual boards.",
+      "svg": "icons/microsoft-365/planner.svg",
+      "png": "icons/microsoft-365/planner.png"
+    },
+    {
+      "id": "stream",
+      "name": "Stream",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Enterprise video service for uploading, sharing, and managing video content securely.",
+      "svg": "icons/microsoft-365/stream.svg",
+      "png": "icons/microsoft-365/stream.png"
+    },
+    {
+      "id": "clipchamp",
+      "name": "Clipchamp",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Video editor for creating and editing videos with templates, effects, and screen recording.",
+      "svg": "icons/microsoft-365/clipchamp.svg",
+      "png": "icons/microsoft-365/clipchamp.png"
+    },
+    {
+      "id": "sway",
+      "name": "Sway",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Interactive presentation and storytelling app that creates polished, responsive web-based content.",
+      "svg": "icons/microsoft-365/sway.svg",
+      "png": "icons/microsoft-365/sway.png"
+    },
+    {
+      "id": "bookings",
+      "name": "Bookings",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Online scheduling tool that lets customers book appointments and meetings directly.",
+      "svg": "icons/microsoft-365/bookings.svg",
+      "png": "icons/microsoft-365/bookings.png"
+    },
+    {
+      "id": "to-do",
+      "name": "To Do",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Personal task management app for organising daily tasks with smart suggestions and My Day planning.",
+      "svg": "icons/microsoft-365/to-do.svg",
+      "png": "icons/microsoft-365/to-do.png"
+    },
+    {
+      "id": "whiteboard",
+      "name": "Whiteboard",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Digital canvas for visual collaboration, brainstorming, and ideation in meetings.",
+      "svg": "icons/microsoft-365/whiteboard.svg",
+      "png": "icons/microsoft-365/whiteboard.png"
+    },
+    {
+      "id": "delve",
+      "name": "Delve",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Content discovery tool that surfaces relevant documents and content from across your organisation.",
+      "svg": "icons/microsoft-365/delve.svg",
+      "png": "icons/microsoft-365/delve.png"
+    },
+    {
+      "id": "places",
+      "name": "Places",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "Workplace coordination app for managing hybrid work, room booking, and office presence.",
+      "svg": "icons/microsoft-365/places.svg",
+      "png": "icons/microsoft-365/places.png"
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "category": "microsoft-365",
+      "categoryName": "Microsoft 365",
+      "description": "The integrated suite of productivity apps, cloud services, and security for businesses and individuals.",
+      "svg": "icons/microsoft-365/microsoft-365.svg",
+      "png": "icons/microsoft-365/microsoft-365.png"
+    },
+    {
+      "id": "power-apps",
+      "name": "Power Apps",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Low-code platform for building custom business applications with drag-and-drop design and connectors.",
+      "svg": "icons/power-platform/power-apps.svg",
+      "png": "icons/power-platform/power-apps.png"
+    },
+    {
+      "id": "power-automate",
+      "name": "Power Automate",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Workflow automation tool for creating automated flows between apps, services, and data sources.",
+      "svg": "icons/power-platform/power-automate.svg",
+      "png": "icons/power-platform/power-automate.png"
+    },
+    {
+      "id": "power-bi",
+      "name": "Power BI",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Business analytics service for interactive visualisations, dashboards, and data-driven insights.",
+      "svg": "icons/power-platform/power-bi.svg",
+      "png": "icons/power-platform/power-bi.png"
+    },
+    {
+      "id": "power-pages",
+      "name": "Power Pages",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Low-code platform for building secure, data-driven external-facing business websites.",
+      "svg": "icons/power-platform/power-pages.svg",
+      "png": "icons/power-platform/power-pages.png"
+    },
+    {
+      "id": "power-platform",
+      "name": "Power Platform",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "The unified suite comprising Power Apps, Power Automate, Power BI, Power Pages, and Copilot Studio.",
+      "svg": "icons/power-platform/power-platform.svg",
+      "png": "icons/power-platform/power-platform.png"
+    },
+    {
+      "id": "copilot-studio",
+      "name": "Copilot Studio",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Low-code tool for building custom AI copilots and chatbots with generative AI capabilities.",
+      "svg": "icons/power-platform/copilot-studio.svg",
+      "png": "icons/power-platform/copilot-studio.png"
+    },
+    {
+      "id": "ai-builder",
+      "name": "AI Builder",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "AI capability for Power Platform that lets you add intelligence with prebuilt or custom AI models.",
+      "svg": "icons/power-platform/ai-builder.svg",
+      "png": "icons/power-platform/ai-builder.png"
+    },
+    {
+      "id": "dataverse",
+      "name": "Dataverse",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Cloud-scale data platform that securely stores and manages data used by business applications.",
+      "svg": "icons/power-platform/dataverse.svg",
+      "png": "icons/power-platform/dataverse.png"
+    },
+    {
+      "id": "power-fx",
+      "name": "Power Fx",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Low-code programming language based on Excel-like formulas, used across Power Platform.",
+      "svg": "icons/power-platform/power-fx.svg",
+      "png": "icons/power-platform/power-fx.png"
+    },
+    {
+      "id": "connectors",
+      "name": "Connectors",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Pre-built integrations that connect Power Platform to hundreds of apps, services, and data sources.",
+      "svg": "icons/power-platform/connectors.svg",
+      "png": "icons/power-platform/connectors.png"
+    },
+    {
+      "id": "agent-365",
+      "name": "Agent 365",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "AI-powered autonomous agents that execute business processes and tasks on behalf of users.",
+      "svg": "icons/power-platform/agent-365.svg",
+      "png": "icons/power-platform/agent-365.png"
+    },
+    {
+      "id": "agent-builder",
+      "name": "Agent Builder",
+      "category": "power-platform",
+      "categoryName": "Power Platform",
+      "description": "Built-in experience in Microsoft 365 Copilot for creating and sharing declarative agents using natural language or manual configuration.",
+      "svg": "icons/power-platform/agent-builder.svg",
+      "png": "icons/power-platform/agent-builder.png"
+    },
+    {
+      "id": "dynamics-365",
+      "name": "Dynamics 365",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Suite of intelligent business applications for ERP and CRM across sales, service, finance, and operations.",
+      "svg": "icons/dynamics-365/dynamics-365.svg",
+      "png": "icons/dynamics-365/dynamics-365.png"
+    },
+    {
+      "id": "business-central",
+      "name": "Business Central",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Business management solution for SMBs covering finance, supply chain, sales, and project management.",
+      "svg": "icons/dynamics-365/business-central.svg",
+      "png": "icons/dynamics-365/business-central.png"
+    },
+    {
+      "id": "sales",
+      "name": "Sales",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "CRM application for managing customer relationships, pipelines, and sales insights with AI.",
+      "svg": "icons/dynamics-365/sales.svg",
+      "png": "icons/dynamics-365/sales.png"
+    },
+    {
+      "id": "customer-service",
+      "name": "Customer Service",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Omnichannel customer support platform with case management, knowledge base, and AI-driven insights.",
+      "svg": "icons/dynamics-365/customer-service.svg",
+      "png": "icons/dynamics-365/customer-service.png"
+    },
+    {
+      "id": "field-service",
+      "name": "Field Service",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Service management for scheduling, dispatching, and managing on-site work orders and technicians.",
+      "svg": "icons/dynamics-365/field-service.svg",
+      "png": "icons/dynamics-365/field-service.png"
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Financial management application for automating accounting, budgeting, and global financial operations.",
+      "svg": "icons/dynamics-365/finance.svg",
+      "png": "icons/dynamics-365/finance.png"
+    },
+    {
+      "id": "supply-chain",
+      "name": "Supply Chain Management",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Operations management for manufacturing, warehousing, inventory, and supply chain planning.",
+      "svg": "icons/dynamics-365/supply-chain.svg",
+      "png": "icons/dynamics-365/supply-chain.png"
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Unified commerce platform for managing retail operations across online and in-store channels.",
+      "svg": "icons/dynamics-365/commerce.svg",
+      "png": "icons/dynamics-365/commerce.png"
+    },
+    {
+      "id": "project-operations",
+      "name": "Project Operations",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "End-to-end project management from sales to delivery, combining project accounting and resource management.",
+      "svg": "icons/dynamics-365/project-operations.svg",
+      "png": "icons/dynamics-365/project-operations.png"
+    },
+    {
+      "id": "customer-voice",
+      "name": "Customer Voice",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Feedback management tool for creating surveys and capturing customer sentiment at scale.",
+      "svg": "icons/dynamics-365/customer-voice.svg",
+      "png": "icons/dynamics-365/customer-voice.png"
+    },
+    {
+      "id": "fraud-protection",
+      "name": "Fraud Protection",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "AI-powered fraud detection and prevention for e-commerce, account protection, and loss prevention.",
+      "svg": "icons/dynamics-365/fraud-protection.svg",
+      "png": "icons/dynamics-365/fraud-protection.png"
+    },
+    {
+      "id": "remote-assist",
+      "name": "Remote Assist",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Mixed reality tool enabling remote experts to provide hands-free guidance via HoloLens or mobile devices.",
+      "svg": "icons/dynamics-365/remote-assist.svg",
+      "png": "icons/dynamics-365/remote-assist.png"
+    },
+    {
+      "id": "guides",
+      "name": "Guides",
+      "category": "dynamics-365",
+      "categoryName": "Dynamics 365",
+      "description": "Mixed reality application for creating step-by-step holographic instructions for task guidance.",
+      "svg": "icons/dynamics-365/guides.svg",
+      "png": "icons/dynamics-365/guides.png"
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "category": "copilot",
+      "categoryName": "Copilot",
+      "description": "AI-powered assistant that uses large language models to help with tasks across Microsoft products.",
+      "svg": "icons/copilot/copilot.svg",
+      "png": "icons/copilot/copilot.png"
+    },
+    {
+      "id": "copilot-365",
+      "name": "Microsoft 365 Copilot",
+      "category": "copilot",
+      "categoryName": "Copilot",
+      "description": "AI assistant embedded in Word, Excel, PowerPoint, Outlook, and Teams for content generation and insights.",
+      "svg": "icons/copilot/copilot-365.svg",
+      "png": "icons/copilot/copilot-365.png"
+    },
+    {
+      "id": "entra",
+      "name": "Microsoft Entra",
+      "category": "entra",
+      "categoryName": "Entra",
+      "description": "Product family for identity and network access management, securing connections across cloud and on-premises.",
+      "svg": "icons/entra/entra.svg",
+      "png": "icons/entra/entra.png"
+    },
+    {
+      "id": "entra-id",
+      "name": "Entra ID",
+      "category": "entra",
+      "categoryName": "Entra",
+      "description": "Cloud identity service (formerly Azure AD) for authentication, single sign-on, and conditional access.",
+      "svg": "icons/entra/entra-id.svg",
+      "png": "icons/entra/entra-id.png"
+    },
+    {
+      "id": "entra-id-governance",
+      "name": "Entra ID Governance",
+      "category": "entra",
+      "categoryName": "Entra",
+      "description": "Identity governance for automating access requests, reviews, and lifecycle management at scale.",
+      "svg": "icons/entra/entra-id-governance.svg",
+      "png": "icons/entra/entra-id-governance.png"
+    },
+    {
+      "id": "entra-verified-id",
+      "name": "Entra Verified ID",
+      "category": "entra",
+      "categoryName": "Entra",
+      "description": "Decentralised identity service for issuing and verifying privacy-respecting digital credentials.",
+      "svg": "icons/entra/entra-verified-id.svg",
+      "png": "icons/entra/entra-verified-id.png"
+    },
+    {
+      "id": "defender",
+      "name": "Defender",
+      "category": "security",
+      "categoryName": "Security",
+      "description": "Unified security platform for threat protection across endpoints, email, identities, and cloud apps.",
+      "svg": "icons/security/defender.svg",
+      "png": "icons/security/defender.png"
+    },
+    {
+      "id": "purview",
+      "name": "Purview",
+      "category": "security",
+      "categoryName": "Security",
+      "description": "Data governance and compliance solution for information protection, data loss prevention, and risk management.",
+      "svg": "icons/security/purview.svg",
+      "png": "icons/security/purview.png"
+    },
+    {
+      "id": "viva-suite",
+      "name": "Viva Suite",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Employee experience platform that brings together communications, knowledge, learning, and insights.",
+      "svg": "icons/viva/viva-suite.svg",
+      "png": "icons/viva/viva-suite.png"
+    },
+    {
+      "id": "viva-connections",
+      "name": "Viva Connections",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Personalised gateway to the digital workplace with company news, conversations, and resources.",
+      "svg": "icons/viva/viva-connections.svg",
+      "png": "icons/viva/viva-connections.png"
+    },
+    {
+      "id": "viva-insights",
+      "name": "Viva Insights",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Workplace analytics providing data-driven insights to improve productivity and wellbeing.",
+      "svg": "icons/viva/viva-insights.svg",
+      "png": "icons/viva/viva-insights.png"
+    },
+    {
+      "id": "viva-learning",
+      "name": "Viva Learning",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Learning hub that aggregates training content from multiple providers into the flow of work.",
+      "svg": "icons/viva/viva-learning.svg",
+      "png": "icons/viva/viva-learning.png"
+    },
+    {
+      "id": "viva-engage",
+      "name": "Viva Engage",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Social engagement platform (formerly Yammer) for communities, conversations, and leadership communication.",
+      "svg": "icons/viva/viva-engage.svg",
+      "png": "icons/viva/viva-engage.png"
+    },
+    {
+      "id": "viva-amplify",
+      "name": "Viva Amplify",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Corporate communications tool for creating, publishing, and measuring internal campaigns.",
+      "svg": "icons/viva/viva-amplify.svg",
+      "png": "icons/viva/viva-amplify.png"
+    },
+    {
+      "id": "viva-pulse",
+      "name": "Viva Pulse",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Lightweight survey tool for managers to gather regular team feedback and track sentiment.",
+      "svg": "icons/viva/viva-pulse.svg",
+      "png": "icons/viva/viva-pulse.png"
+    },
+    {
+      "id": "viva-glint",
+      "name": "Viva Glint",
+      "category": "viva",
+      "categoryName": "Viva",
+      "description": "Employee engagement survey platform with people-science-driven questions and action planning.",
+      "svg": "icons/viva/viva-glint.svg",
+      "png": "icons/viva/viva-glint.png"
+    },
+    {
+      "id": "fabric",
+      "name": "Microsoft Fabric",
+      "category": "fabric",
+      "categoryName": "Fabric",
+      "description": "Unified data analytics platform combining data engineering, warehousing, science, and real-time analytics in one SaaS experience.",
+      "svg": "icons/fabric/fabric.svg",
+      "png": "icons/fabric/fabric.png"
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "Chromium-based web browser with built-in AI, security features, and enterprise management.",
+      "svg": "icons/other/edge.svg",
+      "png": "icons/other/edge.png"
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "Microsoft's search engine, now enhanced with AI-powered chat and content generation.",
+      "svg": "icons/other/bing.svg",
+      "png": "icons/other/bing.png"
+    },
+    {
+      "id": "designer",
+      "name": "Designer",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "AI-powered graphic design app for creating social media posts, invitations, and visual content.",
+      "svg": "icons/other/designer.svg",
+      "png": "icons/other/designer.png"
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "The classic Office brand encompassing the core productivity applications.",
+      "svg": "icons/other/office.svg",
+      "png": "icons/other/office.png"
+    },
+    {
+      "id": "foundry",
+      "name": "Microsoft Foundry",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "Innovation programme connecting startups with enterprise customers to co-develop solutions.",
+      "svg": "icons/other/foundry.svg",
+      "png": "icons/other/foundry.png"
+    },
+    {
+      "id": "family-safety",
+      "name": "Family Safety",
+      "category": "other",
+      "categoryName": "Other",
+      "description": "Digital safety app for families with screen time management, content filtering, and location sharing.",
+      "svg": "icons/other/family-safety.svg",
+      "png": "icons/other/family-safety.png"
+    }
+  ]
+}
