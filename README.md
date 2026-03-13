@@ -2,9 +2,11 @@
 
 A curated collection of the **latest official SVG icons** for Microsoft Cloud products.
 
-> Auto-generated from [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) — only current, root-level SVGs are included. No legacy, no PNGs, no JPGs.
+> Auto-generated from two sources:
+> - [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) — community-curated SVGs (Azure, Entra, Fabric, etc.)
+> - **Microsoft Office CDN** — official Fluent 2 brand icons (Word, Excel, Teams, etc.) in 4 sizes
 
-**734 icons** across **8 categories**
+**860 icons** across **9 categories**
 
 ## Quick Reference
 
@@ -18,6 +20,7 @@ A curated collection of the **latest official SVG icons** for Microsoft Cloud pr
 | Power-Platform | 14 |
 | Viva | 9 |
 | other | 2 |
+| Fluent-Brand | 126 |
 
 ## Icons by Category
 
@@ -997,6 +1000,275 @@ A curated collection of the **latest official SVG icons** for Microsoft Cloud pr
 - `Dragon-Copilot` — [`icons/other/Dragon-Copilot.svg`](icons/other/Dragon-Copilot.svg)
 - `Microsoft Foundry` — [`icons/other/Microsoft Foundry.svg`](icons/other/Microsoft Foundry.svg)
 
+### Fluent-Brand
+
+#### Word
+
+- `Word (16px)` — [`icons/Fluent-Brand/Word/word_16x1.svg`](icons/Fluent-Brand/Word/word_16x1.svg)
+- `Word (24px)` — [`icons/Fluent-Brand/Word/word_24x1.svg`](icons/Fluent-Brand/Word/word_24x1.svg)
+- `Word (32px)` — [`icons/Fluent-Brand/Word/word_32x1.svg`](icons/Fluent-Brand/Word/word_32x1.svg)
+- `Word (48px)` — [`icons/Fluent-Brand/Word/word_48x1.svg`](icons/Fluent-Brand/Word/word_48x1.svg)
+
+#### Excel
+
+- `Excel (16px)` — [`icons/Fluent-Brand/Excel/excel_16x1.svg`](icons/Fluent-Brand/Excel/excel_16x1.svg)
+- `Excel (24px)` — [`icons/Fluent-Brand/Excel/excel_24x1.svg`](icons/Fluent-Brand/Excel/excel_24x1.svg)
+- `Excel (32px)` — [`icons/Fluent-Brand/Excel/excel_32x1.svg`](icons/Fluent-Brand/Excel/excel_32x1.svg)
+- `Excel (48px)` — [`icons/Fluent-Brand/Excel/excel_48x1.svg`](icons/Fluent-Brand/Excel/excel_48x1.svg)
+
+#### PowerPoint
+
+- `PowerPoint (16px)` — [`icons/Fluent-Brand/PowerPoint/powerpoint_16x1.svg`](icons/Fluent-Brand/PowerPoint/powerpoint_16x1.svg)
+- `PowerPoint (24px)` — [`icons/Fluent-Brand/PowerPoint/powerpoint_24x1.svg`](icons/Fluent-Brand/PowerPoint/powerpoint_24x1.svg)
+- `PowerPoint (32px)` — [`icons/Fluent-Brand/PowerPoint/powerpoint_32x1.svg`](icons/Fluent-Brand/PowerPoint/powerpoint_32x1.svg)
+- `PowerPoint (48px)` — [`icons/Fluent-Brand/PowerPoint/powerpoint_48x1.svg`](icons/Fluent-Brand/PowerPoint/powerpoint_48x1.svg)
+
+#### Outlook
+
+- `Outlook (16px)` — [`icons/Fluent-Brand/Outlook/outlook_16x1.svg`](icons/Fluent-Brand/Outlook/outlook_16x1.svg)
+- `Outlook (24px)` — [`icons/Fluent-Brand/Outlook/outlook_24x1.svg`](icons/Fluent-Brand/Outlook/outlook_24x1.svg)
+- `Outlook (32px)` — [`icons/Fluent-Brand/Outlook/outlook_32x1.svg`](icons/Fluent-Brand/Outlook/outlook_32x1.svg)
+- `Outlook (48px)` — [`icons/Fluent-Brand/Outlook/outlook_48x1.svg`](icons/Fluent-Brand/Outlook/outlook_48x1.svg)
+
+#### OneNote
+
+- `OneNote (16px)` — [`icons/Fluent-Brand/OneNote/onenote_16x1.svg`](icons/Fluent-Brand/OneNote/onenote_16x1.svg)
+- `OneNote (24px)` — [`icons/Fluent-Brand/OneNote/onenote_24x1.svg`](icons/Fluent-Brand/OneNote/onenote_24x1.svg)
+- `OneNote (32px)` — [`icons/Fluent-Brand/OneNote/onenote_32x1.svg`](icons/Fluent-Brand/OneNote/onenote_32x1.svg)
+- `OneNote (48px)` — [`icons/Fluent-Brand/OneNote/onenote_48x1.svg`](icons/Fluent-Brand/OneNote/onenote_48x1.svg)
+
+#### Teams
+
+- `Teams (16px)` — [`icons/Fluent-Brand/Teams/teams_16x1.svg`](icons/Fluent-Brand/Teams/teams_16x1.svg)
+- `Teams (24px)` — [`icons/Fluent-Brand/Teams/teams_24x1.svg`](icons/Fluent-Brand/Teams/teams_24x1.svg)
+- `Teams (32px)` — [`icons/Fluent-Brand/Teams/teams_32x1.svg`](icons/Fluent-Brand/Teams/teams_32x1.svg)
+- `Teams (48px)` — [`icons/Fluent-Brand/Teams/teams_48x1.svg`](icons/Fluent-Brand/Teams/teams_48x1.svg)
+
+#### SharePoint
+
+- `SharePoint (16px)` — [`icons/Fluent-Brand/SharePoint/sharepoint_16x1.svg`](icons/Fluent-Brand/SharePoint/sharepoint_16x1.svg)
+- `SharePoint (24px)` — [`icons/Fluent-Brand/SharePoint/sharepoint_24x1.svg`](icons/Fluent-Brand/SharePoint/sharepoint_24x1.svg)
+- `SharePoint (32px)` — [`icons/Fluent-Brand/SharePoint/sharepoint_32x1.svg`](icons/Fluent-Brand/SharePoint/sharepoint_32x1.svg)
+- `SharePoint (48px)` — [`icons/Fluent-Brand/SharePoint/sharepoint_48x1.svg`](icons/Fluent-Brand/SharePoint/sharepoint_48x1.svg)
+
+#### OneDrive
+
+- `OneDrive (16px)` — [`icons/Fluent-Brand/OneDrive/onedrive_16x1.svg`](icons/Fluent-Brand/OneDrive/onedrive_16x1.svg)
+- `OneDrive (24px)` — [`icons/Fluent-Brand/OneDrive/onedrive_24x1.svg`](icons/Fluent-Brand/OneDrive/onedrive_24x1.svg)
+- `OneDrive (32px)` — [`icons/Fluent-Brand/OneDrive/onedrive_32x1.svg`](icons/Fluent-Brand/OneDrive/onedrive_32x1.svg)
+- `OneDrive (48px)` — [`icons/Fluent-Brand/OneDrive/onedrive_48x1.svg`](icons/Fluent-Brand/OneDrive/onedrive_48x1.svg)
+
+#### Access
+
+- `Access (16px)` — [`icons/Fluent-Brand/Access/access_16x1.svg`](icons/Fluent-Brand/Access/access_16x1.svg)
+- `Access (24px)` — [`icons/Fluent-Brand/Access/access_24x1.svg`](icons/Fluent-Brand/Access/access_24x1.svg)
+- `Access (32px)` — [`icons/Fluent-Brand/Access/access_32x1.svg`](icons/Fluent-Brand/Access/access_32x1.svg)
+- `Access (48px)` — [`icons/Fluent-Brand/Access/access_48x1.svg`](icons/Fluent-Brand/Access/access_48x1.svg)
+
+#### Publisher
+
+- `Publisher (16px)` — [`icons/Fluent-Brand/Publisher/publisher_16x1.svg`](icons/Fluent-Brand/Publisher/publisher_16x1.svg)
+- `Publisher (24px)` — [`icons/Fluent-Brand/Publisher/publisher_24x1.svg`](icons/Fluent-Brand/Publisher/publisher_24x1.svg)
+- `Publisher (32px)` — [`icons/Fluent-Brand/Publisher/publisher_32x1.svg`](icons/Fluent-Brand/Publisher/publisher_32x1.svg)
+- `Publisher (48px)` — [`icons/Fluent-Brand/Publisher/publisher_48x1.svg`](icons/Fluent-Brand/Publisher/publisher_48x1.svg)
+
+#### Visio
+
+- `Visio (16px)` — [`icons/Fluent-Brand/Visio/visio_16x1.svg`](icons/Fluent-Brand/Visio/visio_16x1.svg)
+- `Visio (24px)` — [`icons/Fluent-Brand/Visio/visio_24x1.svg`](icons/Fluent-Brand/Visio/visio_24x1.svg)
+- `Visio (32px)` — [`icons/Fluent-Brand/Visio/visio_32x1.svg`](icons/Fluent-Brand/Visio/visio_32x1.svg)
+- `Visio (48px)` — [`icons/Fluent-Brand/Visio/visio_48x1.svg`](icons/Fluent-Brand/Visio/visio_48x1.svg)
+
+#### Project
+
+- `Project (16px)` — [`icons/Fluent-Brand/Project/project_16x1.svg`](icons/Fluent-Brand/Project/project_16x1.svg)
+- `Project (24px)` — [`icons/Fluent-Brand/Project/project_24x1.svg`](icons/Fluent-Brand/Project/project_24x1.svg)
+- `Project (32px)` — [`icons/Fluent-Brand/Project/project_32x1.svg`](icons/Fluent-Brand/Project/project_32x1.svg)
+- `Project (48px)` — [`icons/Fluent-Brand/Project/project_48x1.svg`](icons/Fluent-Brand/Project/project_48x1.svg)
+
+#### Loop
+
+- `Loop (16px)` — [`icons/Fluent-Brand/Loop/loop_16x1.svg`](icons/Fluent-Brand/Loop/loop_16x1.svg)
+- `Loop (24px)` — [`icons/Fluent-Brand/Loop/loop_24x1.svg`](icons/Fluent-Brand/Loop/loop_24x1.svg)
+- `Loop (32px)` — [`icons/Fluent-Brand/Loop/loop_32x1.svg`](icons/Fluent-Brand/Loop/loop_32x1.svg)
+- `Loop (48px)` — [`icons/Fluent-Brand/Loop/loop_48x1.svg`](icons/Fluent-Brand/Loop/loop_48x1.svg)
+
+#### Lists
+
+- `Lists (16px)` — [`icons/Fluent-Brand/Lists/lists_16x1.svg`](icons/Fluent-Brand/Lists/lists_16x1.svg)
+- `Lists (24px)` — [`icons/Fluent-Brand/Lists/lists_24x1.svg`](icons/Fluent-Brand/Lists/lists_24x1.svg)
+- `Lists (32px)` — [`icons/Fluent-Brand/Lists/lists_32x1.svg`](icons/Fluent-Brand/Lists/lists_32x1.svg)
+- `Lists (48px)` — [`icons/Fluent-Brand/Lists/lists_48x1.svg`](icons/Fluent-Brand/Lists/lists_48x1.svg)
+
+#### Forms
+
+- `Forms (16px)` — [`icons/Fluent-Brand/Forms/forms_16x1.svg`](icons/Fluent-Brand/Forms/forms_16x1.svg)
+- `Forms (24px)` — [`icons/Fluent-Brand/Forms/forms_24x1.svg`](icons/Fluent-Brand/Forms/forms_24x1.svg)
+- `Forms (32px)` — [`icons/Fluent-Brand/Forms/forms_32x1.svg`](icons/Fluent-Brand/Forms/forms_32x1.svg)
+- `Forms (48px)` — [`icons/Fluent-Brand/Forms/forms_48x1.svg`](icons/Fluent-Brand/Forms/forms_48x1.svg)
+
+#### Planner
+
+- `Planner (24px)` — [`icons/Fluent-Brand/Planner/planner_24x1.svg`](icons/Fluent-Brand/Planner/planner_24x1.svg)
+
+#### Stream
+
+- `Stream (16px)` — [`icons/Fluent-Brand/Stream/stream_16x1.svg`](icons/Fluent-Brand/Stream/stream_16x1.svg)
+- `Stream (24px)` — [`icons/Fluent-Brand/Stream/stream_24x1.svg`](icons/Fluent-Brand/Stream/stream_24x1.svg)
+- `Stream (32px)` — [`icons/Fluent-Brand/Stream/stream_32x1.svg`](icons/Fluent-Brand/Stream/stream_32x1.svg)
+- `Stream (48px)` — [`icons/Fluent-Brand/Stream/stream_48x1.svg`](icons/Fluent-Brand/Stream/stream_48x1.svg)
+
+#### Clipchamp
+
+- `Clipchamp (16px)` — [`icons/Fluent-Brand/Clipchamp/clipchamp_16x1.svg`](icons/Fluent-Brand/Clipchamp/clipchamp_16x1.svg)
+- `Clipchamp (24px)` — [`icons/Fluent-Brand/Clipchamp/clipchamp_24x1.svg`](icons/Fluent-Brand/Clipchamp/clipchamp_24x1.svg)
+- `Clipchamp (32px)` — [`icons/Fluent-Brand/Clipchamp/clipchamp_32x1.svg`](icons/Fluent-Brand/Clipchamp/clipchamp_32x1.svg)
+- `Clipchamp (48px)` — [`icons/Fluent-Brand/Clipchamp/clipchamp_48x1.svg`](icons/Fluent-Brand/Clipchamp/clipchamp_48x1.svg)
+
+#### Sway
+
+- `Sway (16px)` — [`icons/Fluent-Brand/Sway/sway_16x1.svg`](icons/Fluent-Brand/Sway/sway_16x1.svg)
+- `Sway (24px)` — [`icons/Fluent-Brand/Sway/sway_24x1.svg`](icons/Fluent-Brand/Sway/sway_24x1.svg)
+- `Sway (48px)` — [`icons/Fluent-Brand/Sway/sway_48x1.svg`](icons/Fluent-Brand/Sway/sway_48x1.svg)
+
+#### Bookings
+
+- `Bookings (24px)` — [`icons/Fluent-Brand/Bookings/bookings_24x1.svg`](icons/Fluent-Brand/Bookings/bookings_24x1.svg)
+
+#### To Do
+
+- `To Do (16px)` — [`icons/Fluent-Brand/To Do/todo_16x1.svg`](icons/Fluent-Brand/To Do/todo_16x1.svg)
+- `To Do (24px)` — [`icons/Fluent-Brand/To Do/todo_24x1.svg`](icons/Fluent-Brand/To Do/todo_24x1.svg)
+- `To Do (32px)` — [`icons/Fluent-Brand/To Do/todo_32x1.svg`](icons/Fluent-Brand/To Do/todo_32x1.svg)
+- `To Do (48px)` — [`icons/Fluent-Brand/To Do/todo_48x1.svg`](icons/Fluent-Brand/To Do/todo_48x1.svg)
+
+#### Whiteboard
+
+- `Whiteboard (16px)` — [`icons/Fluent-Brand/Whiteboard/whiteboard_16x1.svg`](icons/Fluent-Brand/Whiteboard/whiteboard_16x1.svg)
+- `Whiteboard (24px)` — [`icons/Fluent-Brand/Whiteboard/whiteboard_24x1.svg`](icons/Fluent-Brand/Whiteboard/whiteboard_24x1.svg)
+
+#### Delve
+
+- `Delve (16px)` — [`icons/Fluent-Brand/Delve/delve_16x1.svg`](icons/Fluent-Brand/Delve/delve_16x1.svg)
+- `Delve (24px)` — [`icons/Fluent-Brand/Delve/delve_24x1.svg`](icons/Fluent-Brand/Delve/delve_24x1.svg)
+- `Delve (32px)` — [`icons/Fluent-Brand/Delve/delve_32x1.svg`](icons/Fluent-Brand/Delve/delve_32x1.svg)
+- `Delve (48px)` — [`icons/Fluent-Brand/Delve/delve_48x1.svg`](icons/Fluent-Brand/Delve/delve_48x1.svg)
+
+#### Power Apps
+
+- `Power Apps (24px)` — [`icons/Fluent-Brand/Power Apps/powerapps_24x1.svg`](icons/Fluent-Brand/Power Apps/powerapps_24x1.svg)
+
+#### Power Automate
+
+- `Power Automate (24px)` — [`icons/Fluent-Brand/Power Automate/powerautomate_24x1.svg`](icons/Fluent-Brand/Power Automate/powerautomate_24x1.svg)
+
+#### Power BI
+
+- `Power BI (16px)` — [`icons/Fluent-Brand/Power BI/powerbi_16x1.svg`](icons/Fluent-Brand/Power BI/powerbi_16x1.svg)
+- `Power BI (24px)` — [`icons/Fluent-Brand/Power BI/powerbi_24x1.svg`](icons/Fluent-Brand/Power BI/powerbi_24x1.svg)
+- `Power BI (32px)` — [`icons/Fluent-Brand/Power BI/powerbi_32x1.svg`](icons/Fluent-Brand/Power BI/powerbi_32x1.svg)
+- `Power BI (48px)` — [`icons/Fluent-Brand/Power BI/powerbi_48x1.svg`](icons/Fluent-Brand/Power BI/powerbi_48x1.svg)
+
+#### Power Pages
+
+- `Power Pages (24px)` — [`icons/Fluent-Brand/Power Pages/powerpages_24x1.svg`](icons/Fluent-Brand/Power Pages/powerpages_24x1.svg)
+
+#### Copilot
+
+- `Copilot (16px)` — [`icons/Fluent-Brand/Copilot/copilot_16x1.svg`](icons/Fluent-Brand/Copilot/copilot_16x1.svg)
+- `Copilot (24px)` — [`icons/Fluent-Brand/Copilot/copilot_24x1.svg`](icons/Fluent-Brand/Copilot/copilot_24x1.svg)
+- `Copilot (48px)` — [`icons/Fluent-Brand/Copilot/copilot_48x1.svg`](icons/Fluent-Brand/Copilot/copilot_48x1.svg)
+
+#### Designer
+
+- `Designer (24px)` — [`icons/Fluent-Brand/Designer/designer_24x1.svg`](icons/Fluent-Brand/Designer/designer_24x1.svg)
+
+#### Viva Connections
+
+- `Viva Connections (24px)` — [`icons/Fluent-Brand/Viva Connections/vivaconnections_24x1.svg`](icons/Fluent-Brand/Viva Connections/vivaconnections_24x1.svg)
+
+#### Viva Insights
+
+- `Viva Insights (24px)` — [`icons/Fluent-Brand/Viva Insights/vivainsights_24x1.svg`](icons/Fluent-Brand/Viva Insights/vivainsights_24x1.svg)
+
+#### Viva Learning
+
+- `Viva Learning (24px)` — [`icons/Fluent-Brand/Viva Learning/vivalearning_24x1.svg`](icons/Fluent-Brand/Viva Learning/vivalearning_24x1.svg)
+
+#### Viva Engage
+
+- `Viva Engage (16px)` — [`icons/Fluent-Brand/Viva Engage/vivaengage_16x1.svg`](icons/Fluent-Brand/Viva Engage/vivaengage_16x1.svg)
+- `Viva Engage (24px)` — [`icons/Fluent-Brand/Viva Engage/vivaengage_24x1.svg`](icons/Fluent-Brand/Viva Engage/vivaengage_24x1.svg)
+- `Viva Engage (32px)` — [`icons/Fluent-Brand/Viva Engage/vivaengage_32x1.svg`](icons/Fluent-Brand/Viva Engage/vivaengage_32x1.svg)
+- `Viva Engage (48px)` — [`icons/Fluent-Brand/Viva Engage/vivaengage_48x1.svg`](icons/Fluent-Brand/Viva Engage/vivaengage_48x1.svg)
+
+#### Viva Pulse
+
+- `Viva Pulse (24px)` — [`icons/Fluent-Brand/Viva Pulse/vivapulse_24x1.svg`](icons/Fluent-Brand/Viva Pulse/vivapulse_24x1.svg)
+
+#### Viva Amplify
+
+- `Viva Amplify (16px)` — [`icons/Fluent-Brand/Viva Amplify/vivaamplify_16x1.svg`](icons/Fluent-Brand/Viva Amplify/vivaamplify_16x1.svg)
+- `Viva Amplify (24px)` — [`icons/Fluent-Brand/Viva Amplify/vivaamplify_24x1.svg`](icons/Fluent-Brand/Viva Amplify/vivaamplify_24x1.svg)
+- `Viva Amplify (32px)` — [`icons/Fluent-Brand/Viva Amplify/vivaamplify_32x1.svg`](icons/Fluent-Brand/Viva Amplify/vivaamplify_32x1.svg)
+- `Viva Amplify (48px)` — [`icons/Fluent-Brand/Viva Amplify/vivaamplify_48x1.svg`](icons/Fluent-Brand/Viva Amplify/vivaamplify_48x1.svg)
+
+#### Defender
+
+- `Defender (24px)` — [`icons/Fluent-Brand/Defender/defender_24x1.svg`](icons/Fluent-Brand/Defender/defender_24x1.svg)
+- `Defender (32px)` — [`icons/Fluent-Brand/Defender/defender_32x1.svg`](icons/Fluent-Brand/Defender/defender_32x1.svg)
+
+#### Purview
+
+- `Purview (24px)` — [`icons/Fluent-Brand/Purview/purview_24x1.svg`](icons/Fluent-Brand/Purview/purview_24x1.svg)
+
+#### Dynamics 365
+
+- `Dynamics 365 (24px)` — [`icons/Fluent-Brand/Dynamics 365/dynamics365_24x1.svg`](icons/Fluent-Brand/Dynamics 365/dynamics365_24x1.svg)
+
+#### Edge
+
+- `Edge (24px)` — [`icons/Fluent-Brand/Edge/edge_24x1.svg`](icons/Fluent-Brand/Edge/edge_24x1.svg)
+
+#### Bing
+
+- `Bing (24px)` — [`icons/Fluent-Brand/Bing/bing_24x1.svg`](icons/Fluent-Brand/Bing/bing_24x1.svg)
+
+#### Yammer
+
+- `Yammer (16px)` — [`icons/Fluent-Brand/Yammer/yammer_16x1.svg`](icons/Fluent-Brand/Yammer/yammer_16x1.svg)
+- `Yammer (24px)` — [`icons/Fluent-Brand/Yammer/yammer_24x1.svg`](icons/Fluent-Brand/Yammer/yammer_24x1.svg)
+- `Yammer (32px)` — [`icons/Fluent-Brand/Yammer/yammer_32x1.svg`](icons/Fluent-Brand/Yammer/yammer_32x1.svg)
+- `Yammer (48px)` — [`icons/Fluent-Brand/Yammer/yammer_48x1.svg`](icons/Fluent-Brand/Yammer/yammer_48x1.svg)
+
+#### Skype
+
+- `Skype (24px)` — [`icons/Fluent-Brand/Skype/skype_24x1.svg`](icons/Fluent-Brand/Skype/skype_24x1.svg)
+
+#### Microsoft 365
+
+- `Microsoft 365 (16px)` — [`icons/Fluent-Brand/Microsoft 365/m365_16x1.svg`](icons/Fluent-Brand/Microsoft 365/m365_16x1.svg)
+- `Microsoft 365 (24px)` — [`icons/Fluent-Brand/Microsoft 365/m365_24x1.svg`](icons/Fluent-Brand/Microsoft 365/m365_24x1.svg)
+- `Microsoft 365 (48px)` — [`icons/Fluent-Brand/Microsoft 365/m365_48x1.svg`](icons/Fluent-Brand/Microsoft 365/m365_48x1.svg)
+
+#### Office
+
+- `Office (16px)` — [`icons/Fluent-Brand/Office/office_16x1.svg`](icons/Fluent-Brand/Office/office_16x1.svg)
+- `Office (24px)` — [`icons/Fluent-Brand/Office/office_24x1.svg`](icons/Fluent-Brand/Office/office_24x1.svg)
+- `Office (48px)` — [`icons/Fluent-Brand/Office/office_48x1.svg`](icons/Fluent-Brand/Office/office_48x1.svg)
+
+#### MSN
+
+- `MSN (24px)` — [`icons/Fluent-Brand/MSN/msn_24x1.svg`](icons/Fluent-Brand/MSN/msn_24x1.svg)
+
+#### Family Safety
+
+- `Family Safety (24px)` — [`icons/Fluent-Brand/Family Safety/familysafety_24x1.svg`](icons/Fluent-Brand/Family Safety/familysafety_24x1.svg)
+
+#### Kaizala
+
+- `Kaizala (24px)` — [`icons/Fluent-Brand/Kaizala/kaizala_24x1.svg`](icons/Fluent-Brand/Kaizala/kaizala_24x1.svg)
+
 ---
 
 ## Refresh Icons
@@ -1009,6 +1281,8 @@ This re-clones the source repo and rebuilds the collection with only the latest 
 
 ## Credits
 
-Source: [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos)
+Sources:
+- [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) — community-curated collection
+- [Microsoft Office CDN](https://res.cdn.office.net) — official Fluent 2 brand icons
 
 All logos are the property of Microsoft Corporation.

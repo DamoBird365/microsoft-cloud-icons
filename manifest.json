@@ -1,7 +1,10 @@
 {
-  "generated": "2026-03-13T10:16:45.667Z",
-  "source": "https://github.com/loryanstrant/MicrosoftCloudLogos",
-  "totalIcons": 734,
+  "generated": "2026-03-13T10:26:01.166Z",
+  "sources": [
+    "https://github.com/loryanstrant/MicrosoftCloudLogos",
+    "https://res.cdn.office.net (Fluent UI Brand Icons)"
+  ],
+  "totalIcons": 860,
   "categories": {
     "Azure": {
       "count": 619,
@@ -119,6 +122,58 @@
       "count": 2,
       "products": {
         "(root)": 2
+      }
+    },
+    "Fluent-Brand": {
+      "count": 126,
+      "products": {
+        "Word": 4,
+        "Excel": 4,
+        "PowerPoint": 4,
+        "Outlook": 4,
+        "OneNote": 4,
+        "Teams": 4,
+        "SharePoint": 4,
+        "OneDrive": 4,
+        "Access": 4,
+        "Publisher": 4,
+        "Visio": 4,
+        "Project": 4,
+        "Loop": 4,
+        "Lists": 4,
+        "Forms": 4,
+        "Planner": 1,
+        "Stream": 4,
+        "Clipchamp": 4,
+        "Sway": 3,
+        "Bookings": 1,
+        "To Do": 4,
+        "Whiteboard": 2,
+        "Delve": 4,
+        "Power Apps": 1,
+        "Power Automate": 1,
+        "Power BI": 4,
+        "Power Pages": 1,
+        "Copilot": 3,
+        "Designer": 1,
+        "Viva Connections": 1,
+        "Viva Insights": 1,
+        "Viva Learning": 1,
+        "Viva Engage": 4,
+        "Viva Pulse": 1,
+        "Viva Amplify": 4,
+        "Defender": 2,
+        "Purview": 1,
+        "Dynamics 365": 1,
+        "Edge": 1,
+        "Bing": 1,
+        "Yammer": 4,
+        "Skype": 1,
+        "Microsoft 365": 3,
+        "Office": 3,
+        "MSN": 1,
+        "Family Safety": 1,
+        "Kaizala": 1
       }
     }
   },
@@ -4526,6 +4581,762 @@
       "category": "other",
       "product": null,
       "path": "icons/other/Microsoft Foundry.svg"
+    },
+    {
+      "name": "Word (16px)",
+      "category": "Fluent-Brand",
+      "product": "Word",
+      "path": "icons/Fluent-Brand/Word/word_16x1.svg"
+    },
+    {
+      "name": "Word (24px)",
+      "category": "Fluent-Brand",
+      "product": "Word",
+      "path": "icons/Fluent-Brand/Word/word_24x1.svg"
+    },
+    {
+      "name": "Word (32px)",
+      "category": "Fluent-Brand",
+      "product": "Word",
+      "path": "icons/Fluent-Brand/Word/word_32x1.svg"
+    },
+    {
+      "name": "Word (48px)",
+      "category": "Fluent-Brand",
+      "product": "Word",
+      "path": "icons/Fluent-Brand/Word/word_48x1.svg"
+    },
+    {
+      "name": "Excel (16px)",
+      "category": "Fluent-Brand",
+      "product": "Excel",
+      "path": "icons/Fluent-Brand/Excel/excel_16x1.svg"
+    },
+    {
+      "name": "Excel (24px)",
+      "category": "Fluent-Brand",
+      "product": "Excel",
+      "path": "icons/Fluent-Brand/Excel/excel_24x1.svg"
+    },
+    {
+      "name": "Excel (32px)",
+      "category": "Fluent-Brand",
+      "product": "Excel",
+      "path": "icons/Fluent-Brand/Excel/excel_32x1.svg"
+    },
+    {
+      "name": "Excel (48px)",
+      "category": "Fluent-Brand",
+      "product": "Excel",
+      "path": "icons/Fluent-Brand/Excel/excel_48x1.svg"
+    },
+    {
+      "name": "PowerPoint (16px)",
+      "category": "Fluent-Brand",
+      "product": "PowerPoint",
+      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_16x1.svg"
+    },
+    {
+      "name": "PowerPoint (24px)",
+      "category": "Fluent-Brand",
+      "product": "PowerPoint",
+      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_24x1.svg"
+    },
+    {
+      "name": "PowerPoint (32px)",
+      "category": "Fluent-Brand",
+      "product": "PowerPoint",
+      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_32x1.svg"
+    },
+    {
+      "name": "PowerPoint (48px)",
+      "category": "Fluent-Brand",
+      "product": "PowerPoint",
+      "path": "icons/Fluent-Brand/PowerPoint/powerpoint_48x1.svg"
+    },
+    {
+      "name": "Outlook (16px)",
+      "category": "Fluent-Brand",
+      "product": "Outlook",
+      "path": "icons/Fluent-Brand/Outlook/outlook_16x1.svg"
+    },
+    {
+      "name": "Outlook (24px)",
+      "category": "Fluent-Brand",
+      "product": "Outlook",
+      "path": "icons/Fluent-Brand/Outlook/outlook_24x1.svg"
+    },
+    {
+      "name": "Outlook (32px)",
+      "category": "Fluent-Brand",
+      "product": "Outlook",
+      "path": "icons/Fluent-Brand/Outlook/outlook_32x1.svg"
+    },
+    {
+      "name": "Outlook (48px)",
+      "category": "Fluent-Brand",
+      "product": "Outlook",
+      "path": "icons/Fluent-Brand/Outlook/outlook_48x1.svg"
+    },
+    {
+      "name": "OneNote (16px)",
+      "category": "Fluent-Brand",
+      "product": "OneNote",
+      "path": "icons/Fluent-Brand/OneNote/onenote_16x1.svg"
+    },
+    {
+      "name": "OneNote (24px)",
+      "category": "Fluent-Brand",
+      "product": "OneNote",
+      "path": "icons/Fluent-Brand/OneNote/onenote_24x1.svg"
+    },
+    {
+      "name": "OneNote (32px)",
+      "category": "Fluent-Brand",
+      "product": "OneNote",
+      "path": "icons/Fluent-Brand/OneNote/onenote_32x1.svg"
+    },
+    {
+      "name": "OneNote (48px)",
+      "category": "Fluent-Brand",
+      "product": "OneNote",
+      "path": "icons/Fluent-Brand/OneNote/onenote_48x1.svg"
+    },
+    {
+      "name": "Teams (16px)",
+      "category": "Fluent-Brand",
+      "product": "Teams",
+      "path": "icons/Fluent-Brand/Teams/teams_16x1.svg"
+    },
+    {
+      "name": "Teams (24px)",
+      "category": "Fluent-Brand",
+      "product": "Teams",
+      "path": "icons/Fluent-Brand/Teams/teams_24x1.svg"
+    },
+    {
+      "name": "Teams (32px)",
+      "category": "Fluent-Brand",
+      "product": "Teams",
+      "path": "icons/Fluent-Brand/Teams/teams_32x1.svg"
+    },
+    {
+      "name": "Teams (48px)",
+      "category": "Fluent-Brand",
+      "product": "Teams",
+      "path": "icons/Fluent-Brand/Teams/teams_48x1.svg"
+    },
+    {
+      "name": "SharePoint (16px)",
+      "category": "Fluent-Brand",
+      "product": "SharePoint",
+      "path": "icons/Fluent-Brand/SharePoint/sharepoint_16x1.svg"
+    },
+    {
+      "name": "SharePoint (24px)",
+      "category": "Fluent-Brand",
+      "product": "SharePoint",
+      "path": "icons/Fluent-Brand/SharePoint/sharepoint_24x1.svg"
+    },
+    {
+      "name": "SharePoint (32px)",
+      "category": "Fluent-Brand",
+      "product": "SharePoint",
+      "path": "icons/Fluent-Brand/SharePoint/sharepoint_32x1.svg"
+    },
+    {
+      "name": "SharePoint (48px)",
+      "category": "Fluent-Brand",
+      "product": "SharePoint",
+      "path": "icons/Fluent-Brand/SharePoint/sharepoint_48x1.svg"
+    },
+    {
+      "name": "OneDrive (16px)",
+      "category": "Fluent-Brand",
+      "product": "OneDrive",
+      "path": "icons/Fluent-Brand/OneDrive/onedrive_16x1.svg"
+    },
+    {
+      "name": "OneDrive (24px)",
+      "category": "Fluent-Brand",
+      "product": "OneDrive",
+      "path": "icons/Fluent-Brand/OneDrive/onedrive_24x1.svg"
+    },
+    {
+      "name": "OneDrive (32px)",
+      "category": "Fluent-Brand",
+      "product": "OneDrive",
+      "path": "icons/Fluent-Brand/OneDrive/onedrive_32x1.svg"
+    },
+    {
+      "name": "OneDrive (48px)",
+      "category": "Fluent-Brand",
+      "product": "OneDrive",
+      "path": "icons/Fluent-Brand/OneDrive/onedrive_48x1.svg"
+    },
+    {
+      "name": "Access (16px)",
+      "category": "Fluent-Brand",
+      "product": "Access",
+      "path": "icons/Fluent-Brand/Access/access_16x1.svg"
+    },
+    {
+      "name": "Access (24px)",
+      "category": "Fluent-Brand",
+      "product": "Access",
+      "path": "icons/Fluent-Brand/Access/access_24x1.svg"
+    },
+    {
+      "name": "Access (32px)",
+      "category": "Fluent-Brand",
+      "product": "Access",
+      "path": "icons/Fluent-Brand/Access/access_32x1.svg"
+    },
+    {
+      "name": "Access (48px)",
+      "category": "Fluent-Brand",
+      "product": "Access",
+      "path": "icons/Fluent-Brand/Access/access_48x1.svg"
+    },
+    {
+      "name": "Publisher (16px)",
+      "category": "Fluent-Brand",
+      "product": "Publisher",
+      "path": "icons/Fluent-Brand/Publisher/publisher_16x1.svg"
+    },
+    {
+      "name": "Publisher (24px)",
+      "category": "Fluent-Brand",
+      "product": "Publisher",
+      "path": "icons/Fluent-Brand/Publisher/publisher_24x1.svg"
+    },
+    {
+      "name": "Publisher (32px)",
+      "category": "Fluent-Brand",
+      "product": "Publisher",
+      "path": "icons/Fluent-Brand/Publisher/publisher_32x1.svg"
+    },
+    {
+      "name": "Publisher (48px)",
+      "category": "Fluent-Brand",
+      "product": "Publisher",
+      "path": "icons/Fluent-Brand/Publisher/publisher_48x1.svg"
+    },
+    {
+      "name": "Visio (16px)",
+      "category": "Fluent-Brand",
+      "product": "Visio",
+      "path": "icons/Fluent-Brand/Visio/visio_16x1.svg"
+    },
+    {
+      "name": "Visio (24px)",
+      "category": "Fluent-Brand",
+      "product": "Visio",
+      "path": "icons/Fluent-Brand/Visio/visio_24x1.svg"
+    },
+    {
+      "name": "Visio (32px)",
+      "category": "Fluent-Brand",
+      "product": "Visio",
+      "path": "icons/Fluent-Brand/Visio/visio_32x1.svg"
+    },
+    {
+      "name": "Visio (48px)",
+      "category": "Fluent-Brand",
+      "product": "Visio",
+      "path": "icons/Fluent-Brand/Visio/visio_48x1.svg"
+    },
+    {
+      "name": "Project (16px)",
+      "category": "Fluent-Brand",
+      "product": "Project",
+      "path": "icons/Fluent-Brand/Project/project_16x1.svg"
+    },
+    {
+      "name": "Project (24px)",
+      "category": "Fluent-Brand",
+      "product": "Project",
+      "path": "icons/Fluent-Brand/Project/project_24x1.svg"
+    },
+    {
+      "name": "Project (32px)",
+      "category": "Fluent-Brand",
+      "product": "Project",
+      "path": "icons/Fluent-Brand/Project/project_32x1.svg"
+    },
+    {
+      "name": "Project (48px)",
+      "category": "Fluent-Brand",
+      "product": "Project",
+      "path": "icons/Fluent-Brand/Project/project_48x1.svg"
+    },
+    {
+      "name": "Loop (16px)",
+      "category": "Fluent-Brand",
+      "product": "Loop",
+      "path": "icons/Fluent-Brand/Loop/loop_16x1.svg"
+    },
+    {
+      "name": "Loop (24px)",
+      "category": "Fluent-Brand",
+      "product": "Loop",
+      "path": "icons/Fluent-Brand/Loop/loop_24x1.svg"
+    },
+    {
+      "name": "Loop (32px)",
+      "category": "Fluent-Brand",
+      "product": "Loop",
+      "path": "icons/Fluent-Brand/Loop/loop_32x1.svg"
+    },
+    {
+      "name": "Loop (48px)",
+      "category": "Fluent-Brand",
+      "product": "Loop",
+      "path": "icons/Fluent-Brand/Loop/loop_48x1.svg"
+    },
+    {
+      "name": "Lists (16px)",
+      "category": "Fluent-Brand",
+      "product": "Lists",
+      "path": "icons/Fluent-Brand/Lists/lists_16x1.svg"
+    },
+    {
+      "name": "Lists (24px)",
+      "category": "Fluent-Brand",
+      "product": "Lists",
+      "path": "icons/Fluent-Brand/Lists/lists_24x1.svg"
+    },
+    {
+      "name": "Lists (32px)",
+      "category": "Fluent-Brand",
+      "product": "Lists",
+      "path": "icons/Fluent-Brand/Lists/lists_32x1.svg"
+    },
+    {
+      "name": "Lists (48px)",
+      "category": "Fluent-Brand",
+      "product": "Lists",
+      "path": "icons/Fluent-Brand/Lists/lists_48x1.svg"
+    },
+    {
+      "name": "Forms (16px)",
+      "category": "Fluent-Brand",
+      "product": "Forms",
+      "path": "icons/Fluent-Brand/Forms/forms_16x1.svg"
+    },
+    {
+      "name": "Forms (24px)",
+      "category": "Fluent-Brand",
+      "product": "Forms",
+      "path": "icons/Fluent-Brand/Forms/forms_24x1.svg"
+    },
+    {
+      "name": "Forms (32px)",
+      "category": "Fluent-Brand",
+      "product": "Forms",
+      "path": "icons/Fluent-Brand/Forms/forms_32x1.svg"
+    },
+    {
+      "name": "Forms (48px)",
+      "category": "Fluent-Brand",
+      "product": "Forms",
+      "path": "icons/Fluent-Brand/Forms/forms_48x1.svg"
+    },
+    {
+      "name": "Planner (24px)",
+      "category": "Fluent-Brand",
+      "product": "Planner",
+      "path": "icons/Fluent-Brand/Planner/planner_24x1.svg"
+    },
+    {
+      "name": "Stream (16px)",
+      "category": "Fluent-Brand",
+      "product": "Stream",
+      "path": "icons/Fluent-Brand/Stream/stream_16x1.svg"
+    },
+    {
+      "name": "Stream (24px)",
+      "category": "Fluent-Brand",
+      "product": "Stream",
+      "path": "icons/Fluent-Brand/Stream/stream_24x1.svg"
+    },
+    {
+      "name": "Stream (32px)",
+      "category": "Fluent-Brand",
+      "product": "Stream",
+      "path": "icons/Fluent-Brand/Stream/stream_32x1.svg"
+    },
+    {
+      "name": "Stream (48px)",
+      "category": "Fluent-Brand",
+      "product": "Stream",
+      "path": "icons/Fluent-Brand/Stream/stream_48x1.svg"
+    },
+    {
+      "name": "Clipchamp (16px)",
+      "category": "Fluent-Brand",
+      "product": "Clipchamp",
+      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_16x1.svg"
+    },
+    {
+      "name": "Clipchamp (24px)",
+      "category": "Fluent-Brand",
+      "product": "Clipchamp",
+      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_24x1.svg"
+    },
+    {
+      "name": "Clipchamp (32px)",
+      "category": "Fluent-Brand",
+      "product": "Clipchamp",
+      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_32x1.svg"
+    },
+    {
+      "name": "Clipchamp (48px)",
+      "category": "Fluent-Brand",
+      "product": "Clipchamp",
+      "path": "icons/Fluent-Brand/Clipchamp/clipchamp_48x1.svg"
+    },
+    {
+      "name": "Sway (16px)",
+      "category": "Fluent-Brand",
+      "product": "Sway",
+      "path": "icons/Fluent-Brand/Sway/sway_16x1.svg"
+    },
+    {
+      "name": "Sway (24px)",
+      "category": "Fluent-Brand",
+      "product": "Sway",
+      "path": "icons/Fluent-Brand/Sway/sway_24x1.svg"
+    },
+    {
+      "name": "Sway (48px)",
+      "category": "Fluent-Brand",
+      "product": "Sway",
+      "path": "icons/Fluent-Brand/Sway/sway_48x1.svg"
+    },
+    {
+      "name": "Bookings (24px)",
+      "category": "Fluent-Brand",
+      "product": "Bookings",
+      "path": "icons/Fluent-Brand/Bookings/bookings_24x1.svg"
+    },
+    {
+      "name": "To Do (16px)",
+      "category": "Fluent-Brand",
+      "product": "To Do",
+      "path": "icons/Fluent-Brand/To Do/todo_16x1.svg"
+    },
+    {
+      "name": "To Do (24px)",
+      "category": "Fluent-Brand",
+      "product": "To Do",
+      "path": "icons/Fluent-Brand/To Do/todo_24x1.svg"
+    },
+    {
+      "name": "To Do (32px)",
+      "category": "Fluent-Brand",
+      "product": "To Do",
+      "path": "icons/Fluent-Brand/To Do/todo_32x1.svg"
+    },
+    {
+      "name": "To Do (48px)",
+      "category": "Fluent-Brand",
+      "product": "To Do",
+      "path": "icons/Fluent-Brand/To Do/todo_48x1.svg"
+    },
+    {
+      "name": "Whiteboard (16px)",
+      "category": "Fluent-Brand",
+      "product": "Whiteboard",
+      "path": "icons/Fluent-Brand/Whiteboard/whiteboard_16x1.svg"
+    },
+    {
+      "name": "Whiteboard (24px)",
+      "category": "Fluent-Brand",
+      "product": "Whiteboard",
+      "path": "icons/Fluent-Brand/Whiteboard/whiteboard_24x1.svg"
+    },
+    {
+      "name": "Delve (16px)",
+      "category": "Fluent-Brand",
+      "product": "Delve",
+      "path": "icons/Fluent-Brand/Delve/delve_16x1.svg"
+    },
+    {
+      "name": "Delve (24px)",
+      "category": "Fluent-Brand",
+      "product": "Delve",
+      "path": "icons/Fluent-Brand/Delve/delve_24x1.svg"
+    },
+    {
+      "name": "Delve (32px)",
+      "category": "Fluent-Brand",
+      "product": "Delve",
+      "path": "icons/Fluent-Brand/Delve/delve_32x1.svg"
+    },
+    {
+      "name": "Delve (48px)",
+      "category": "Fluent-Brand",
+      "product": "Delve",
+      "path": "icons/Fluent-Brand/Delve/delve_48x1.svg"
+    },
+    {
+      "name": "Power Apps (24px)",
+      "category": "Fluent-Brand",
+      "product": "Power Apps",
+      "path": "icons/Fluent-Brand/Power Apps/powerapps_24x1.svg"
+    },
+    {
+      "name": "Power Automate (24px)",
+      "category": "Fluent-Brand",
+      "product": "Power Automate",
+      "path": "icons/Fluent-Brand/Power Automate/powerautomate_24x1.svg"
+    },
+    {
+      "name": "Power BI (16px)",
+      "category": "Fluent-Brand",
+      "product": "Power BI",
+      "path": "icons/Fluent-Brand/Power BI/powerbi_16x1.svg"
+    },
+    {
+      "name": "Power BI (24px)",
+      "category": "Fluent-Brand",
+      "product": "Power BI",
+      "path": "icons/Fluent-Brand/Power BI/powerbi_24x1.svg"
+    },
+    {
+      "name": "Power BI (32px)",
+      "category": "Fluent-Brand",
+      "product": "Power BI",
+      "path": "icons/Fluent-Brand/Power BI/powerbi_32x1.svg"
+    },
+    {
+      "name": "Power BI (48px)",
+      "category": "Fluent-Brand",
+      "product": "Power BI",
+      "path": "icons/Fluent-Brand/Power BI/powerbi_48x1.svg"
+    },
+    {
+      "name": "Power Pages (24px)",
+      "category": "Fluent-Brand",
+      "product": "Power Pages",
+      "path": "icons/Fluent-Brand/Power Pages/powerpages_24x1.svg"
+    },
+    {
+      "name": "Copilot (16px)",
+      "category": "Fluent-Brand",
+      "product": "Copilot",
+      "path": "icons/Fluent-Brand/Copilot/copilot_16x1.svg"
+    },
+    {
+      "name": "Copilot (24px)",
+      "category": "Fluent-Brand",
+      "product": "Copilot",
+      "path": "icons/Fluent-Brand/Copilot/copilot_24x1.svg"
+    },
+    {
+      "name": "Copilot (48px)",
+      "category": "Fluent-Brand",
+      "product": "Copilot",
+      "path": "icons/Fluent-Brand/Copilot/copilot_48x1.svg"
+    },
+    {
+      "name": "Designer (24px)",
+      "category": "Fluent-Brand",
+      "product": "Designer",
+      "path": "icons/Fluent-Brand/Designer/designer_24x1.svg"
+    },
+    {
+      "name": "Viva Connections (24px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Connections",
+      "path": "icons/Fluent-Brand/Viva Connections/vivaconnections_24x1.svg"
+    },
+    {
+      "name": "Viva Insights (24px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Insights",
+      "path": "icons/Fluent-Brand/Viva Insights/vivainsights_24x1.svg"
+    },
+    {
+      "name": "Viva Learning (24px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Learning",
+      "path": "icons/Fluent-Brand/Viva Learning/vivalearning_24x1.svg"
+    },
+    {
+      "name": "Viva Engage (16px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Engage",
+      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_16x1.svg"
+    },
+    {
+      "name": "Viva Engage (24px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Engage",
+      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_24x1.svg"
+    },
+    {
+      "name": "Viva Engage (32px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Engage",
+      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_32x1.svg"
+    },
+    {
+      "name": "Viva Engage (48px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Engage",
+      "path": "icons/Fluent-Brand/Viva Engage/vivaengage_48x1.svg"
+    },
+    {
+      "name": "Viva Pulse (24px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Pulse",
+      "path": "icons/Fluent-Brand/Viva Pulse/vivapulse_24x1.svg"
+    },
+    {
+      "name": "Viva Amplify (16px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Amplify",
+      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_16x1.svg"
+    },
+    {
+      "name": "Viva Amplify (24px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Amplify",
+      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_24x1.svg"
+    },
+    {
+      "name": "Viva Amplify (32px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Amplify",
+      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_32x1.svg"
+    },
+    {
+      "name": "Viva Amplify (48px)",
+      "category": "Fluent-Brand",
+      "product": "Viva Amplify",
+      "path": "icons/Fluent-Brand/Viva Amplify/vivaamplify_48x1.svg"
+    },
+    {
+      "name": "Defender (24px)",
+      "category": "Fluent-Brand",
+      "product": "Defender",
+      "path": "icons/Fluent-Brand/Defender/defender_24x1.svg"
+    },
+    {
+      "name": "Defender (32px)",
+      "category": "Fluent-Brand",
+      "product": "Defender",
+      "path": "icons/Fluent-Brand/Defender/defender_32x1.svg"
+    },
+    {
+      "name": "Purview (24px)",
+      "category": "Fluent-Brand",
+      "product": "Purview",
+      "path": "icons/Fluent-Brand/Purview/purview_24x1.svg"
+    },
+    {
+      "name": "Dynamics 365 (24px)",
+      "category": "Fluent-Brand",
+      "product": "Dynamics 365",
+      "path": "icons/Fluent-Brand/Dynamics 365/dynamics365_24x1.svg"
+    },
+    {
+      "name": "Edge (24px)",
+      "category": "Fluent-Brand",
+      "product": "Edge",
+      "path": "icons/Fluent-Brand/Edge/edge_24x1.svg"
+    },
+    {
+      "name": "Bing (24px)",
+      "category": "Fluent-Brand",
+      "product": "Bing",
+      "path": "icons/Fluent-Brand/Bing/bing_24x1.svg"
+    },
+    {
+      "name": "Yammer (16px)",
+      "category": "Fluent-Brand",
+      "product": "Yammer",
+      "path": "icons/Fluent-Brand/Yammer/yammer_16x1.svg"
+    },
+    {
+      "name": "Yammer (24px)",
+      "category": "Fluent-Brand",
+      "product": "Yammer",
+      "path": "icons/Fluent-Brand/Yammer/yammer_24x1.svg"
+    },
+    {
+      "name": "Yammer (32px)",
+      "category": "Fluent-Brand",
+      "product": "Yammer",
+      "path": "icons/Fluent-Brand/Yammer/yammer_32x1.svg"
+    },
+    {
+      "name": "Yammer (48px)",
+      "category": "Fluent-Brand",
+      "product": "Yammer",
+      "path": "icons/Fluent-Brand/Yammer/yammer_48x1.svg"
+    },
+    {
+      "name": "Skype (24px)",
+      "category": "Fluent-Brand",
+      "product": "Skype",
+      "path": "icons/Fluent-Brand/Skype/skype_24x1.svg"
+    },
+    {
+      "name": "Microsoft 365 (16px)",
+      "category": "Fluent-Brand",
+      "product": "Microsoft 365",
+      "path": "icons/Fluent-Brand/Microsoft 365/m365_16x1.svg"
+    },
+    {
+      "name": "Microsoft 365 (24px)",
+      "category": "Fluent-Brand",
+      "product": "Microsoft 365",
+      "path": "icons/Fluent-Brand/Microsoft 365/m365_24x1.svg"
+    },
+    {
+      "name": "Microsoft 365 (48px)",
+      "category": "Fluent-Brand",
+      "product": "Microsoft 365",
+      "path": "icons/Fluent-Brand/Microsoft 365/m365_48x1.svg"
+    },
+    {
+      "name": "Office (16px)",
+      "category": "Fluent-Brand",
+      "product": "Office",
+      "path": "icons/Fluent-Brand/Office/office_16x1.svg"
+    },
+    {
+      "name": "Office (24px)",
+      "category": "Fluent-Brand",
+      "product": "Office",
+      "path": "icons/Fluent-Brand/Office/office_24x1.svg"
+    },
+    {
+      "name": "Office (48px)",
+      "category": "Fluent-Brand",
+      "product": "Office",
+      "path": "icons/Fluent-Brand/Office/office_48x1.svg"
+    },
+    {
+      "name": "MSN (24px)",
+      "category": "Fluent-Brand",
+      "product": "MSN",
+      "path": "icons/Fluent-Brand/MSN/msn_24x1.svg"
+    },
+    {
+      "name": "Family Safety (24px)",
+      "category": "Fluent-Brand",
+      "product": "Family Safety",
+      "path": "icons/Fluent-Brand/Family Safety/familysafety_24x1.svg"
+    },
+    {
+      "name": "Kaizala (24px)",
+      "category": "Fluent-Brand",
+      "product": "Kaizala",
+      "path": "icons/Fluent-Brand/Kaizala/kaizala_24x1.svg"
     }
   ]
 }
