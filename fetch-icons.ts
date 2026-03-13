@@ -22,6 +22,7 @@ import {
 } from "node:fs";
 import { dirname, join } from "node:path";
 import https from "node:https";
+import sharp from "sharp";
 
 // ── Config ──────────────────────────────────────────────────────────
 
@@ -413,7 +414,8 @@ function writeManifest(icons: IconEntry[]): void {
       id: i.id,
       displayName: i.displayName,
       category: i.category,
-      path: i.path,
+      svgPath: i.path,
+      pngPath: i.path.replace(/\.svg$/, ".png"),
       source: i.source,
     })),
   };
@@ -505,6 +507,37 @@ function writeReadme(icons: IconEntry[]): void {
   writeFileSync(README_PATH, lines.join("\n"));
 }
 
+// ── PNG Generation ──────────────────────────────────────────────────
+
+async function generatePngs(icons: IconEntry[]): Promise<void> {
+  const PNG_SIZE = 512;
+  let success = 0;
+  let failed = 0;
+
+  console.log(`\n🖼️  Generating ${icons.length} PNGs at ${PNG_SIZE}×${PNG_SIZE}px...\n`);
+
+  for (const icon of icons) {
+    const svgPath = join(process.cwd(), icon.path);
+    const pngPath = svgPath.replace(/\.svg$/, ".png");
+
+    try {
+      const svgBuffer = readFileSync(svgPath);
+
+      await sharp(svgBuffer, { density: 300 })
+        .resize(PNG_SIZE, PNG_SIZE, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
+        .png()
+        .toFile(pngPath);
+
+      success++;
+    } catch (err) {
+      console.warn(`   ⚠️  PNG failed for ${icon.displayName}: ${err}`);
+      failed++;
+    }
+  }
+
+  console.log(`   ✅ ${success} PNGs generated${failed > 0 ? `, ⚠️ ${failed} failed` : ""}`);
+}
+
 // ── Run ─────────────────────────────────────────────────────────────
 
 (async () => {
@@ -524,9 +557,11 @@ function writeReadme(icons: IconEntry[]): void {
     console.log("📝 Writing README.md...");
     writeReadme(icons);
 
+    await generatePngs(icons);
+
     cleanup();
 
-    console.log(`\n✅ Done! ${icons.length} product icons in icons/`);
+    console.log(`\n✅ Done! ${icons.length} product icons (SVG + PNG) in icons/`);
   } catch (error) {
     cleanup();
     console.error("❌ Failed:", error);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Microsoft Cloud Product Icons (SVG)</title>
+  <title>Microsoft Cloud Product Icons (SVG + PNG)</title>
   <style>
     :root {
       --bg: #f5f5f5;
@@ -71,6 +71,38 @@
       letter-spacing: 0.05em;
     }
 
+    /* Search */
+    .search-container {
+      margin-bottom: 1rem;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.7rem 1rem 0.7rem 2.5rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      outline: none;
+      background: var(--card-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='M21 21l-4.35-4.35'/%3E%3C/svg%3E") 0.75rem center no-repeat;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    .search-input::placeholder {
+      color: #aaa;
+    }
+
+    .search-status {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+      min-height: 1.2em;
+    }
+
     /* Collapsible groups */
     .group {
       margin-bottom: 0.75rem;
@@ -78,6 +110,10 @@
       overflow: hidden;
       border: 1px solid var(--border);
       background: var(--card-bg);
+    }
+
+    .group.hidden {
+      display: none;
     }
 
     .group-header {
@@ -135,18 +171,22 @@
     /* Icon cards */
     .icon-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
       gap: 0.75rem;
     }
 
     .icon-card {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       padding: 0.75rem 1rem;
       border-radius: 6px;
       border: 1px solid var(--border);
       background: var(--card-bg);
       transition: box-shadow 0.15s, border-color 0.15s;
+    }
+
+    .icon-card.hidden {
+      display: none;
     }
 
     .icon-card:hover {
@@ -159,6 +199,13 @@
       height: 48px;
       flex-shrink: 0;
       margin-right: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: transform 0.15s;
+    }
+
+    .icon-card img:hover {
+      transform: scale(1.15);
     }
 
     .icon-info {
@@ -178,11 +225,38 @@
       line-height: 1.4;
     }
 
-    .icon-info .file-path {
+    .icon-actions {
+      display: flex;
+      gap: 0.35rem;
+      margin-top: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .icon-actions a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
       font-size: 0.7rem;
-      color: #999;
-      font-family: 'Cascadia Code', 'Consolas', monospace;
-      margin-top: 0.25rem;
+      font-family: inherit;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      white-space: nowrap;
+    }
+
+    .icon-actions a:hover {
+      background: var(--group-bg);
+      border-color: var(--accent);
+    }
+
+    .icon-actions a svg {
+      width: 12px;
+      height: 12px;
     }
 
     /* Disclaimer */
@@ -225,14 +299,15 @@
     footer a { color: var(--accent); }
 
     /* Expand/Collapse all */
-    .controls {
+    .toolbar {
       display: flex;
+      align-items: center;
       justify-content: flex-end;
       gap: 0.5rem;
       margin-bottom: 1rem;
     }
 
-    .controls button {
+    .toolbar button {
       background: none;
       border: 1px solid var(--border);
       border-radius: 4px;
@@ -243,7 +318,7 @@
       font-family: inherit;
     }
 
-    .controls button:hover {
+    .toolbar button:hover {
       background: var(--group-bg);
     }
 
@@ -258,7 +333,7 @@
 
 <header>
   <h1>☁️ Microsoft Cloud Product Icons</h1>
-  <p>Curated collection of latest official SVG icons for Microsoft Cloud products</p>
+  <p>Curated collection of latest official SVG + PNG icons for Microsoft Cloud products</p>
   <div class="stats">
     <div class="stat">
       <div class="stat-number" id="total-count">0</div>
@@ -269,13 +344,18 @@
       <div class="stat-label">Categories</div>
     </div>
     <div class="stat">
-      <div class="stat-number">SVG</div>
-      <div class="stat-label">Vector Format</div>
+      <div class="stat-number">SVG + PNG</div>
+      <div class="stat-label">Formats</div>
     </div>
   </div>
 </header>
 
-<div class="controls">
+<div class="search-container">
+  <input type="text" class="search-input" id="search" placeholder="Search icons by name or description..." autocomplete="off" />
+  <div class="search-status" id="search-status"></div>
+</div>
+
+<div class="toolbar">
   <button onclick="toggleAll(true)">▼ Expand All</button>
   <button onclick="toggleAll(false)">▲ Collapse All</button>
 </div>
@@ -434,6 +514,9 @@ const CATEGORIES = [
   }
 ];
 
+const ICON_OPEN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+const ICON_DL = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
+
 function render() {
   const container = document.getElementById('groups');
   let totalIcons = 0;
@@ -443,6 +526,7 @@ function render() {
 
     const group = document.createElement('div');
     group.className = 'group';
+    group.dataset.category = cat.id;
     group.innerHTML = `
       <div class="group-header" onclick="this.parentElement.classList.toggle('open')">
         <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -454,12 +538,16 @@ function render() {
       <div class="group-content">
         <div class="icon-grid">
           ${cat.icons.map(icon => `
-            <div class="icon-card">
-              <img src="icons/${cat.id}/${icon.id}.svg" alt="${icon.name}" loading="lazy" />
+            <div class="icon-card" data-search="${icon.name.toLowerCase()} ${icon.desc.toLowerCase()}">
+              <img src="icons/${cat.id}/${icon.id}.svg" alt="${icon.name}" loading="lazy" onclick="window.open('icons/${cat.id}/${icon.id}.svg', '_blank')" title="Click to open SVG" />
               <div class="icon-info">
                 <h3>${icon.name}</h3>
                 <p>${icon.desc}</p>
-                <div class="file-path">icons/${cat.id}/${icon.id}.svg</div>
+                <div class="icon-actions">
+                  <a href="icons/${cat.id}/${icon.id}.svg" target="_blank" title="Open SVG in new tab">${ICON_OPEN} Open SVG</a>
+                  <a href="icons/${cat.id}/${icon.id}.svg" download="${icon.id}.svg" title="Download SVG">${ICON_DL} SVG</a>
+                  <a href="icons/${cat.id}/${icon.id}.png" download="${icon.id}.png" title="Download PNG (512×512)">${ICON_DL} PNG</a>
+                </div>
               </div>
             </div>
           `).join('')}
@@ -474,12 +562,54 @@ function render() {
 }
 
 function toggleAll(open) {
-  document.querySelectorAll('.group').forEach(g => {
+  document.querySelectorAll('.group:not(.hidden)').forEach(g => {
     g.classList.toggle('open', open);
   });
 }
 
-render();
+function filterIcons(query) {
+  const q = query.toLowerCase().trim();
+  const statusEl = document.getElementById('search-status');
+
+  if (!q) {
+    // Reset: show all cards and groups, collapse all
+    document.querySelectorAll('.icon-card').forEach(c => c.classList.remove('hidden'));
+    document.querySelectorAll('.group').forEach(g => {
+      g.classList.remove('hidden');
+      g.classList.remove('open');
+    });
+    statusEl.textContent = '';
+    return;
+  }
+
+  let totalMatches = 0;
+
+  document.querySelectorAll('.group').forEach(group => {
+    const cards = group.querySelectorAll('.icon-card');
+    let groupMatches = 0;
+
+    cards.forEach(card => {
+      const searchText = card.dataset.search;
+      const match = searchText.includes(q);
+      card.classList.toggle('hidden', !match);
+      if (match) groupMatches++;
+    });
+
+    group.classList.toggle('hidden', groupMatches === 0);
+    group.classList.toggle('open', groupMatches > 0);
+    totalMatches += groupMatches;
+  });
+
+  statusEl.textContent = totalMatches === 0
+    ? `No icons found for "${query}"`
+    : `Showing ${totalMatches} icon${totalMatches !== 1 ? 's' : ''}`;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  render();
+  const searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', (e) => filterIcons(e.target.value));
+});
 </script>
 
 </body>
