@@ -549,7 +549,7 @@ function render() {
       </div>
       <div class="group-content">
         <div class="icon-grid">
-          ${cat.icons.map(icon => `
+          ${cat.icons.sort((a, b) => a.name.localeCompare(b.name)).map(icon => `
             <div class="icon-card" data-search="${icon.name.toLowerCase()} ${icon.desc.toLowerCase()}">
               <img src="icons/${cat.id}/${icon.id}.svg" alt="${icon.name}" loading="lazy" onclick="window.open('icons/${cat.id}/${icon.id}.svg', '_blank')" title="Click to open SVG" />
               <div class="icon-info">
