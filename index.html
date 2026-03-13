@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft Cloud Product Icons (SVG)</title>
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --card-bg: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #666;
+      --border: #e0e0e0;
+      --accent: #0078d4;
+      --accent-hover: #106ebe;
+      --group-bg: #f0f4f8;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Collapsible groups */
+    .group {
+      margin-bottom: 0.75rem;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+    }
+
+    .group-header {
+      display: flex;
+      align-items: center;
+      padding: 0.8rem 1.2rem;
+      cursor: pointer;
+      background: var(--group-bg);
+      user-select: none;
+      transition: background 0.15s;
+    }
+
+    .group-header:hover {
+      background: #e4ecf4;
+    }
+
+    .group-header .chevron {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.75rem;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+      color: var(--accent);
+    }
+
+    .group.open .group-header .chevron {
+      transform: rotate(90deg);
+    }
+
+    .group-header h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      flex: 1;
+    }
+
+    .group-header .badge {
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      margin-left: 0.5rem;
+    }
+
+    .group-content {
+      display: none;
+      padding: 0.5rem;
+    }
+
+    .group.open .group-content {
+      display: block;
+    }
+
+    /* Icon cards */
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .icon-card {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      transition: box-shadow 0.15s, border-color 0.15s;
+    }
+
+    .icon-card:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      border-color: var(--accent);
+    }
+
+    .icon-card img {
+      width: 48px;
+      height: 48px;
+      flex-shrink: 0;
+      margin-right: 1rem;
+    }
+
+    .icon-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .icon-info h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.15rem;
+    }
+
+    .icon-info p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .icon-info .file-path {
+      font-size: 0.7rem;
+      color: #999;
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+      margin-top: 0.25rem;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      margin-top: 2.5rem;
+      padding: 1.2rem 1.5rem;
+      background: #fff8e1;
+      border: 1px solid #ffe082;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #5d4037;
+      line-height: 1.6;
+    }
+
+    .disclaimer h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #e65100;
+    }
+
+    .disclaimer a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .disclaimer ul {
+      margin: 0.5rem 0 0.5rem 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    footer a { color: var(--accent); }
+
+    /* Expand/Collapse all */
+    .controls {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .controls button {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.3rem 0.75rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: var(--accent);
+      font-family: inherit;
+    }
+
+    .controls button:hover {
+      background: var(--group-bg);
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .icon-grid { grid-template-columns: 1fr; }
+      .stats { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>☁️ Microsoft Cloud Product Icons</h1>
+  <p>Curated collection of latest official SVG icons for Microsoft Cloud products</p>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-number" id="total-count">0</div>
+      <div class="stat-label">Product Icons</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number" id="category-count">0</div>
+      <div class="stat-label">Categories</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">SVG</div>
+      <div class="stat-label">Vector Format</div>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <button onclick="toggleAll(true)">▼ Expand All</button>
+  <button onclick="toggleAll(false)">▲ Collapse All</button>
+</div>
+
+<div id="groups"></div>
+
+<div class="disclaimer">
+  <h3>⚠️ Trademark &amp; Usage Disclaimer</h3>
+  <p>All logos, icons, and trademarks displayed on this page are the property of <strong>Microsoft Corporation</strong>. 
+     This collection is provided for <strong>personal reference only</strong> and does not grant any rights to use these icons.</p>
+  <p>Before using any Microsoft icon or logo in your own content, you <strong>must</strong> comply with Microsoft's official trademark and brand guidelines:</p>
+  <ul>
+    <li><a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks" target="_blank" rel="noopener">Microsoft Trademark &amp; Brand Guidelines</a></li>
+    <li><a href="https://learn.microsoft.com/en-us/entra/identity-platform/howto-add-branding-in-apps" target="_blank" rel="noopener">Microsoft Branding Guidelines for Applications</a></li>
+  </ul>
+  <p>In general: do not modify the icons, do not use them to imply Microsoft endorsement, and always follow the 
+     <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks" target="_blank" rel="noopener">official usage guidance</a>.</p>
+</div>
+
+<footer>
+  <p>Sources: 
+    <a href="https://res.cdn.office.net" target="_blank">Microsoft Office CDN</a> (Fluent 2 brand icons) · 
+    <a href="https://github.com/loryanstrant/MicrosoftCloudLogos" target="_blank">loryanstrant/MicrosoftCloudLogos</a>
+  </p>
+  <p>Regenerate with <code>npm run fetch</code></p>
+</footer>
+
+<script>
+const CATEGORIES = [
+  {
+    id: "microsoft-365",
+    name: "Microsoft 365",
+    icons: [
+      { id: "word", name: "Word", desc: "Word processor for creating, editing, and sharing documents with rich formatting and collaboration features." },
+      { id: "excel", name: "Excel", desc: "Spreadsheet application for data analysis, calculations, charts, and business intelligence." },
+      { id: "powerpoint", name: "PowerPoint", desc: "Presentation tool for creating slide decks with animations, transitions, and design templates." },
+      { id: "outlook", name: "Outlook", desc: "Email, calendar, and contacts application for communication and scheduling." },
+      { id: "teams", name: "Teams", desc: "Collaboration hub for chat, video meetings, file sharing, and app integration." },
+      { id: "sharepoint", name: "SharePoint", desc: "Intranet and content management platform for team sites, document libraries, and workflows." },
+      { id: "onedrive", name: "OneDrive", desc: "Cloud storage service for saving, syncing, and sharing files across devices." },
+      { id: "onenote", name: "OneNote", desc: "Digital notebook for capturing and organising notes, drawings, and clippings." },
+      { id: "access", name: "Access", desc: "Desktop database application for building custom database solutions and forms." },
+      { id: "publisher", name: "Publisher", desc: "Desktop publishing tool for creating professional layouts like newsletters, flyers, and brochures." },
+      { id: "visio", name: "Visio", desc: "Diagramming tool for flowcharts, org charts, floor plans, and network diagrams." },
+      { id: "project", name: "Project", desc: "Project management tool for scheduling, resource allocation, and tracking project progress." },
+      { id: "loop", name: "Loop", desc: "Co-creation app with portable components that sync across Microsoft 365 apps in real time." },
+      { id: "lists", name: "Lists", desc: "Smart tracking app for organising information with customisable views, rules, and alerts." },
+      { id: "forms", name: "Forms", desc: "Survey and quiz builder for collecting feedback, registrations, and responses." },
+      { id: "planner", name: "Planner", desc: "Task management app for creating plans, assigning tasks, and tracking team progress with visual boards." },
+      { id: "stream", name: "Stream", desc: "Enterprise video service for uploading, sharing, and managing video content securely." },
+      { id: "clipchamp", name: "Clipchamp", desc: "Video editor for creating and editing videos with templates, effects, and screen recording." },
+      { id: "sway", name: "Sway", desc: "Interactive presentation and storytelling app that creates polished, responsive web-based content." },
+      { id: "bookings", name: "Bookings", desc: "Online scheduling tool that lets customers book appointments and meetings directly." },
+      { id: "to-do", name: "To Do", desc: "Personal task management app for organising daily tasks with smart suggestions and My Day planning." },
+      { id: "whiteboard", name: "Whiteboard", desc: "Digital canvas for visual collaboration, brainstorming, and ideation in meetings." },
+      { id: "delve", name: "Delve", desc: "Content discovery tool that surfaces relevant documents and content from across your organisation." },
+      { id: "places", name: "Places", desc: "Workplace coordination app for managing hybrid work, room booking, and office presence." },
+      { id: "microsoft-365", name: "Microsoft 365", desc: "The integrated suite of productivity apps, cloud services, and security for businesses and individuals." }
+    ]
+  },
+  {
+    id: "power-platform",
+    name: "Power Platform",
+    icons: [
+      { id: "power-apps", name: "Power Apps", desc: "Low-code platform for building custom business applications with drag-and-drop design and connectors." },
+      { id: "power-automate", name: "Power Automate", desc: "Workflow automation tool for creating automated flows between apps, services, and data sources." },
+      { id: "power-bi", name: "Power BI", desc: "Business analytics service for interactive visualisations, dashboards, and data-driven insights." },
+      { id: "power-pages", name: "Power Pages", desc: "Low-code platform for building secure, data-driven external-facing business websites." },
+      { id: "power-platform", name: "Power Platform", desc: "The unified suite comprising Power Apps, Power Automate, Power BI, Power Pages, and Copilot Studio." },
+      { id: "copilot-studio", name: "Copilot Studio", desc: "Low-code tool for building custom AI copilots and chatbots with generative AI capabilities." },
+      { id: "ai-builder", name: "AI Builder", desc: "AI capability for Power Platform that lets you add intelligence with prebuilt or custom AI models." },
+      { id: "dataverse", name: "Dataverse", desc: "Cloud-scale data platform that securely stores and manages data used by business applications." },
+      { id: "power-fx", name: "Power Fx", desc: "Low-code programming language based on Excel-like formulas, used across Power Platform." },
+      { id: "connectors", name: "Connectors", desc: "Pre-built integrations that connect Power Platform to hundreds of apps, services, and data sources." },
+      { id: "agent-365", name: "Agent 365", desc: "AI-powered autonomous agents that execute business processes and tasks on behalf of users." }
+    ]
+  },
+  {
+    id: "dynamics-365",
+    name: "Dynamics 365",
+    icons: [
+      { id: "dynamics-365", name: "Dynamics 365", desc: "Suite of intelligent business applications for ERP and CRM across sales, service, finance, and operations." },
+      { id: "business-central", name: "Business Central", desc: "Business management solution for SMBs covering finance, supply chain, sales, and project management." },
+      { id: "sales", name: "Sales", desc: "CRM application for managing customer relationships, pipelines, and sales insights with AI." },
+      { id: "customer-service", name: "Customer Service", desc: "Omnichannel customer support platform with case management, knowledge base, and AI-driven insights." },
+      { id: "field-service", name: "Field Service", desc: "Service management for scheduling, dispatching, and managing on-site work orders and technicians." },
+      { id: "finance", name: "Finance", desc: "Financial management application for automating accounting, budgeting, and global financial operations." },
+      { id: "supply-chain", name: "Supply Chain Management", desc: "Operations management for manufacturing, warehousing, inventory, and supply chain planning." },
+      { id: "commerce", name: "Commerce", desc: "Unified commerce platform for managing retail operations across online and in-store channels." },
+      { id: "project-operations", name: "Project Operations", desc: "End-to-end project management from sales to delivery, combining project accounting and resource management." },
+      { id: "customer-voice", name: "Customer Voice", desc: "Feedback management tool for creating surveys and capturing customer sentiment at scale." },
+      { id: "fraud-protection", name: "Fraud Protection", desc: "AI-powered fraud detection and prevention for e-commerce, account protection, and loss prevention." },
+      { id: "remote-assist", name: "Remote Assist", desc: "Mixed reality tool enabling remote experts to provide hands-free guidance via HoloLens or mobile devices." },
+      { id: "guides", name: "Guides", desc: "Mixed reality application for creating step-by-step holographic instructions for task guidance." }
+    ]
+  },
+  {
+    id: "copilot",
+    name: "Copilot",
+    icons: [
+      { id: "copilot", name: "Microsoft Copilot", desc: "AI-powered assistant that uses large language models to help with tasks across Microsoft products." },
+      { id: "copilot-365", name: "Microsoft 365 Copilot", desc: "AI assistant embedded in Word, Excel, PowerPoint, Outlook, and Teams for content generation and insights." }
+    ]
+  },
+  {
+    id: "entra",
+    name: "Entra",
+    icons: [
+      { id: "entra", name: "Microsoft Entra", desc: "Product family for identity and network access management, securing connections across cloud and on-premises." },
+      { id: "entra-id", name: "Entra ID", desc: "Cloud identity service (formerly Azure AD) for authentication, single sign-on, and conditional access." },
+      { id: "entra-id-governance", name: "Entra ID Governance", desc: "Identity governance for automating access requests, reviews, and lifecycle management at scale." },
+      { id: "entra-verified-id", name: "Entra Verified ID", desc: "Decentralised identity service for issuing and verifying privacy-respecting digital credentials." }
+    ]
+  },
+  {
+    id: "security",
+    name: "Security",
+    icons: [
+      { id: "defender", name: "Defender", desc: "Unified security platform for threat protection across endpoints, email, identities, and cloud apps." },
+      { id: "purview", name: "Purview", desc: "Data governance and compliance solution for information protection, data loss prevention, and risk management." }
+    ]
+  },
+  {
+    id: "viva",
+    name: "Viva",
+    icons: [
+      { id: "viva-suite", name: "Viva Suite", desc: "Employee experience platform that brings together communications, knowledge, learning, and insights." },
+      { id: "viva-connections", name: "Viva Connections", desc: "Personalised gateway to the digital workplace with company news, conversations, and resources." },
+      { id: "viva-insights", name: "Viva Insights", desc: "Workplace analytics providing data-driven insights to improve productivity and wellbeing." },
+      { id: "viva-learning", name: "Viva Learning", desc: "Learning hub that aggregates training content from multiple providers into the flow of work." },
+      { id: "viva-engage", name: "Viva Engage", desc: "Social engagement platform (formerly Yammer) for communities, conversations, and leadership communication." },
+      { id: "viva-amplify", name: "Viva Amplify", desc: "Corporate communications tool for creating, publishing, and measuring internal campaigns." },
+      { id: "viva-pulse", name: "Viva Pulse", desc: "Lightweight survey tool for managers to gather regular team feedback and track sentiment." },
+      { id: "viva-glint", name: "Viva Glint", desc: "Employee engagement survey platform with people-science-driven questions and action planning." }
+    ]
+  },
+  {
+    id: "fabric",
+    name: "Fabric",
+    icons: [
+      { id: "fabric", name: "Microsoft Fabric", desc: "Unified data analytics platform combining data engineering, warehousing, science, and real-time analytics in one SaaS experience." }
+    ]
+  },
+  {
+    id: "other",
+    name: "Other",
+    icons: [
+      { id: "edge", name: "Microsoft Edge", desc: "Chromium-based web browser with built-in AI, security features, and enterprise management." },
+      { id: "bing", name: "Bing", desc: "Microsoft's search engine, now enhanced with AI-powered chat and content generation." },
+      { id: "designer", name: "Designer", desc: "AI-powered graphic design app for creating social media posts, invitations, and visual content." },
+      { id: "office", name: "Office", desc: "The classic Office brand encompassing the core productivity applications." },
+      { id: "foundry", name: "Microsoft Foundry", desc: "Innovation programme connecting startups with enterprise customers to co-develop solutions." },
+      { id: "family-safety", name: "Family Safety", desc: "Digital safety app for families with screen time management, content filtering, and location sharing." }
+    ]
+  }
+];
+
+function render() {
+  const container = document.getElementById('groups');
+  let totalIcons = 0;
+
+  CATEGORIES.forEach(cat => {
+    totalIcons += cat.icons.length;
+
+    const group = document.createElement('div');
+    group.className = 'group';
+    group.innerHTML = `
+      <div class="group-header" onclick="this.parentElement.classList.toggle('open')">
+        <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+        <h2>${cat.name}</h2>
+        <span class="badge">${cat.icons.length}</span>
+      </div>
+      <div class="group-content">
+        <div class="icon-grid">
+          ${cat.icons.map(icon => `
+            <div class="icon-card">
+              <img src="icons/${cat.id}/${icon.id}.svg" alt="${icon.name}" loading="lazy" />
+              <div class="icon-info">
+                <h3>${icon.name}</h3>
+                <p>${icon.desc}</p>
+                <div class="file-path">icons/${cat.id}/${icon.id}.svg</div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+    container.appendChild(group);
+  });
+
+  document.getElementById('total-count').textContent = totalIcons;
+  document.getElementById('category-count').textContent = CATEGORIES.length;
+}
+
+function toggleAll(open) {
+  document.querySelectorAll('.group').forEach(g => {
+    g.classList.toggle('open', open);
+  });
+}
+
+render();
+</script>
+
+</body>
+</html>
