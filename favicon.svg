@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#29b6f6"/>
+      <stop offset="100%" stop-color="#0078d4"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078d4"/>
+      <stop offset="100%" stop-color="#005a9e"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark rounded background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0d1b2a"/>
+  <!-- Tail feathers -->
+  <path d="M12 34 L6 26 L10 32 L6 30 L11 34 Z" fill="#29b6f6"/>
+  <!-- Bird body - round, friendly shape facing right -->
+  <ellipse cx="28" cy="30" rx="16" ry="12" fill="url(#body)"/>
+  <!-- Head - round -->
+  <circle cx="42" cy="24" r="10" fill="url(#body)"/>
+  <!-- Wing -->
+  <path d="M18 28 C20 20 28 14 38 12 L30 22 C28 26 24 28 18 28 Z" fill="url(#wing)"/>
+  <!-- Beak - pointing right -->
+  <path d="M52 22 L56 24 L52 27 Z" fill="#ff9800"/>
+  <!-- Eye -->
+  <circle cx="45" cy="22" r="3.5" fill="#fff"/>
+  <circle cx="46.2" cy="21.5" r="1.8" fill="#0d1b2a"/>
+  <!-- Eye highlight -->
+  <circle cx="46.8" cy="20.8" r="0.7" fill="#fff"/>
+  <!-- Chest/belly highlight -->
+  <ellipse cx="30" cy="34" rx="10" ry="5" fill="#40c4ff" opacity="0.3"/>
+  <!-- Feet -->
+  <path d="M24 42 L22 48 L20 46 M24 42 L26 48 L24 46" stroke="#ff9800" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- 365 text -->
+  <text x="32" y="58" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="11" fill="#40c4ff" letter-spacing="0.5">Damo</text>
+</svg>
